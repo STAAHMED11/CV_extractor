@@ -1,0 +1,95 @@
+{
+  "file_name": "exemples_cv_pdf_livecareer_fr_4.pdf",
+  "cv_type": "image-based (OCR processed)",
+  "results": {
+    "llama3.2": {
+      "name": "Carine DUMONT",
+      "email": "dumontosmail.co",
+      "phone": "33.678 14569",
+      "education": [
+        {
+          "institution": "Institut dadministration des entreprises, Lyon",
+          "degree": "Licence professionnelle commerce et distribution",
+          "field": "",
+          "years": "2013"
+        }
+      ],
+      "skills": [
+        "Salesforce",
+        "MS CRM - 5/5 t",
+        "* DropContact.io - 4/5",
+        "Microsoft Office (Excel, Word, PowerPoint) - 4/5",
+        "Anglais",
+        "Allemand"
+      ],
+      "experience": [
+        {
+          "company": "Dermagyne Laboratoire",
+          "position": "Responsable commerciale",
+          "duration": "Janvier 2016 - Actuel",
+          "key_responsibilities": [
+            "D\u00e9velopper le portefeuille commercial (828)",
+            "G\u00e9rer les grands comptes de 19 clients"
+          ]
+        },
+        {
+          "company": "Isodent",
+          "position": "Commerciale terrain",
+          "duration": "Septembre 2013 - D\u00e9cembre 2015",
+          "key_responsibilities": [
+            "G\u00e9rer un portefeuille de 23 clients",
+            "G\u00e9n\u00e9rer de nouveaux leads par d\u00e9marchage (+4% sur la cible)"
+          ]
+        }
+      ]
+    },
+    "gemma3:1b": {
+      "name": "Carine DUMONT",
+      "email": "active dumontosmail.co",
+      "phone": "33.678 14569",
+      "education": [
+        {
+          "institution": "Institut dadministration des entreprises, Lyon",
+          "degree": "Licence professionnelle commerce et distribution",
+          "field": "Commerce et distribution"
+        }
+      ],
+      "skills": [
+        "Commercial",
+        "Sales",
+        "Negotiation",
+        "Lead Generation",
+        "CRM",
+        "Sales Techniques",
+        "French Language (Intermediate)",
+        "German Language (Intermediate)"
+      ],
+      "experience": [
+        {
+          "company": "Boiron",
+          "position": "Responsable commercial senior",
+          "duration": "Janvier 2016 - Actuellement",
+          "key_responsibilities": [
+            "D\u00e9velopper le portefeuille commercial (828)",
+            "Repr\u00e9senter entreprise sur environ 8 satons par an",
+            "G\u00e9rer les grands comptes de 19 clients",
+            "G\u00e9rer les contrats et les r\u00e9alisation de ventes",
+            "Gestion du suivi et des relations clients"
+          ]
+        },
+        {
+          "company": "Isodent",
+          "position": "Commerciale terrain",
+          "duration": "5/6",
+          "key_responsibilities": [
+            "G\u00e9rer un portefeuille de 23 clients"
+          ]
+        }
+      ]
+    },
+    "phi3": {
+      "error": "Failed to parse model output as JSON",
+      "raw_response": "\n```json\n\n{\n\n  \"name\": \"Carine Dumont\",\n\n  \"email\": \"@ ative dumontosmail.co \",\n\n  \"phone\": \"\",\n\n  \"education\": [\n\n    {\n\n      \"institution\": \"Institut dadministration des entreprises\",\n\n      \"degree\": \"Licence professionnelle commerce et distribution\",\n\n      \"fieldOfStudy\": \"Commerce\",\n\n      \"yearsCompleted\": 2013\n\n    }\n\n  ],\n\n  \"skills\": [\n\n    \"Strat\u00e9gies commerciales\",\n\n    \"Maitrise des techniques de n\u00e9gociation\",\n\n    \"G\u00e9n\u00e9ration de leads\"\n\n  ],\n\n  \"experience\": [\n\n    {\n\n      \"company\": \"Dermagyne Laboratoire\",\n\n      \"position\": \"Responsable commerciale\",\n\n      \"duration\": \"Janvier 2self - Actuellement (non date given, assumed current)\",\n\n      \"keyResponsibilities\": [\n\n        \"Superviser une \u00e9quipe de 8 commerciaux\",\n\n        \"D\u00e9velopper le portefeuille commercial\"\n\n      ]\n\n    },\n\n    {\n\n      \"company\": \"Isodent\",\n\n      \"position\": \"Commerciale terrain\",\n\n      \"duration\": \"Septembre 2013 - D\u00e9cembre 2015 (non date given, assumed complete)\",\n\n      \"keyResponsibilities\": [\n\n        \"G\u00e9rer un portefeuille de 23 clients\"\n\n      ]\n\n    },\n\n    {\n\n      \"company\": \"Duvetis\",\n\n      \"position\": null,\n                            // Position is missing in the provided text. Assuming no position for this part due to lack of data: (not specified)\n\n      \"duration\": \"\", \n                           // Duration also not mentioned explicitly; assumed as incomplete or unknown without a date given. Considered 'Not Specified'.\n\n      \"keyResponsibilities\": [\n        \"G\u00e9n\u00e9rer de nouveaux leads par d\u00e9marchage (+4% sur la cible)\"\n\n      ]\n\n    }\n\n  ]\n\n}\n\n```"
+    }
+  }
+}

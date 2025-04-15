@@ -1,0 +1,268 @@
+{% extends "base.html" %}
+
+{% block title %}Model Evaluation{% endblock %}
+
+{% block extra_css %}
+<style>
+    .chart-container {
+        height: 300px;
+    }
+    .model-comparison-table th, 
+    .model-comparison-table td {
+        text-align: center;
+    }
+    .model-comparison-table th:first-child, 
+    .model-comparison-table td:first-child {
+        text-align: left;
+    }
+    .score-cell {
+        font-weight: bold;
+    }
+    .best-score {
+        background-color: #d4edda;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="header-container text-center">
+    <h1>Model Evaluation</h1>
+    <p class="lead">Comparing extraction performance across different LLMs</p>
+</div>
+
+{% if metrics.error %}
+    <div class="alert alert-warning" role="alert">
+        {{ metrics.error }}
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">No Evaluation Data Available</h5>
+            <p>To generate evaluation data:</p>
+            <ol>
+                <li>Create a set of ground truth JSON files in the <code>data/ground_truth</code> directory</li>
+                <li>Process CVs with different models and save the results in the <code>data/results</code> directory</li>
+                <li>Return to this page to see the comparison</li>
+            </ol>
+        </div>
+    </div>
+{% else %}
+    <!-- Overall Performance -->
+    <div class="card mb-4">
+        <div class="card-header">
+            <h5 class="mb-0">Overall Model Performance</h5>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="chart-container" id="overall-chart">
+                        <!-- Chart will be rendered here -->
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <table class="table table-bordered model-comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Model</th>
+                                <th>F1 Score</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for model in metrics.models %}
+                                {% set f1_score = metrics.summary[model].f1_score %}
+                                <tr>
+                                    <td>{{ model }}</td>
+                                    <td class="score-cell {% if f1_score == metrics.summary|map(attribute='f1_score')|max %}best-score{% endif %}">
+                                        {{ "%.2f"|format(f1_score * 100) }}%
+                                    </td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Field-level Comparison -->
+    <div class="card mb-4">
+        <div class="card-header">
+            <h5 class="mb-0">Field-level Performance</h5>
+        </div>
+        <div class="card-body">
+            <table class="table table-bordered model-comparison-table">
+                <thead>
+                    <tr>
+                        <th>Field</th>
+                        {% for model in metrics.models %}
+                            <th>{{ model }}</th>
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for field in ['name', 'email', 'phone', 'education', 'skills', 'experience'] %}
+                        <tr>
+                            <td><strong>{{ field|capitalize }}</strong></td>
+                            {% for model in metrics.models %}
+                                {% set f1_score = metrics.summary[model].field_metrics[field].f1_score %}
+                                <td class="{% if f1_score == metrics.summary|map(attribute=('field_metrics', field, 'f1_score'))|max %}best-score{% endif %}">
+                                    {{ "%.2f"|format(f1_score * 100) }}%
+                                </td>
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <!-- Precision vs Recall -->
+    <div class="card mb-4">
+        <div class="card-header">
+            <h5 class="mb-0">Precision vs. Recall Analysis</h5>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <table class="table table-bordered model-comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Model</th>
+                                <th>Precision</th>
+                                <th>Recall</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for model in metrics.models %}
+                                <tr>
+                                    <td>{{ model }}</td>
+                                    <td>{{ "%.2f"|format(metrics.summary[model].precision * 100) }}%</td>
+                                    <td>{{ "%.2f"|format(metrics.summary[model].recall * 100) }}%</td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-6">
+                    <div class="chart-container" id="precision-recall-chart">
+                        <!-- Chart will be rendered here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endif %}
+{% endblock %}
+
+{% block extra_js %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // If we have metrics data, render charts
+        {% if not metrics.error %}
+            // Overall performance chart
+            const overallCtx = document.getElementById('overall-chart').getContext('2d');
+            new Chart(overallCtx, {
+                type: 'bar',
+                data: {
+                    labels: [{% for model in metrics.models %}'{{ model }}',{% endfor %}],
+                    datasets: [{
+                        label: 'F1 Score',
+                        data: [{% for model in metrics.models %}{{ metrics.summary[model].f1_score }},{% endfor %}],
+                        backgroundColor: [
+                            'rgba(75, 192, 192, 0.6)',
+                            'rgba(153, 102, 255, 0.6)',
+                            'rgba(255, 159, 64, 0.6)'
+                        ],
+                        borderColor: [
+                            'rgba(75, 192, 192, 1)',
+                            'rgba(153, 102, 255, 1)',
+                            'rgba(255, 159, 64, 1)'
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            max: 1,
+                            ticks: {
+                                callback: function(value) {
+                                    return value * 100 + '%';
+                                }
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        title: {
+                            display: true,
+                            text: 'Overall Model Performance (F1 Score)'
+                        }
+                    }
+                }
+            });
+            
+            // Precision vs. Recall chart
+            const prCtx = document.getElementById('precision-recall-chart').getContext('2d');
+            new Chart(prCtx, {
+                type: 'scatter',
+                data: {
+                    datasets: [
+                        {% for model in metrics.models %}
+                        {
+                            label: '{{ model }}',
+                            data: [{
+                                x: {{ metrics.summary[model].precision }},
+                                y: {{ metrics.summary[model].recall }}
+                            }],
+                            backgroundColor: 'rgba({{ loop.index * 75 }}, {{ 255 - loop.index * 50 }}, {{ loop.index * 70 }}, 0.8)',
+                            pointRadius: 8,
+                            pointHoverRadius: 10
+                        },
+                        {% endfor %}
+                    ]
+                },
+                options: {
+                    scales: {
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Precision'
+                            },
+                            min: 0,
+                            max: 1,
+                            ticks: {
+                                callback: function(value) {
+                                    return value * 100 + '%';
+                                }
+                            }
+                        },
+                        y: {
+                            title: {
+                                display: true,
+                                text: 'Recall'
+                            },
+                            min: 0,
+                            max: 1,
+                            ticks: {
+                                callback: function(value) {
+                                    return value * 100 + '%';
+                                }
+                            }
+                        }
+                    },
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Precision vs. Recall by Model'
+                        }
+                    }
+                }
+            });
+        {% endif %}
+    });
+</script>
+{% endblock %}

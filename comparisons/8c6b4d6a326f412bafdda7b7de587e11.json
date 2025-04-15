@@ -1,0 +1,138 @@
+{
+  "file_name": "393969.pdf",
+  "cv_type": "text-based",
+  "results": {
+    "llama3.2": {
+      "name": "Aya Mehrzi",
+      "email": [
+        "mhraya4@gmail.com",
+        "mehrzieya@gmail.com"
+      ],
+      "phone": "+(216)52254558",
+      "education": [
+        {
+          "institution": "Facult\u00e9 de sciences \u00e9conomique et gestion de Tunis",
+          "degree": "Dipl\u00f4m\u00e9e en \u00e9conomie et finance internationale",
+          "field": "Economie et finance internationale",
+          "years": "2013-2014"
+        },
+        {
+          "institution": "FSEGT",
+          "degree": "2\u00e9me ann\u00e9e en \u00e9conomie et finance internationale",
+          "field": "Economie et finance internationale",
+          "years": "2012-2013"
+        },
+        {
+          "institution": "FSEGT",
+          "degree": "1\u00e9re ann\u00e9e d\u2019\u00e9tude en sciences et \u00e9conomie et finance internationale",
+          "field": "Sciences et \u00e9conomie et finance internationale",
+          "years": "2011-2012"
+        },
+        {
+          "institution": "FSEGT",
+          "degree": "Obtentions du dipl\u00f4me national du baccalaur\u00e9at",
+          "field": "Sciences exp\u00e9rimentales",
+          "years": "2010-2011"
+        }
+      ],
+      "skills": [
+        "Langue maternelle (Arabe, lu, \u00e9crit et parl\u00e9)",
+        "Courant (Fran\u00e7ais, lu, \u00e9crit et parl\u00e9)",
+        "Courant (Anglais, lu, \u00e9crit et parl\u00e9)",
+        "Connaissance de lyc\u00e9e (Allemand)"
+      ],
+      "experience": [
+        {
+          "company": "Institut fran\u00e7ais de Tunis",
+          "position": "Cours de la langue fran\u00e7aise",
+          "duration": "Mars 2016 - Avril 2016"
+        },
+        {
+          "company": "Centre des langues Kallaline",
+          "position": "Cours d\u2019Anglais",
+          "duration": "Juin-juillet 2016"
+        },
+        {
+          "company": "IFT (session intensive d\u2019\u00e9t\u00e9)",
+          "position": "Cours de fran\u00e7ais",
+          "duration": "Juillet 2016"
+        },
+        {
+          "company": "Institut Bourguiba des langues vivantes de Tunis",
+          "position": "Cours de langue allemand",
+          "duration": "Septembre 2016 - Janvier 2017"
+        },
+        {
+          "company": "AISEC Tunisie",
+          "position": "Formation en anglais \u00ab Educate Me \u00bb",
+          "duration": "Mars 2017 - Mai 2017"
+        },
+        {
+          "company": "Bureau de l\u2019emploi et de travail ind\u00e9pendant",
+          "position": "Stage",
+          "duration": "Ao\u00fbt 2012"
+        },
+        {
+          "company": "Si\u00e8ge de la banque UIB",
+          "position": "Stage de 2 mois",
+          "duration": "Juin-juillet 2016"
+        },
+        {
+          "company": "Bureau d\u2019expert comptable",
+          "position": "Stage de 2mois",
+          "duration": "Septembre - octobre 2016"
+        }
+      ]
+    },
+    "gemma3:1b": {
+      "name": "Aya Mehrzi",
+      "email": "mhraya4@gmail.com",
+      "phone": "+21652254558",
+      "education": [
+        {
+          "institution": "Universit\u00e9 de Tunis",
+          "degree": "Dipl\u00f4m\u00e9e en \u00e9conomie et finance internationale",
+          "field": "Economie et finance internationale",
+          "years": "2013 - 2014"
+        },
+        {
+          "institution": "FSEGT",
+          "degree": "2\u00e8me ann\u00e9e en \u00e9conomie et finance internationale",
+          "field": "\u00c9conomie et finance internationale",
+          "years": "2012-2013"
+        },
+        {
+          "institution": "Institut Bourguiba des langues vivantes",
+          "degree": "1\u00e8re ann\u00e9e d\u2019\u00e9tude en sciences et \u00e9conomie et finance internationale",
+          "years": "2011-2012"
+        },
+        {
+          "institution": "Institut fran\u00e7ais de Tunis",
+          "degree": "Langue maternelle",
+          "years": "Mars 2016 - Avril 2016"
+        }
+      ],
+      "skills": [
+        "Fran\u00e7ais",
+        "Anglais",
+        "Allemand",
+        "Logiciels bureautique: Microsoft Word, Excel, Powerpoint, Access",
+        "Logiciel Aquarelle pour la gestion bancaire",
+        "Logiciel comptable SAGE"
+      ],
+      "experience": [
+        "Cours de la langue fran\u00e7aise dans l\u2019Institut fran\u00e7ais de Tunis.",
+        "Cours d\u2019Anglais dans le centre des langues Kallaline.",
+        "Cours de fran\u00e7ais dans l\u2019IFT (session intensive d\u2019\u00e9t\u00e9).",
+        "Cours de langue allemande \u00e0 l\u2019institut Bourguiba des langues vivantes de Tunis.",
+        "Stage dans le bureau de l\u2019emploi et de travail ind\u00e9pendant.",
+        "Stage de 2 mois dans le si\u00e8ge de la banque UIB.",
+        "Stage de 2 mois chez un bureau d\u2019expert comptable."
+      ]
+    },
+    "phi3": {
+      "error": "Failed to parse model output as JSON",
+      "raw_response": "```json\n\n{\n\n  \"name\": \"Aya Mehrzi\",\n\n  \"email\": [\"mhraya4@gmail.com\", \"mehrzieya@gmail.com\"],\n\n  \"phone\": \"+21652254558\",\n\n  \"education\": [\n\n    {\n\n      \"years\": \"2023-2024\",\n\n      \"degree\": \"Master's Degree in Economics and International Relations from the University of Tunis\"\n\n    }\n\n  ],\n\n  \"skills\": [\n\n    \"Fluent French (Spoken, Written & Literature)\",\n\n    \"Proficient Arabic Speaking\",\n\n    \"Knowledge of English and German at a high school level with proficiency in writing, speaking, reading.\",\n\n    \"Experienced internationally-oriented Economy Student\",\n\n    \"Bilingual (French/Arabic)\",\n\n    \"Strong IT Skills: Microsoft Word, Excel, PowerPoint and Access\"\n\n  ],\n\n  \"experience\": [\n\n    {\n      \"company\": \"Office of Employment and Independent Labor\",\n\n      \"position\": \"Intern\",\n\n      \"duration\": \"August 2012 - Unknown End Date (Current as per the knowledge cutoff date)\",\n\n      \"key_responsibilities\": [] // No specific responsibilities listed for this internship.\n\n    },\n\n    {\n      \"company\": \"Bank of International United Bank\",\n\n      \"position\": \"\",\n\n      \"duration\": \"June-July 2016 - June 2016 (2 months)\",\n\n      \"key_responsibilities\": [] // No specific responsibilities listed for this internship.\n\n    },\n\n    {\n      \"company\": \"\",\n\n      \"position\": \"\",\n\n      \"duration\": \"September-October 2016 - October 2016 (2 months)\",\n\n      \"key_responsibilities\": [] // No specific responsibilities listed for this internship.\n\n    }\n\n  ]\n\n}\n\n```"
+    }
+  }
+}

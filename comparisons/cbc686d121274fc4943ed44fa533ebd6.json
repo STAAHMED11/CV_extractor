@@ -1,0 +1,201 @@
+{
+  "file_name": "393969.pdf",
+  "cv_type": "text-based",
+  "results": {
+    "llama3.2": {
+      "name": "Aya Mehrzi",
+      "email": [
+        "mhraya4@gmail.com",
+        "mehrzieya@gmail.com"
+      ],
+      "phone": "+(216)52254558",
+      "education": [
+        {
+          "institution": "Facult\u00e9 de sciences \u00e9conomique et gestion de Tunis",
+          "degree": "Dipl\u00f4me d'\u00e9conomie et finance internationale",
+          "field": "Economie et finance internationale",
+          "years": "2013-2014"
+        },
+        {
+          "institution": "FSEGT",
+          "degree": "2\u00e8me ann\u00e9e en \u00e9conomie et finance internationale",
+          "field": "Economie et finance internationale",
+          "years": "2012-2013"
+        },
+        {
+          "institution": "FSEGT",
+          "degree": "1\u00e8re ann\u00e9e d\u2019\u00e9tude en sciences et \u00e9conomie et finance internationale",
+          "field": "Sciences et \u00e9conomie et finance internationale",
+          "years": "2011-2012"
+        },
+        {
+          "institution": "FSEGT",
+          "degree": "Dipl\u00f4me national du baccalaur\u00e9at",
+          "field": "Sciences exp\u00e9rimentales",
+          "years": "2010-2011"
+        }
+      ],
+      "skills": [
+        {
+          "skill": "Langue fran\u00e7aise (maternelle)"
+        },
+        {
+          "skill": "Fran\u00e7ais (courant)"
+        },
+        {
+          "skill": "Anglais (courant)"
+        },
+        "Logiciels bureautique",
+        "Logiciel Aquarelle pour la gestion bancaire",
+        "Logiciel comptable SAGE"
+      ],
+      "experience": [
+        {
+          "company": "",
+          "position": "",
+          "duration": "Mars 2016 - Avril 2016",
+          "keyResponsibilities": "Cours de la langue fran\u00e7aise dans l\u2019Institut fran\u00e7ais de Tunis. Cours d\u2019Anglais dans le centre des langues Kallaline."
+        },
+        {
+          "company": "",
+          "position": "",
+          "duration": "Juillet 2016",
+          "keyResponsibilities": "Cours de fran\u00e7ais dans l\u2019IFT (session intensive d\u2019\u00e9t\u00e9)"
+        },
+        {
+          "company": "",
+          "position": "",
+          "duration": "Septembre 2016 - Juin 2017",
+          "keyResponsibilities": "Cours de langue allemand \u00e0 l\u2019institut Bourguiba des langues vivantes de Tunis."
+        },
+        {
+          "company": "",
+          "position": "",
+          "duration": "Mars 2017 - Mai 2017",
+          "keyResponsibilities": "Formation en anglais \u00ab Educate Me \u00bb avec AISEC Tunisie"
+        }
+      ]
+    },
+    "gemma3:1b": {
+      "name": "Aya Mehrzi",
+      "email": "mhraya4@gmail.com",
+      "phone": "+21652254558",
+      "education": [
+        {
+          "institution": "Facult\u00e9 des sciences \u00e9conomiques et de la gestion de Tunis",
+          "degree": "Dipl\u00f4me d'ing\u00e9nieur en \u00e9conomie et finance internationale",
+          "field": "Economie et finance internationale",
+          "years": "2013 - 2014"
+        },
+        {
+          "institution": "FSEGT",
+          "degree": "2\u00e8me ann\u00e9e d'\u00e9tude en \u00e9conomie et finance internationale",
+          "field": "Economie et finance internationale",
+          "years": "2012-2013"
+        },
+        {
+          "institution": "Institut Bourguiba des langues vivantes",
+          "degree": "Dipl\u00f4me national du baccalaur\u00e9at",
+          "field": "Sciences exp\u00e9rimentales",
+          "years": "2010-2011"
+        }
+      ],
+      "skills": [
+        "Fran\u00e7ais",
+        "Anglais",
+        "Allemand",
+        "Logiciels bureautiques: Microsoft Word, Excel, PowerPoint, Access",
+        "Logiciel Aquarelle pour la gestion bancaire",
+        "Logiciel comptable SAGE",
+        "Langue maternelle"
+      ],
+      "experience": [
+        {
+          "company": "N/A - freelance",
+          "position": "Cours de la langue fran\u00e7aise",
+          "duration": "Mars 2016 - Avril 2016",
+          "key_responsibilities": "Cours de la langue fran\u00e7aise"
+        },
+        {
+          "company": "UIB",
+          "position": "Stage",
+          "duration": "Juin-juillet 2016",
+          "key_responsibilities": "Stage dans le bureau de l'emploi et de travail ind\u00e9pendant"
+        },
+        {
+          "company": "UIB",
+          "position": "Stage",
+          "duration": "Septembre \u2013octobre 2016",
+          "key_responsibilities": "Stage de 2 mois chez un bureau d\u2019expert comptable"
+        },
+        {
+          "company": "Bureau d'expert comptable",
+          "position": "Stage",
+          "duration": "Septembre \u2013octobre 2016",
+          "key_responsibilities": "Stage de 2 mois chez un bureau d'expert comptable"
+        },
+        {
+          "company": "Institut Bourguiba des langues vivantes",
+          "position": "Stage",
+          "duration": "Septembre \u2013octobre 2016",
+          "key_responsibilities": "Stage d'\u00e9tude en langue allemande"
+        },
+        {
+          "company": "Bureau d'expert comptable",
+          "position": "Stage",
+          "duration": "Septembre \u2013octobre 2016",
+          "key_responsibilities": "Stage de 2 mois chez un bureau d\u2019expert comptable"
+        }
+      ]
+    },
+    "phi3": {
+      "name": "Aya Mehrzi",
+      "email": [
+        "mhraya4@gmail.com",
+        "mehrzieya@gmail.com"
+      ],
+      "phone": "(+216)52254558",
+      "education": [
+        {
+          "institution": "Facult\u00e9 de sciences \u00e9conomique et gestion (FSEGT)",
+          "degree": "bachelor's degree in Economics and Finance International"
+        },
+        {
+          "year_start": "2013",
+          "year_end": "2014",
+          "institution": "Facult\u00e9 de sciences \u00e9conomique et gestion (FSEGT)",
+          "degree": "Elmanar with the mention 'assez bien'"
+        },
+        {
+          "year_start": "2012",
+          "year_end": "2013",
+          "institution": "Facult\u00e9 de sciences \u00e9conomique et gestion (FSEGT)"
+        }
+      ],
+      "skills": [
+        "perfect mastery of French and English languages, both written and spoken",
+        "Microsoft Word, Excel, PowerPoint, Access software"
+      ],
+      "experience": [
+        {
+          "company": "Bureau de l\u2019emploi et de travail ind\u00e9pendant",
+          "position": "stage intern",
+          "duration": "August 2012",
+          "key_responsibilities": ""
+        },
+        {
+          "company": "Chambre de Commerce tunisienne (UIB)",
+          "position": "Internship",
+          "duration": "June to July 2016, for two months duration.",
+          "key_responsibilities": ""
+        },
+        {
+          "company": "Expert comptable office",
+          "position": "stage intern",
+          "duration": "September - October 2016 (for a period of 2 weeks each)",
+          "key_responsibilities": ""
+        }
+      ]
+    }
+  }
+}

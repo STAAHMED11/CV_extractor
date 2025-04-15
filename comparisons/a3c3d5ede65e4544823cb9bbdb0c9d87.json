@@ -1,0 +1,122 @@
+{
+  "file_name": "393969.pdf",
+  "cv_type": "text-based",
+  "results": {
+    "llama3.2": {
+      "name": "Aya Mehrzi",
+      "email": [
+        "mhraya4@gmail.com",
+        "mehrzieya@gmail.com"
+      ],
+      "phone": "+(216)52254558",
+      "education": [
+        {
+          "institution": "Facult\u00e9 de sciences \u00e9conomique et gestion de Tunis",
+          "degree": "Dipl\u00f4m\u00e9e en \u00e9conomie et finance internationale",
+          "field": "Economie et finance internationale",
+          "years": [
+            "2013-2014"
+          ]
+        },
+        {
+          "institution": "FSEGT",
+          "degree": "2\u00e9me ann\u00e9e en \u00e9conomie et finance internationale",
+          "field": "Economie et finance internationale",
+          "years": [
+            "2012-2013"
+          ]
+        },
+        {
+          "institution": "FSEGT",
+          "degree": "1\u00e9re ann\u00e9e d\u2019\u00e9tude en sciences et \u00e9conomie et finance internationale",
+          "field": "Sciences et \u00e9conomie et finance internationale",
+          "years": [
+            "2011-2012"
+          ]
+        },
+        {
+          "institution": "FSEGT",
+          "degree": "Obtention du dipl\u00f4me national du baccalaur\u00e9at",
+          "field": "Sciences exp\u00e9rimentales",
+          "years": [
+            "2010-2011"
+          ]
+        }
+      ],
+      "skills": [
+        "Langue fran\u00e7aise",
+        "Langue anglaise",
+        "Logiciels bureautique: Microsoft Word, Excel, Powerpoint, Access",
+        "Logiciel Aquarelle pour la gestion bancaire",
+        "Logiciel comptable SAGE"
+      ],
+      "experience": [
+        {
+          "company": null,
+          "position": null,
+          "duration": "Mars 2016-Avril 2016",
+          "keyResponsibilities": [
+            "Cours de la langue fran\u00e7aise",
+            "Cours d\u2019Anglais"
+          ]
+        },
+        {
+          "company": null,
+          "position": null,
+          "duration": "Juillet 2016",
+          "keyResponsibilities": [
+            "Cours de fran\u00e7ais dans l\u2019IFT (session intensive d\u2019\u00e9t\u00e9)"
+          ]
+        },
+        {
+          "company": null,
+          "position": null,
+          "duration": "Septembre 2016-Juin 2017",
+          "keyResponsibilities": [
+            "Cours de langue allemand a l\u2019institut Bourguiba des langues vivantes de Tunis"
+          ]
+        },
+        {
+          "company": null,
+          "position": null,
+          "duration": "Mars 2017- Mai 2017",
+          "keyResponsibilities": [
+            "Formation en anglais \u00ab Educate Me \u00bb avec AISEC Tunisie"
+          ]
+        },
+        {
+          "company": null,
+          "position": null,
+          "duration": "Ao\u00fbt 2012",
+          "keyResponsibilities": [
+            "Stage dans le bureau de l\u2019emploi et de travail ind\u00e9pendant"
+          ]
+        },
+        {
+          "company": null,
+          "position": null,
+          "duration": "Juin-juillet 2016",
+          "keyResponsibilities": [
+            "Stage de 2 mois dans le si\u00e8ge de la banque UIB"
+          ]
+        },
+        {
+          "company": null,
+          "position": null,
+          "duration": "Septembre \u2013octobre 2016",
+          "keyResponsibilities": [
+            "Stage de 2mois chez un bureau d\u2019expert comptable"
+          ]
+        }
+      ]
+    },
+    "mistral": {
+      "error": "Error during extraction: Error communicating with Ollama: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+      "raw_response": ""
+    },
+    "phi": {
+      "error": "Error during extraction: Error communicating with Ollama: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+      "raw_response": ""
+    }
+  }
+}

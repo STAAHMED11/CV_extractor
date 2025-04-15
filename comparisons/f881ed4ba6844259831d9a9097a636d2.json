@@ -1,0 +1,245 @@
+{
+  "file_name": "393969.pdf",
+  "cv_type": "text-based",
+  "results": {
+    "llama3.2": {
+      "name": "Aya Mehrzi",
+      "email": [
+        "mhraya4@gmail.com",
+        "mehrzieya@gmail.com"
+      ],
+      "phone": "+(216)52254558",
+      "education": [
+        {
+          "institution": "Facult\u00e9 de sciences \u00e9conomique et gestion de Tunis",
+          "degree": "Dipl\u00f4m\u00e9e en \u00e9conomie et finance internationale",
+          "field": "Economie et finance internationale",
+          "years": "2013-2014"
+        },
+        {
+          "institution": "FSEGT",
+          "degree": "2\u00e8me ann\u00e9e en \u00e9conomie et finance internationale",
+          "field": "Economie et finance internationale",
+          "years": "2012-2013"
+        },
+        {
+          "institution": "FSEGT",
+          "degree": "1\u00e8re ann\u00e9e d\u2019\u00e9tude en sciences et \u00e9conomie et finance internationale",
+          "field": "Sciences et \u00e9conomie et finance internationale",
+          "years": "2011-2012"
+        },
+        {
+          "institution": "FSEGT",
+          "degree": "Dipl\u00f4me national du baccalaur\u00e9at",
+          "field": "Sciences exp\u00e9rimentales",
+          "years": "2010-2011"
+        }
+      ],
+      "skills": [
+        {
+          "skill": "Langue fran\u00e7aise",
+          "level": "Courant (lu, \u00e9crit et parl\u00e9)"
+        },
+        {
+          "skill": "Anglais",
+          "level": "Courant (lu, \u00e9crit et parl\u00e9)"
+        },
+        {
+          "skill": "Logiciels bureautique",
+          "tools": [
+            "Microsoft Word",
+            "Excel",
+            "Powerpoint",
+            "Access"
+          ]
+        }
+      ],
+      "experience": [
+        {
+          "company": "Institut fran\u00e7ais de Tunis",
+          "position": "Cours de la langue fran\u00e7aise",
+          "duration": "Mars 2016 - Avril 2016",
+          "keyResponsibilities": "-"
+        },
+        {
+          "company": "Centre des langues Kallaline",
+          "position": "Cours d\u2019Anglais",
+          "duration": "Juin 2016",
+          "keyResponsibilities": "-"
+        },
+        {
+          "company": "Institut fran\u00e7ais de Tunis",
+          "position": "Cours de fran\u00e7ais",
+          "duration": "Juillet 2016",
+          "keyResponsibilities": "-"
+        },
+        {
+          "company": "Institut Bourguiba des langues vivantes de Tunis",
+          "position": "Cours de langue allemande",
+          "duration": "Septembre 2016 - Janvier 2017",
+          "keyResponsibilities": "-"
+        },
+        {
+          "company": "AISEC Tunisie",
+          "position": "Formation en anglais",
+          "duration": "Mars 2017 - Mai 2017",
+          "keyResponsibilities": "-"
+        }
+      ]
+    },
+    "gemma3:1b": {
+      "name": "Aya Mehrzi",
+      "email": "mhraya4@gmail.com",
+      "phone": "+21652254558",
+      "education": [
+        {
+          "institution": "Facult\u00e9 des sciences \u00e9conomiques et de la gestion de Tunis",
+          "degree": "dipl\u00f4m\u00e9e en \u00e9conomie et finance internationale",
+          "field": "economie et finance internationale",
+          "years": "2013 -2014"
+        },
+        {
+          "institution": "FSEGT",
+          "degree": "2\u00e9me ann\u00e9e en \u00e9conomie et finance internationale",
+          "year": "2012-2013"
+        },
+        {
+          "institution": "FSEGT",
+          "degree": "1\u00e9re ann\u00e9e d\u2019\u00e9tude en sciences et \u00e9conomie et finance internationale",
+          "year": "2011-2012"
+        }
+      ],
+      "skills": [
+        "langue fran\u00e7aise",
+        "anglais",
+        "logiciels bureautiques (Word, Excel, PowerPoint, Access)",
+        "logiciel Aquarelle pour la gestion bancaire",
+        "logiciel comptable SAGE"
+      ],
+      "experience": [
+        {
+          "company": "non d\u00e9clar\u00e9",
+          "position": "non d\u00e9clar\u00e9",
+          "duration": "non d\u00e9clar\u00e9",
+          "key_responsibilities": "non d\u00e9clar\u00e9"
+        },
+        {
+          "company": "non d\u00e9clar\u00e9",
+          "position": "cours de fran\u00e7ais dans l\u2019Institut fran\u00e7ais de Tunis",
+          "duration": "non d\u00e9clar\u00e9",
+          "key_responsibilities": "non d\u00e9clar\u00e9"
+        },
+        {
+          "company": "non d\u00e9clar\u00e9",
+          "position": "cours d\u2019Anglais dans le centre des langues Kallaline",
+          "duration": "non d\u00e9clar\u00e9",
+          "key_responsibilities": "non d\u00e9clar\u00e9"
+        },
+        {
+          "company": "non d\u00e9clar\u00e9",
+          "position": "cours de fran\u00e7ais dans l\u2019IFT (session intensive d\u2019\u00e9t\u00e9)",
+          "duration": "non d\u00e9clar\u00e9",
+          "key_responsibilities": "non d\u00e9clar\u00e9"
+        },
+        {
+          "company": "non d\u00e9clar\u00e9",
+          "position": "cours de langue allemande a l\u2019institut Bourguiba des langues vivantes de Tunis",
+          "duration": "non d\u00e9clar\u00e9",
+          "key_responsibilities": "non d\u00e9clar\u00e9"
+        },
+        {
+          "company": "non d\u00e9clar\u00e9",
+          "position": "stage dans le bureau de l\u2019emploi et de travail ind\u00e9pendant",
+          "duration": "2012",
+          "key_responsibilities": "non d\u00e9clar\u00e9"
+        },
+        {
+          "company": "non d\u00e9clar\u00e9",
+          "position": "stage de 2 mois chez un bureau d\u2019expert comptable",
+          "duration": "juin-juillet 2016",
+          "key_responsibilities": "non d\u00e9clar\u00e9"
+        },
+        {
+          "company": "non d\u00e9clar\u00e9",
+          "position": "stage de 2 mois chez un bureau d\u2019expert comptable",
+          "duration": "septembre \u2013octobre 2016",
+          "key_responsibilities": "non d\u00e9clar\u00e9"
+        },
+        {
+          "company": "non d\u00e9clar\u00e9",
+          "position": "formation en anglais \u00ab Educate Me \u00bb avec AISEC Tunisie",
+          "duration": "2016-2017",
+          "key_responsibilities": "non d\u00e9clar\u00e9"
+        }
+      ]
+    },
+    "phi3": {
+      "name": "Aya Mehrzi",
+      "email": [
+        "mhraya4@gmail.com",
+        "mehrzieya@gmail.com"
+      ],
+      "phone": "(216)52254558",
+      "education": [
+        {
+          "years": "2013-2014",
+          "institution": "Facult\u00e9 de sciences \u00e9conomique et gestion, Tunis",
+          "degree": "Dipl\u00f4m\u00e9e en \u00e9conomie et finance internationale",
+          "field of study": "",
+          "mention": "Assez bien"
+        },
+        {
+          "years": "2012-2013",
+          "institution": "Facult\u00e9 de sciences \u00e9conomique et gestion, Tunis",
+          "degree": "Deuxi\u00e8me ann\u00e9e en \u00e9conomie et finance internationale \u00e0 la FSEGT.",
+          "field of study": "",
+          "mention": ""
+        },
+        {
+          "years": "2011-2012",
+          "institution": "Facult\u00e9 de sciences \u00e9conomique et gestion, Tunis",
+          "degree": "Premi\u00e8re ann\u00e9e d\u2019\u00e9tude en sciences et \u00e9conomie et finance internationale \u00e0 la FSEGT.",
+          "field of study": "",
+          "mention": ""
+        },
+        {
+          "years": "2010-2011",
+          "institution": "Lyc\u00e9e Amilcar Cabral de Tunis",
+          "degree": "Dipl\u00f4me national du baccalaur\u00e9at avec la mention Assez bien en sciences exp\u00e9rimentales.",
+          "field of study": "",
+          "mention": ""
+        }
+      ],
+      "skills": [
+        "Parfaitement maitresse de la langue fran\u00e7aise et l'anglais",
+        "Bureautique (Microsoft Word, Excel, PowerPoint, Access), Aquarelle pour gestion bancaire, Logiciel comptable SAGE"
+      ],
+      "experience": [
+        {
+          "company": "Office du travail et des m\u00e9tiers ind\u00e9pendants",
+          "position": "",
+          "duration": "Ao\u00fbt 2012",
+          "key responsibilities": ""
+        },
+        {
+          "company": "Banque Tunisian General Investments (UIB)",
+          "position": "Stage de deux mois",
+          "duration": "Juin-juillet 2016",
+          "key responsibilities": ""
+        },
+        {
+          "company": "",
+          "position": "Stage chez un bureau d'expert comptable pour deux mois.",
+          "duration": "Septembre \u2013octobre 2016",
+          "key responsibilities": ""
+        },
+        {
+          "company": "",
+          "position": "Stage de formation en anglais avec AISEC Tunisie pour deux mois.",
+          "duration": "Mars-mai 2017",
+          "key responsibilities": ""
+        }
+      ]
+    }
+  }
+}

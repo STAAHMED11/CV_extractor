@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block title %}CV Extractor - Home{% endblock %}
+
+{% block content %}
+<div class="header-container text-center">
+    <h1>CV Data Extractor</h1>
+    <p class="lead">Upload a CV (PDF) and extract structured information using open-source LLMs</p>
+</div>
+
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Upload CV</h5>
+                <form action="/upload" method="post" enctype="multipart/form-data">
+                    <div class="mb-3">
+                        <label for="file" class="form-label">Select a PDF file:</label>
+                        <input class="form-control" type="file" id="file" name="file" required>
+                        <div class="form-text">Both text-based and scanned PDFs are supported.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="model" class="form-label">Select LLM Model:</label>
+                        <select class="form-select" id="model" name="model">
+                            {% for model in models %}
+                                <option value="{{ model }}">{{ model }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Extract Data</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">About This Tool</h5>
+                <p>This application extracts structured information from CVs/resumes using open-source Large Language Models (LLMs) running on Ollama.</p>
+                <p>Features:</p>
+                <ul>
+                    <li>Extract name, contact details, education, skills, and experience from CVs</li>
+                    <li>Support for both text-based and scanned PDF documents</li>
+                    <li>Compare extraction results across different LLMs</li>
+                    <li>Evaluate extraction accuracy with precision and recall metrics</li>
+                </ul>
+                <p>Available models: LLaMA 3, Mistral, and Phi.</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

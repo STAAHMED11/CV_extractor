@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}Compare Models{% endblock %}
+
+{% block content %}
+<div class="header-container text-center">
+    <h1>Compare LLM Models</h1>
+    <p class="lead">Upload a CV and compare extraction results across different models</p>
+</div>
+
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Upload CV for Comparison</h5>
+                <form action="/compare" method="post" enctype="multipart/form-data">
+                    <div class="mb-3">
+                        <label for="file" class="form-label">Select a PDF file:</label>
+                        <input class="form-control" type="file" id="file" name="file" accept=".pdf" required>
+                        <div class="form-text">The CV will be processed with all available models.</div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Compare Models</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Available Models</h5>
+                <ul class="list-group list-group-flush">
+                    {% for model in models %}
+                        <li class="list-group-item">
+                            <span class="badge rounded-pill bg-primary">{{ model }}</span>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
