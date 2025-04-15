@@ -1,0 +1,230 @@
+{
+  "file_name": "393969.pdf",
+  "cv_type": "text-based",
+  "results": {
+    "llama3.2": {
+      "name": "Aya Mehrzi",
+      "email": [
+        "mhraya4@gmail.com",
+        "mehrzieya@gmail.com"
+      ],
+      "phone": "+(216)52254558",
+      "education": [
+        {
+          "degree": "dipl\u00f4m\u00e9es en \u00e9conomie et finance internationale",
+          "field": "\u00e9conomie et finance internationale",
+          "institution": "facult\u00e9 de sciences \u00e9conomique et gestion de Tunis",
+          "years": "2013-2014"
+        },
+        {
+          "degree": "2\u00e9me ann\u00e9e en \u00e9conomie et finance internationale",
+          "field": "\u00e9conomie et finance internationale",
+          "institution": "FSEGT",
+          "years": "2012-2013"
+        },
+        {
+          "degree": "1\u00e9re ann\u00e9e d\u2019\u00e9tude en sciences et \u00e9conomie et finance internationale",
+          "field": "sciences et \u00e9conomie et finance internationale",
+          "institution": "FSEGT",
+          "years": "2011-2012"
+        }
+      ],
+      "skills": [
+        {
+          "skill": "Langue maternelle (lu, \u00e9crit et parl\u00e9)",
+          "language": "Arabe"
+        },
+        {
+          "skill": "Courant (lu, \u00e9crit et parl\u00e9)",
+          "language": "Fran\u00e7ais"
+        },
+        {
+          "skill": "Courant (lu, \u00e9crit et parl\u00e9)",
+          "language": "Anglais"
+        },
+        {
+          "skill": "connaissance de lyc\u00e9e",
+          "language": "Allemand"
+        }
+      ],
+      "experience": [
+        {
+          "position": "",
+          "company": "",
+          "duration": "Ao\u00fbt 2012 - stage dans le bureau de l\u2019emploi et de travail ind\u00e9pendant",
+          "key_responsibilities": []
+        },
+        {
+          "position": "",
+          "company": "UBI",
+          "duration": "Juin-juillet 2016 - stage de 2 mois",
+          "key_responsibilities": []
+        }
+      ]
+    },
+    "gemma3:1b": {
+      "name": "Aya Mehrzi",
+      "email": "mhraya4@gmail.com",
+      "phone": "+21652254558",
+      "education": [
+        {
+          "degree": "dipl\u00f4m\u00e9es",
+          "field": "\u00e9conomie et finance internationale",
+          "institution": " facult\u00e9 de sciences \u00e9conomique et gestion de Tunis",
+          "years": "2013 -2014"
+        },
+        {
+          "degree": "dipl\u00f4m\u00e9es",
+          "field": "\u00e9conomie et finance internationale",
+          "institution": "FSEGT",
+          "years": "2012-2013"
+        },
+        {
+          "degree": "1\u00e8re ann\u00e9e d\u2019\u00e9tude",
+          "field": "sciences et \u00e9conomie et finance internationale",
+          "institution": "FSEGT",
+          "years": "2011-2012"
+        }
+      ],
+      "skills": [
+        "Fran\u00e7ais",
+        "Anglais",
+        "Allemand",
+        "Logiciels bureautique: Microsoft Word, Excel, Powerpoint, Access",
+        "Logiciel Aquarelle pour la gestion bancaire",
+        "Logiciel comptable SAGE"
+      ],
+      "experience": [
+        {
+          "position": "Cours de la langue fran\u00e7aise",
+          "company": "Institut fran\u00e7ais de Tunis",
+          "duration": "2016 - 2016",
+          "key_responsibilities": []
+        },
+        {
+          "position": "Cours d\u2019Anglais",
+          "company": "Centre des Langues Kallaline",
+          "duration": "2016",
+          "key_responsibilities": []
+        },
+        {
+          "position": "Cours de fran\u00e7ais",
+          "company": "IFT (session intensive d\u2019\u00e9t\u00e9)",
+          "duration": "2016",
+          "key_responsibilities": []
+        },
+        {
+          "position": "Stage",
+          "company": "Bureau de l'emploi et de travail ind\u00e9pendant",
+          "duration": "2012",
+          "key_responsibilities": []
+        },
+        {
+          "position": "Stage",
+          "company": "UIB (banque)",
+          "duration": "2016",
+          "key_responsibilities": []
+        },
+        {
+          "position": "Stage",
+          "company": "Bureau d\u2019expert comptable",
+          "duration": "2016",
+          "key_responsibilities": []
+        },
+        {
+          "stage": "Lieu",
+          "company": "Institut Bourguiba des langues vivantes de Tunis",
+          "duration": "2012-2013",
+          "key_responsibilities": [
+            "langue allemande"
+          ]
+        },
+        {
+          "stage": "Lieu",
+          "company": "AISEC Tunisie",
+          "duration": "2016",
+          "key_responsibilities": [
+            "langue fran\u00e7aise"
+          ]
+        }
+      ],
+      "languages": [
+        {
+          "language": "Arabe",
+          "level": "Langue maternelle (lu, \u00e9crit et parl\u00e9)"
+        }
+      ]
+    },
+    "phi3": {
+      "name": "Aya Mehrzi",
+      "email": [
+        "mhraya4@gmail.com",
+        "mehrzieya@gmail.com"
+      ],
+      "phone": "+(216)52254558",
+      "education": [
+        {
+          "degree": "dipl\u00f4m\u00e9 d'\u00e9conomie et de finance internationale",
+          "field": "",
+          "institution": "Facult\u00e9 des sciences \u00e9conomiques et gestion (FSEGT)",
+          "years": "2013-2014"
+        },
+        {
+          "degree": "dipl\u00f4m\u00e9e de 2\u00e9me ann\u00e9e",
+          "field": "",
+          "institution": "Institut national du baccalaur\u00e9at (FSEGT)",
+          "years": "2012-2013"
+        },
+        {
+          "degree": "lyc\u00e9en avec mention assez bien",
+          "field": "",
+          "institution": "Institut national du baccalaur\u00e9at (FSEGT)",
+          "years": "2011-2012"
+        }
+      ],
+      "experience": [
+        {
+          "position": "Stage",
+          "company": "bureau de l\u2019emploi et de travail ind\u00e9pendant",
+          "duration": "Ao\u00fbt 2012",
+          "key_responsibilities": []
+        },
+        {
+          "position": "stage",
+          "company": "Banque Tunisienne d'Investissement (UIB)",
+          "duration": "Juin-juillet 2016",
+          "key_responsibilities": []
+        },
+        {
+          "position": "Stage",
+          "company": "",
+          "duration": "Septembre \u2013octobre 2016",
+          "key_responsibilities": [
+            "stage chez un bureau d\u2019expert comptable"
+          ]
+        }
+      ],
+      "skills": [
+        "fran\u00e7ais (lu, \u00e9crit et parl\u00e9)",
+        "anglais (lu, \u00e9crit et parl\u00e9)",
+        "arabe (langue maternelle - lu, \u00e9crit et parl\u00e9)"
+      ],
+      "languages": {
+        "arabic": [
+          "linguistique"
+        ],
+        "french": [
+          "\u00e9crit",
+          "parl\u00e9"
+        ],
+        "english": [
+          "\u00e9crit",
+          "parl\u00e9"
+        ],
+        "german": [
+          "connaissance de lyc\u00e9e"
+        ]
+      }
+    }
+  }
+}

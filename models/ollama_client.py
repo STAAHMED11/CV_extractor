@@ -39,7 +39,28 @@ class OllamaClient:
         - education: List of educational qualifications with institution, degree, field, and years
         - skills: List of technical and soft skills
         - experience: List of work experiences with company, position, duration, and key responsibilities
-        
+        {
+  "name": ,
+  "email": ,
+  "phone":,
+  "education": [
+    {
+      "degree": ,
+      "field":, 
+      "institution": ,
+      "years": 
+    }
+  ],
+  "experience": [
+    {
+      "position":,
+      "company": ,
+      "duration": ,
+      "key_responsibilities": []
+    },
+  
+  ],
+  "skills": []}
         Return ONLY valid JSON with these fields and no additional explanation or text.
         """
         

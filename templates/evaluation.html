@@ -71,8 +71,9 @@
                                 {% set f1_score = metrics.summary[model].f1_score %}
                                 <tr>
                                     <td>{{ model }}</td>
-                                    <td class="score-cell {% if f1_score == metrics.summary|map(attribute='f1_score')|max %}best-score{% endif %}">
-                                        {{ "%.2f"|format(f1_score * 100) }}%
+                                    <!-- If you're inside a loop over models -->
+                                    <td class="score-cell {% if metrics.summary[model].f1_score == max_f1_score %}best-score{% endif %}">
+                                        {{ metrics.summary[model].f1_score|round(2) }}
                                     </td>
                                 </tr>
                             {% endfor %}

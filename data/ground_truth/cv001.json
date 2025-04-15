@@ -1,0 +1,45 @@
+{
+    "name": "Carine DUMONT",
+    "email": "dumont@email.co",
+    "phone": "33.678 14569",
+    "education": [
+      {
+        "degree": "Licence professionnelle commerce et distribution",
+        "field": "Commerce et distribution",
+        "institution": "Institut dadministration des entreprises, Lyon",
+        "years": "2013"
+      }
+    ],
+    "experience": [
+      {
+        "position": "Responsable commerciale",
+        "company": "Dermagyne Laboratoire",
+        "duration": "Janvier 2016 - Actuel",
+        "key_responsibilities": [
+          "Développer le portefeuille commercial (828)",
+          "Représenter entreprise sur environ 8 salons par an",
+          "Gérer les grands comptes de 19 clients",
+          "Gérer les contrats et les réalisations de ventes"
+        ]
+      },
+      {
+        "position": "Commerciale terrain",
+        "company": "Isodent",
+        "duration": "Septembre 2013 - Décembre 2015",
+        "key_responsibilities": [
+          "Gérer un portefeuille de 23 clients",
+          "Générer de nouveaux leads par démarchage (+4% sur la cible)"
+        ]
+      }
+    ],
+    "skills": [
+      "Salesforce",
+      "MS CRM",
+      "DropContact.io",
+      "Microsoft Office",
+      "Anglais",
+      "Allemand",
+      "Négociation commerciale",
+      "Gestion grands comptes"
+    ]
+  }

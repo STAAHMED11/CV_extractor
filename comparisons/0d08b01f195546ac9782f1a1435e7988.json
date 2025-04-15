@@ -1,0 +1,232 @@
+{
+  "file_name": "393969.pdf",
+  "cv_type": "text-based",
+  "results": {
+    "llama3.2": {
+      "name": "Aya Mehrzi",
+      "email": [
+        "mhraya4@gmail.com",
+        "mehrzieya@gmail.com"
+      ],
+      "phone": "+(216)52254558",
+      "education": [
+        {
+          "degree": "dipl\u00f4m\u00e9es",
+          "field": "\u00e9conomie et finance internationale",
+          "institution": "facult\u00e9 de sciences \u00e9conomique et gestion de Tunis",
+          "years": "2013-2014"
+        },
+        {
+          "degree": "2\u00e9me ann\u00e9e",
+          "field": "\u00e9conomie et finance internationale",
+          "institution": "FSEGT",
+          "years": "2012-2013"
+        },
+        {
+          "degree": "1\u00e9re ann\u00e9e",
+          "field": "sciences et \u00e9conomie et finance internationale",
+          "institution": "FSEGT",
+          "years": "2011-2012"
+        },
+        {
+          "degree": "obtention du dipl\u00f4me national du baccalaur\u00e9at",
+          "field": "sciences exp\u00e9rimentales",
+          "institution": "sans mention",
+          "years": "2010-2011"
+        }
+      ],
+      "skills": [
+        {
+          "langue": "Arabe",
+          "level": "Langue maternelle (lu, \u00e9crit et parl\u00e9)"
+        },
+        {
+          "langue": "Fran\u00e7ais",
+          "level": "Courant (lu, \u00e9crit et parl\u00e9)"
+        },
+        {
+          "langue": "Anglais",
+          "level": "Courant (lu, \u00e9crit et parl\u00e9)"
+        },
+        {
+          "langue": "Allemand",
+          "level": "connaissance de lyc\u00e9e"
+        },
+        {
+          "logiciel": "Logiciels bureautique",
+          "description": [
+            "Microsoft Word",
+            "Excel",
+            "Powerpoint",
+            "Access"
+          ],
+          "other": [
+            "Logiciel Aquarelle pour la gestion bancaire.",
+            "Logiciel comptable SAGE."
+          ]
+        }
+      ],
+      "experience": [
+        {
+          "position": "",
+          "company": "",
+          "duration": "",
+          "key_responsibilities": []
+        },
+        {
+          "position": "",
+          "company": "",
+          "duration": "",
+          "key_responsibilities": []
+        },
+        {
+          "position": "",
+          "company": "Bureau de l'emploi et de travail ind\u00e9pendant",
+          "duration": "Ao\u00fbt 2012",
+          "key_responsibilities": []
+        },
+        {
+          "position": "",
+          "company": "Si\u00e8ge de la banque UIB",
+          "duration": "Juin-Juillet 2016",
+          "key_responsibilities": []
+        },
+        {
+          "position": "",
+          "company": "Bureau d'expert comptable",
+          "duration": "Septembre-Octobre 2016",
+          "key_responsibilities": []
+        }
+      ]
+    },
+    "gemma3:1b": {
+      "name": "Aya Mehrzi",
+      "email": "mhraya4@gmail.com",
+      "phone": "+21652254558",
+      "education": [
+        {
+          "degree": "dipl\u00f4m\u00e9e en \u00e9conomie et finance internationale",
+          "field": "\u00e9conomie et finance internationale",
+          "institution": " facult\u00e9 de sciences \u00e9conomique et gestion de Tunis",
+          "years": "2013 -2014"
+        },
+        {
+          "degree": "dipl\u00f4m\u00e9e en \u00e9conomie et finance internationale",
+          "institution": "FSEGT",
+          "years": "2012-2013"
+        },
+        {
+          "degree": "1\u00e9re ann\u00e9e d\u2019\u00e9tude en sciences et \u00e9conomie et finance internationale",
+          "institution": "FSEGT",
+          "years": "2011-2012"
+        }
+      ],
+      "skills": [
+        "Fran\u00e7ais",
+        "Anglais",
+        "Allemand",
+        "Logiciels bureautique (Word, Excel, PowerPoint, Access)",
+        "Logiciel Aquarelle pour la gestion bancaire",
+        "Logiciel comptable SAGE",
+        "Langue maternelle (lu, \u00e9crit et parl\u00e9)"
+      ],
+      "experience": [
+        {
+          "position": "Cours de la langue fran\u00e7aise",
+          "company": "Institut fran\u00e7ais de Tunis",
+          "duration": "2016 - 2016",
+          "key_responsibilities": []
+        },
+        {
+          "position": "Cours d\u2019Anglais",
+          "company": "Centre des langues Kallaline",
+          "duration": "2016",
+          "key_responsibilities": []
+        },
+        {
+          "position": "Cours de fran\u00e7ais",
+          "company": "IFT (session intensive d\u2019\u00e9t\u00e9)",
+          "duration": "2016",
+          "key_responsibilities": []
+        },
+        {
+          "position": "Stage dans le bureau de l\u2019emploi et de travail ind\u00e9pendant",
+          "company": "Ind\u00e9pendant",
+          "duration": "2012",
+          "key_responsibilities": []
+        },
+        {
+          "position": "Stage de 2 mois dans le si\u00e8ge de la banque UIB",
+          "company": "UIB",
+          "duration": "juin-juillet 2016",
+          "key_responsibilities": []
+        },
+        {
+          "position": "Stage de 2 mois chez un bureau d\u2019expert comptable",
+          "company": "Expert Comptable",
+          "duration": "septembre \u2013octobre 2016",
+          "key_responsibilities": []
+        },
+        {
+          "stage": "Cours de langue allemande",
+          "institut": "Bourguiba des langues vivantes de Tunis",
+          "duration": "Mars 2016 - Mai 2016",
+          "key_responsibilities": []
+        }
+      ],
+      "languages": [
+        {
+          "language": "Arabe",
+          "proficiency": "Langue maternelle (lu, \u00e9crit et parl\u00e9)"
+        }
+      ]
+    },
+    "phi3": {
+      "name": "Aya Mehrzi",
+      "email": [
+        "mhraya4@gmail.com",
+        "mehrzieya@gmail.com"
+      ],
+      "phone": "+(216)52254558",
+      "education": [
+        {
+          "degree": "dipl\u00f4m\u00e9 de la facult\u00e9 de sciences \u00e9conomique et gestion",
+          "field": "\u00e9conomie et finance internationale",
+          "institution": "Tunis",
+          "years": "2013-2014"
+        },
+        {
+          "degree": "Elmanar avec la mention assez bien.",
+          "field": "",
+          "institution": "",
+          "years": ""
+        }
+      ],
+      "skills": [
+        "fran\u00e7ais",
+        "anglais (courant, lu, \u00e9crit et parl\u00e9)",
+        "arabe (lu, \u00e9crit et parl\u00e9)",
+        "allemand (connaissance de lyc\u00e9e)"
+      ],
+      "experience": [
+        {
+          "position": "",
+          "company": "bureau de l\u2019emploi et de travail ind\u00e9pendant",
+          "duration": "ao\u00fbt 2012"
+        },
+        {
+          "position": "",
+          "company": "UIB (banque)",
+          "duration": "juin-juillet 2016",
+          "key_responsibilities": []
+        },
+        {
+          "position": "",
+          "company": "bureau d\u2019expert comptable",
+          "duration": "septembre \u2013octobre 2016",
+          "key_responsibilities": []
+        }
+      ]
+    }
+  }
+}

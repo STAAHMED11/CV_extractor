@@ -136,13 +136,20 @@ def calculate_cv_metrics(extracted_data, ground_truth):
     return metrics
 
 def calculate_metrics():
-    """
-    Calculate metrics for all CVs and models in the evaluation dataset.
-    """
     # Directory containing ground truth data
     ground_truth_dir = "data/ground_truth"
     # Directory containing model outputs
     results_dir = "data/results"
+    
+    print(f"Ground truth directory exists: {os.path.exists(ground_truth_dir)}")
+    print(f"Results directory exists: {os.path.exists(results_dir)}")
+    
+    # List all files
+    if os.path.exists(ground_truth_dir):
+        print(f"Ground truth files: {os.listdir(ground_truth_dir)}")
+    if os.path.exists(results_dir):
+        print(f"Result files: {os.listdir(results_dir)}")
+
     
     if not os.path.exists(ground_truth_dir) or not os.path.exists(results_dir):
         return {
@@ -151,12 +158,11 @@ def calculate_metrics():
             "metrics": {}
         }
     
-    models = ["llama3", "mistral", "phi"]
+    models = ["llama3.2", "gemma3:1b", "phi3"]
     all_metrics = {model: {} for model in models}
     
     # List all ground truth files
     ground_truth_files = [f for f in os.listdir(ground_truth_dir) if f.endswith('.json')]
-    
     for gt_file in ground_truth_files:
         cv_id = gt_file.split('.')[0]
         ground_truth_path = os.path.join(ground_truth_dir, gt_file)
@@ -187,7 +193,7 @@ def calculate_metrics():
             "experience": {"precision": 0.0, "recall": 0.0, "f1_score": 0.0},
         }
     } for model in models}
-    
+    print(models)
     for model in models:
         cv_count = len(all_metrics[model])
         

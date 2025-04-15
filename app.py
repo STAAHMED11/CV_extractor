@@ -176,7 +176,14 @@ def show_comparison(comparison_id):
 def evaluate():
     # For the evaluation page where users can see model performance metrics
     metrics = calculate_metrics()  # This would compare against ground truth
-    return render_template('evaluation.html', metrics=metrics)
+    print(json.dumps(metrics, indent=2))  # Debug print
+    # Calculate the maximum F1 score across all models
+    max_f1_score = 0
+    for model in metrics['models']:
+        if metrics['summary'][model]['f1_score'] > max_f1_score:
+            max_f1_score = metrics['summary'][model]['f1_score']
+    
+    return render_template('evaluation.html', metrics=metrics, max_f1_score=max_f1_score)
 
 if __name__ == '__main__':
     app.run(debug=True)
