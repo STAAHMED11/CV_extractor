@@ -1,0 +1,182 @@
+{
+  "file_name": "1681867896160.pdf",
+  "cv_type": "text-based",
+  "results": {
+    "llama3.2": {
+      "name": "Chiheb HMIDA",
+      "email": "chihebeddine.hmida@ensi-uma.tn",
+      "phone": "+216 28664978",
+      "education": [
+        {
+          "institution": "PREPARATORY INSTITUTE EL MANAR",
+          "field": "",
+          "degree": "",
+          "years": "Sep 2019 - 2022"
+        },
+        {
+          "institution": "NATIONAL SCHOOL OF COMPUTER SCIENCES",
+          "field": "SOFTWARE INGENEERING STUDENT",
+          "degree": "Intermidiate",
+          "years": ""
+        }
+      ],
+      "skills": [
+        "C/C++",
+        "Java",
+        "C#",
+        "Bash",
+        "Assembly",
+        "VHDL",
+        "Python",
+        "Java",
+        "JS",
+        "SQL",
+        "React JS",
+        "Flask",
+        "Tikinter",
+        "Flutter",
+        "VS CODE",
+        "Git",
+        "GitHub",
+        "Arduino IDE",
+        "Keil",
+        "Kuartus",
+        "STM32Cubemx",
+        "GNU Linux (Debian, Ubuntu, Rasbian) / Windows"
+      ],
+      "experience": [
+        {
+          "company": "TUNISIAN E-GOUVERNACE SOCITY",
+          "position": "PROJECT MANAGER",
+          "duration": "Jun 2022 - Present",
+          "key_responsibilities": []
+        },
+        {
+          "company": "",
+          "position": "TOOLs ",
+          "duration": "",
+          "key_responsibilities": []
+        }
+      ]
+    },
+    "mistral": {
+      "name": "CHIHEB HMIDA",
+      "email": "chihebeddine.hmida@ensi-uma.tn",
+      "phone": "+216 28664978",
+      "education": [
+        {
+          "degree": "SOFTWARE INGENEERING STUDENT",
+          "field": "COMPUTER SCIENCE",
+          "institution": "NATIONAL SCHOOL OF COMPUTER SCIENCES",
+          "years": "Sep 2022 - Present"
+        },
+        {
+          "degree": "PROGRAMMING LANGUAGES:",
+          "field": "",
+          "institution": "",
+          "years": ""
+        }
+      ],
+      "skills": [
+        "Python",
+        "Java",
+        "C",
+        "C++",
+        "Agile development methodologies",
+        "Team player",
+        "Design (Photoshop, Blender)",
+        "Leadership",
+        "Project management",
+        "Communication",
+        "Public speaking",
+        "Microcontrollers (Arduino UNO, ESP32, STM32)",
+        "Specialized in embeded systems and software"
+      ],
+      "experience": [
+        {
+          "position": "TREAUSER AT ENSI ROBOTICS ASSOCIATION",
+          "company": "",
+          "duration": "Present",
+          "key_responsibilities": [
+            "ORGANIZED ROBOCUP ENSI 5.0",
+            "ORGANIZED SUPERCUP 4.0",
+            "ORGANIZED BOOTCAMP 4.0"
+          ]
+        },
+        {
+          "position": "PROJECT MANAGER AT THE TUNISIAN E-GOUVERNACE SOCITY",
+          "company": "",
+          "duration": [
+            "June 2022 - Present",
+            "May 2022 - October 2022"
+          ],
+          "key_responsibilities": [
+            "ARE WEBSITE (REACT JS, HTML, CSS) (PROJECT MANAGER)"
+          ]
+        }
+      ]
+    },
+    "qwen2.5": {
+      "name": "CHIHEB HMIDA",
+      "email": "chihebeddine.hmida@ensi-uma.tn",
+      "phone": "+216 28664978",
+      "education": [
+        {
+          "degree": "SOFTWARE INGENEERING STUDENT",
+          "field": "SOFTWARE ENGINEERING",
+          "institution": "NATIONAL SCHOOL OF COMPUTER SCIENCES",
+          "years": "Sep 2022 - Present"
+        }
+      ],
+      "skills": [
+        "PYTHON",
+        "JAVA",
+        "C",
+        "C++",
+        "AGILE DEVELOPMENT",
+        "LEADERSHIP",
+        "PROJECT MANAGEMENT",
+        "COMMUNICATION",
+        "PUBLIC SPEAKING",
+        "DESIGN",
+        "PHOTOSHOP",
+        "BLENDER",
+        "MICROCONTROLLERS",
+        "VS CODE",
+        "GIT",
+        "ARDUINO IDE",
+        "KEIL",
+        "QUARTUS",
+        "STM32CUBEMX",
+        "GNU LINUX (DEBIAN, UBUNTU, RASBIAN)",
+        "WINDOWS"
+      ],
+      "experience": [
+        {
+          "position": "PROJECT MANAGER AT THE TUNISIAN E-GOUVERNANCE SOCIETY",
+          "company": "",
+          "duration": "May 2022 - October 2022",
+          "key_responsibilities": []
+        },
+        {
+          "position": "TREAUSER AT ENSI ROBOTICS ASSOCIATION",
+          "company": "",
+          "duration": "June 2022 - Present",
+          "key_responsibilities": [
+            "ORGANIZED ROBOCUP ENSI 5.0",
+            "ORGANIZED SUPERCUP 4.0",
+            "ORGANIZED BOOTCAMP 4.0"
+          ]
+        },
+        {
+          "position": "ARE WEBSITE (REACT JS, HTML, CSS) (PROJECT MANAGER)",
+          "company": "",
+          "duration": "FEB 2023 - PRESENT",
+          "key_responsibilities": [
+            "A website hosting an overview of the ENSI Robotique Association events and activities."
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -10,20 +10,16 @@ def extract_json(response):
         if json_match:
             json_str = json_match.group(0)
 
-            # Optional: Clean unusual characters if needed
             json_str = json_str.replace('\u2013', '-')  # replace en-dash
             json_str = json_str.replace('\ufb02', 'fl') # replace ligature
-            # Add more replacements as needed
 
             # Try to parse
             data = json.loads(json_str)
             return data
         else:
-            # fallback attempt to parse entire response
             return json.loads(response)
 
     except json.JSONDecodeError as e:
-        # Final fallback: return raw but acknowledge it's not valid JSON
         return {
             "error": "Failed to cleanly parse as JSON, but partial structure was detected.",
             "exception": str(e),
@@ -110,7 +106,6 @@ class OllamaClient:
                 
                 return extracted_data
             except json.JSONDecodeError:
-                # If parsing fails, return a structured error message
                 return {
                     "error": "Failed to parse model output as JSON",
                     "raw_response": response

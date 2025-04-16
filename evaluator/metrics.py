@@ -4,16 +4,12 @@ import re
 from difflib import SequenceMatcher
 
 def load_ground_truth(ground_truth_path):
-    """
-    Load ground truth data from a JSON file.
-    """
+ 
     with open(ground_truth_path, 'r') as f:
         return json.load(f)
 
 def normalize_text(text):
-    """
-    Normalize text for comparison by removing extra spaces, lowercasing, etc.
-    """
+  
     if not text:
         return ""
     # Convert to lowercase
@@ -25,9 +21,7 @@ def normalize_text(text):
     return text
 
 def field_similarity(extracted_value, ground_truth_value):
-    """
-    Calculate similarity between extracted field and ground truth field.
-    """
+
     # Handle different data types
     if isinstance(extracted_value, list) and isinstance(ground_truth_value, list):
         # For lists (like skills), calculate average similarity of best matches

@@ -1,0 +1,79 @@
+{
+    "education": [
+      {
+        "degree": "Engineering degree, specialized in Data Science",
+        "field": "Data Science",
+        "institution": "ESSAI",
+        "years": "September 2020 - Present"
+      },
+      {
+        "degree": "High School Diploma (Mathematics)",
+        "field": "",
+        "institution": "Ali Zouaoui high school",
+        "years": "September 2018 - July 2020"
+      }
+    ],
+    "email": "jaber.mbarki@essai.ucar.tn",
+    "experience": [
+      {
+        "company": "Tunisie T\u00e9l\u00e9com",
+        "duration": "July 2022- September 2022",
+        "key_responsibilities": [
+          "Clients segmentation using Clustering (K-Means algorithm).",
+          "Application of data cleaning techniques, data visualization using Power BI,"
+        ],
+        "position": "Data Scientist Intern"
+      },
+      {
+        "company": "ENVAST",
+        "duration": "July 2021- August 2021",
+        "key_responsibilities": [
+          "Analysis of the start-up\u2019s sales and clients feedbacks data to improve the marketing strategies."
+        ],
+        "position": "Data Analyst Intern"
+      },
+      {
+        "company": "Poselytics",
+        "duration": "April 2022- June 2022",
+        "key_responsibilities": [
+          "Create a Pose Landmark Model to count hand movement up and down."
+        ],
+        "position": "Computer Vision Intern (Remote)"
+      }
+    ],
+    "name": "JABEUR MBARKI",
+    "phone": "+216 54951995",
+    "skills": [
+      "C",
+      "Python",
+      "PHP",
+      "JAVA",
+      "R",
+      "SQL",
+      "Machine Learning",
+      "Data mining",
+      "AI",
+      "Deep learning",
+      "Big DATA",
+      "OpenCV",
+      "Tensorflow",
+      "Keras",
+      "Times series",
+      "Oracle",
+      "MySQL",
+      "Dash",
+      "Power BI",
+      "VS code",
+      "Linux",
+      "Git",
+      "Web scrapping",
+      "Statistics",
+      "Finance",
+      "SAS",
+      "Rshiny",
+      "CRISP-DM",
+      "Team work",
+      "statistical tests",
+      "Project management"
+    ]
+  }

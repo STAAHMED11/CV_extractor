@@ -1,0 +1,62 @@
+{
+    "education": [
+      {
+        "degree": "SOFTWARE INGENEERING STUDENT",
+        "field": "SOFTWARE ENGINEERING",
+        "institution": "NATIONAL SCHOOL OF COMPUTER SCIENCES",
+        "years": "Sep 2022 - Present"
+      }
+    ],
+    "email": "chihebeddine.hmida@ensi-uma.tn",
+    "experience": [
+      {
+        "company": "",
+        "duration": "May 2022 - October 2022",
+        "key_responsibilities": [],
+        "position": "PROJECT MANAGER AT THE TUNISIAN E-GOUVERNANCE SOCIETY"
+      },
+      {
+        "company": "",
+        "duration": "June 2022 - Present",
+        "key_responsibilities": [
+          "ORGANIZED ROBOCUP ENSI 5.0",
+          "ORGANIZED SUPERCUP 4.0",
+          "ORGANIZED BOOTCAMP 4.0"
+        ],
+        "position": "TREAUSER AT ENSI ROBOTICS ASSOCIATION"
+      },
+      {
+        "company": "",
+        "duration": "FEB 2023 - PRESENT",
+        "key_responsibilities": [
+          "A website hosting an overview of the ENSI Robotique Association events and activities."
+        ],
+        "position": "ARE WEBSITE (REACT JS, HTML, CSS) (PROJECT MANAGER)"
+      }
+    ],
+    "name": "CHIHEB HMIDA",
+    "phone": "+216 28664978",
+    "skills": [
+      "PYTHON",
+      "JAVA",
+      "C",
+      "C++",
+      "AGILE DEVELOPMENT",
+      "LEADERSHIP",
+      "PROJECT MANAGEMENT",
+      "COMMUNICATION",
+      "PUBLIC SPEAKING",
+      "DESIGN",
+      "PHOTOSHOP",
+      "BLENDER",
+      "MICROCONTROLLERS",
+      "VS CODE",
+      "GIT",
+      "ARDUINO IDE",
+      "KEIL",
+      "QUARTUS",
+      "STM32CUBEMX",
+      "GNU LINUX (DEBIAN, UBUNTU, RASBIAN)",
+      "WINDOWS"
+    ]
+  }

@@ -1,0 +1,57 @@
+{
+    "education": [
+      {
+        "degree": "",
+        "field": "",
+        "institution": "PREPARATORY INSTITUTE EL MANAR",
+        "years": "Sep 2019 - 2022"
+      },
+      {
+        "degree": "Intermidiate",
+        "field": "SOFTWARE INGENEERING STUDENT",
+        "institution": "NATIONAL SCHOOL OF COMPUTER SCIENCES",
+        "years": ""
+      }
+    ],
+    "email": "chihebeddine.hmida@ensi-uma.tn",
+    "experience": [
+      {
+        "company": "TUNISIAN E-GOUVERNACE SOCITY",
+        "duration": "Jun 2022 - Present",
+        "key_responsibilities": [],
+        "position": "PROJECT MANAGER"
+      },
+      {
+        "company": "",
+        "duration": "",
+        "key_responsibilities": [],
+        "position": "TOOLs "
+      }
+    ],
+    "name": "Chiheb HMIDA",
+    "phone": "+216 28664978",
+    "skills": [
+      "C/C++",
+      "Java",
+      "C#",
+      "Bash",
+      "Assembly",
+      "VHDL",
+      "Python",
+      "Java",
+      "JS",
+      "SQL",
+      "React JS",
+      "Flask",
+      "Tikinter",
+      "Flutter",
+      "VS CODE",
+      "Git",
+      "GitHub",
+      "Arduino IDE",
+      "Keil",
+      "Kuartus",
+      "STM32Cubemx",
+      "GNU Linux (Debian, Ubuntu, Rasbian) / Windows"
+    ]
+  }

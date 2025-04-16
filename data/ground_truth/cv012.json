@@ -1,0 +1,66 @@
+{
+    "name": "Chiheb Hmida",
+    "email": "chihebeddine.hmida@ensi-uma.tn",
+    "phone": "(+216) 28664978",
+    "education": [
+      {
+        "degree": "Preparatory Institute",
+        "field": "",
+        "institution": "Preparatory Institute El Manar",
+        "years": "Sep 2019 - 2022"
+      },
+      {
+        "degree": "Software Engineering",
+        "field": "Embedded Systems and Software",
+        "institution": "National School of Computer Sciences",
+        "years": "Sep 2022 - Present"
+      }
+    ],
+    "experience": [
+      {
+        "position": "Treasurer",
+        "company": "ENSI Robotics Association",
+        "duration": "June 2022 - Present",
+        "key_responsibilities": []
+      },
+      {
+        "position": "Associative Project Manager",
+        "company": "Tunisian E-Governance Society",
+        "duration": "May 2022 - October 2022",
+        "key_responsibilities": []
+      }
+    ],
+    "skills": [
+      "C",
+      "C++",
+      "C#",
+      "Bash",
+      "Assembly",
+      "VHDL",
+      "Python",
+      "Java",
+      "JavaScript",
+      "SQL",
+      "Arduino UNO",
+      "ESP32",
+      "STM32",
+      "FPGA",
+      "React JS",
+      "Flask",
+      "Tkinter",
+      "Flutter",
+      "VS Code",
+      "Git",
+      "GitHub",
+      "Arduino IDE",
+      "Keil",
+      "Quartus",
+      "STM32CubeMX",
+      "GNU Linux",
+      "Windows",
+      "Leadership",
+      "Project management",
+      "Communication",
+      "Public speaking"
+    ]
+  }

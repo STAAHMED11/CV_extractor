@@ -1,0 +1,57 @@
+{
+    "education": [
+      {
+        "degree": "SOFTWARE INGENEERING STUDENT",
+        "field": "COMPUTER SCIENCE",
+        "institution": "NATIONAL SCHOOL OF COMPUTER SCIENCES",
+        "years": "Sep 2022 - Present"
+      },
+      {
+        "degree": "PROGRAMMING LANGUAGES:",
+        "field": "",
+        "institution": "",
+        "years": ""
+      }
+    ],
+    "email": "chihebeddine.hmida@ensi-uma.tn",
+    "experience": [
+      {
+        "company": "",
+        "duration": "Present",
+        "key_responsibilities": [
+          "ORGANIZED ROBOCUP ENSI 5.0",
+          "ORGANIZED SUPERCUP 4.0",
+          "ORGANIZED BOOTCAMP 4.0"
+        ],
+        "position": "TREAUSER AT ENSI ROBOTICS ASSOCIATION"
+      },
+      {
+        "company": "",
+        "duration": [
+          "June 2022 - Present",
+          "May 2022 - October 2022"
+        ],
+        "key_responsibilities": [
+          "ARE WEBSITE (REACT JS, HTML, CSS) (PROJECT MANAGER)"
+        ],
+        "position": "PROJECT MANAGER AT THE TUNISIAN E-GOUVERNACE SOCITY"
+      }
+    ],
+    "name": "CHIHEB HMIDA",
+    "phone": "+216 28664978",
+    "skills": [
+      "Python",
+      "Java",
+      "C",
+      "C++",
+      "Agile development methodologies",
+      "Team player",
+      "Design (Photoshop, Blender)",
+      "Leadership",
+      "Project management",
+      "Communication",
+      "Public speaking",
+      "Microcontrollers (Arduino UNO, ESP32, STM32)",
+      "Specialized in embeded systems and software"
+    ]
+  }

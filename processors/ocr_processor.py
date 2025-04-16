@@ -10,9 +10,7 @@ class OCRProcessor:
         pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
     def process_scanned_pdf(self, pdf_path):
-        """
-        Process a scanned PDF by extracting images and running OCR.
-        """
+
         text_content = ""
 
         try:
@@ -49,13 +47,6 @@ class OCRProcessor:
         return text_content
 
     
-    def process_with_visual_llm(self, pdf_path):
-        """
-        Process a scanned PDF using a Visual LLM (like Mistral OCR).
-        Note: This would need to be implemented based on the specific Visual LLM used.
-        """
-        # This is a placeholder for where you would integrate with a Visual LLM
-        # For example, convert PDF pages to images and send to the Visual LLM
+    #def process_with_visual_llm(self, pdf_path):
+     
         
-        # For now, we'll use regular OCR as a fallback
-        return self.process_scanned_pdf(pdf_path)

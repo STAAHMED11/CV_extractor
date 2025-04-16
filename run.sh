@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# CV Extractor with Open-Source LLMs using Ollama
-# Project Runner Script
 
 echo "=========================================="
 echo "CV Extractor with Open-Source LLMs Setup"

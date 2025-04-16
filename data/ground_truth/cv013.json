@@ -1,0 +1,42 @@
+{
+    "name": "Oumayma Sghayri",
+    "email": "oumayma.sghairi@etudiant-enit.utm.tn",
+    "phone": "(+216) 28198139",
+    "education": [
+      {
+        "degree": "Telecommunications Engineering",
+        "field": "Telecommunications",
+        "institution": "National School of Engineers of Tunis (ENIT)",
+        "years": "2021 - present"
+      },
+      {
+        "degree": "Mathematics & Physics Pre-Engineering School Studies",
+        "field": "",
+        "institution": "Preparatory Institute for Engineering Studies of Tunis (IPEIT)",
+        "years": "2019 - 2021"
+      }
+    ],
+    "experience": [
+      {
+        "position": "Computer Vision Engineering Intern",
+        "company": "SFM Technologies",
+        "duration": "06/2022 - 07/2022",
+        "key_responsibilities": [
+          "Developed an algorithm that detects motion outside working hours through surveillance camera system",
+          "Communicated captured motion pictures through FTP server and Whatsapp",
+          "Implemented an alarm notification system that alerted the company",
+          "Notified designated personnel through a website notification"
+        ]
+      }
+    ],
+    "skills": [
+      "Python",
+      "SQL",
+      "C",
+      "C++",
+      "Matlab",
+      "ASP.NET",
+      "Flask",
+      "Qt"
+    ]
+  }
