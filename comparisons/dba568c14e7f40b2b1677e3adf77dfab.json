@@ -1,0 +1,254 @@
+{
+  "file_name": "1681346598442.pdf",
+  "cv_type": "text-based",
+  "results": {
+    "llama3.2": {
+      "name": "Fedi Labidi",
+      "email": "labidi.fedi@esprit.tn",
+      "phone": "+216 92 793 238",
+      "education": [
+        {
+          "degree": "Software Engineering Degree",
+          "field": "",
+          "institution": "Esprit",
+          "years": "Sep 2021 \u2013 On-going"
+        },
+        {
+          "degree": "Pre-Engineering preparatory cycle",
+          "field": "",
+          "institution": "Tunis Preparatory Engineering Insti-(Mont\ufb02eury)",
+          "years": "Sep 2019 \u2013 Jun 2021"
+        },
+        {
+          "degree": "Baccalaureate diploma in mathematics",
+          "field": "",
+          "institution": "Lyc\u00e9e Pilote Siliana",
+          "years": "Sep 2015 \u2013 Jun 2019"
+        }
+      ],
+      "skills": [
+        "java",
+        "spring boot",
+        "angular",
+        "typescript",
+        "html/css/js",
+        "symfony",
+        "php",
+        ".NET",
+        "python",
+        "c",
+        "bootstrap",
+        "graphql",
+        "sass",
+        "mariaDB",
+        "sqlite",
+        "mysql",
+        "JDBC"
+      ],
+      "experience": [
+        {
+          "position": "Summer Internship",
+          "company": "Targa consult",
+          "duration": "Jun 2021-Jul 2021",
+          "key_responsibilities": [
+            "Got experience with ERP-BI",
+            "Worked with ODOO framework",
+            "Worked under unix environment (ubuntu)",
+            "Migrated a project from version 14 to 15 of the ODOO framework"
+          ]
+        },
+        {
+          "position": "",
+          "company": "",
+          "duration": "Jan 2023 - On-going",
+          "key_responsibilities": [
+            "a web application that allows customers to buy industrial products online.",
+            "Angular provides the front-end framework, enabling interactive and responsive user interfaces,"
+          ]
+        },
+        {
+          "position": "",
+          "company": "",
+          "duration": "Jan 2023",
+          "key_responsibilities": [
+            "A restaurant website built with Angular which is a web application designed to provide an online presence for a restaurant.",
+            "The website typically includes features such as menu display, dishes and a feedback section."
+          ]
+        },
+        {
+          "position": "",
+          "company": "",
+          "duration": "Dec 2022",
+          "key_responsibilities": [
+            "A medical appointment app built with JavaFX which is a desktop application designed to help patients schedule and manage appointments with healthcare providers."
+          ]
+        },
+        {
+          "position": "",
+          "company": "Symfony, php",
+          "duration": "Oct 2022",
+          "key_responsibilities": [
+            "A contract management app built with Symfony which is a software application designed to help businesses manage their contractual agreements more efficiently.",
+            "It is built using the Symfony PHP framework."
+          ]
+        }
+      ]
+    },
+    "mistral": {
+      "name": "FEDI LABIDI",
+      "email": "labidi.fedi@esprit.tn",
+      "phone": "+216 92 793 238",
+      "education": [
+        {
+          "degree": "Software Engineering Degree",
+          "field": "",
+          "institution": "Esprit",
+          "years": "Sep 2021 \u2013 On-going"
+        },
+        {
+          "degree": "Baccalaureate diploma in mathematics",
+          "field": "",
+          "institution": "Lyc\u00e9e Pilote Siliana",
+          "years": "Sep 2015 \u2013 Jun 2019"
+        },
+        {
+          "degree": "Pre-Engineering preparatory cycle",
+          "field": "",
+          "institution": "Tunis Preparatory Engineering Insti-tute(Mont\ufb02eury)",
+          "years": "Sep 2019 \u2013 Jun 2021"
+        }
+      ],
+      "skills": [
+        "java",
+        "spring boot",
+        "angular",
+        "typescript",
+        "html/css/js",
+        "symfony",
+        "php",
+        ".NET",
+        "python",
+        "c",
+        "bootstrap",
+        "graphql",
+        "sass",
+        "mariaDB",
+        "sqlite",
+        "mysql",
+        "JDBC"
+      ],
+      "experience": [
+        {
+          "position": "Summer Internship",
+          "company": "Targa consult",
+          "duration": "Jun 2021-Jul 2021",
+          "key_responsibilities": [
+            "Got experience with ERP-BI",
+            "Worked with ODOO framework",
+            "Worked under unix environment (ubuntu)",
+            "Migrated a project from version 14 to 15 of the ODOO framework"
+          ]
+        },
+        {
+          "position": "",
+          "company": "",
+          "duration": "Jan 2023 - On-going",
+          "key_responsibilities": [
+            "a web application that allows customers to buy industrial products online. Angular provides the front-end framework, enabling interactive and responsive user interfaces, while Spring Boot provides the back-end framework for handling business logic, data storage, and integration with other e-commerce systems."
+          ]
+        },
+        {
+          "position": "",
+          "company": "",
+          "duration": "Jan 2023",
+          "key_responsibilities": [
+            "A restaurant website built with Angular which is a web application designed to provide an online presence for a restaurant.The website typically includes features such as menu display, dishes and a feedback section."
+          ]
+        },
+        {
+          "position": "",
+          "company": "",
+          "duration": "Dec 2022",
+          "key_responsibilities": [
+            "A medical appointment app built with JavaFX which is a desktop application designed to help patients schedule and manage appointments with healthcare providers. It is built using the JavaFX framework, which provides a robust set of tools for developing cross-platform desktop applications with a modern and intuitive user interface."
+          ]
+        },
+        {
+          "position": "",
+          "company": "",
+          "duration": "Oct 2022",
+          "key_responsibilities": [
+            "A contract management app built with Symfony which is a software application designed to help businesses manage their contractual agreements more efficiently."
+          ]
+        }
+      ]
+    },
+    "qwen2.5": {
+      "name": "FEDI LABIDI",
+      "email": "labidi.fedi@esprit.tn",
+      "phone": "+216 92 793 238",
+      "education": [
+        {
+          "degree": "Software Engineering Degree",
+          "field": "",
+          "institution": "Esprit",
+          "years": "Sep 2021 \u2013 On-going"
+        },
+        {
+          "degree": "Pre-Engineering preparatory cycle",
+          "field": "",
+          "institution": "Tunis Preparatory Engineering Insti-\ntute(Mont\ufb02eury)",
+          "years": "Sep 2019 \u2013 Jun 2021"
+        },
+        {
+          "degree": "Baccalaureate diploma in mathematics",
+          "field": "",
+          "institution": "Lyc\u00e9e Pilote Siliana",
+          "years": "Sep 2015 \u2013 Jun 2019"
+        }
+      ],
+      "skills": [
+        "Hard-working",
+        "Persuasive",
+        "Problem solving",
+        "Decision making",
+        "Strategic thinking",
+        "Java",
+        "Spring boot",
+        "Angular",
+        "TypeScript",
+        "HTML/CSS/JS",
+        "Symfony",
+        "PHP",
+        ".NET",
+        "Python",
+        "C",
+        "Bootstrap",
+        "GraphQL",
+        "Sass",
+        "MariaDB",
+        "SQLite",
+        "MySQL",
+        "JDBC",
+        "IntellijIDEA",
+        "WebStorm",
+        "git",
+        "Adobe Photoshop",
+        "VSCode"
+      ],
+      "experience": [
+        {
+          "position": "Summer Internship",
+          "company": "Targa consult",
+          "duration": "Jun 2021-Jul 2021",
+          "key_responsibilities": [
+            "Got experience with ERP-BI",
+            "Worked with ODOO framework",
+            "Worked under unix environment (ubuntu)",
+            "Migrated a project from version 14 to 15 of the ODOO framework"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+    "education": [
+      {
+        "degree": "Bachelor\u2019s degree",
+        "field": "Major in Computer Science",
+        "institution": "Higher Institute of Computer Science, Tunis, Tunisia",
+        "years": "Present"
+      }
+    ],
+    "email": "lotfijbeli.jbeli@gmail.com",
+    "experience": [
+      {
+        "company": "",
+        "duration": "Mar 2023 \u2013 Present",
+        "key_responsibilities": [
+          "Built an interactive and responsive platform for an e-commerce website using ReactJS and Sass.",
+          "Developed efficient backend functionalities including user authentication, product management, order processing, etc. using Express JS.",
+          "Integrated live chat functionality using Socket.io to enable real-time communication in order to enhance the user experience.",
+          "Created secure API endpoint for online payment using Stripe by implementing a user-friendly checkout process guiding customers through the payment steps.",
+          "Implemented a comprehensive admin dashboard providing a centralized interface for managing various aspects of the e-commerce platform including analytics and reporting features."
+        ],
+        "position": "Full Stack Web Developer"
+      },
+      {
+        "company": "",
+        "duration": "Nov 2022 \u2013 Jan 2023",
+        "key_responsibilities": [
+          "Developed a browser extension that enables users to record YouTube livestreams with ease using ReactJS.",
+          "Integrated with the YouTube API to detect and capture livestream content."
+        ],
+        "position": "Frontend Developer"
+      }
+    ],
+    "name": "Lotfi Jebali",
+    "phone": "+216 93 605 378",
+    "skills": [
+      {
+        "database": "MySQL",
+        "framework": "ReactJS",
+        "language": "JavaScript"
+      },
+      {
+        "database": "",
+        "framework": "",
+        "language": "Python"
+      },
+      {
+        "database": "",
+        "framework": "",
+        "language": "SQL"
+      },
+      {
+        "database": "",
+        "framework": "",
+        "language": "HTML5"
+      },
+      {
+        "database": "",
+        "framework": "",
+        "language": "CSS3"
+      },
+      {
+        "database": "",
+        "framework": "",
+        "language": "PHP"
+      }
+    ]
+  }

@@ -43,7 +43,7 @@ else
         
         # Check for required models
         echo "Checking for required models..."
-        MODELS=("llama3" "mistral" "phi")
+        MODELS=("llama3.2" "mistral" "qwen2.5")
         MISSING_MODELS=()
         
         for model in "${MODELS[@]}"; do

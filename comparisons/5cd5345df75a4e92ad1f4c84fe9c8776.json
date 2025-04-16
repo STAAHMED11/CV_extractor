@@ -1,0 +1,156 @@
+{
+  "file_name": "exemples_cv_pdf_livecareer_fr_4.pdf",
+  "cv_type": "image-based (OCR processed)",
+  "results": {
+    "llama3.2": {
+      "name": "Carine DUMONT",
+      "email": "dumontosmail.co@ative.com",
+      "phone": "33.678 14569",
+      "education": [
+        {
+          "degree": "Licence professionnelle commerce et distribution",
+          "field": "",
+          "institution": "Institut dadministration des entreprises, Lyon",
+          "years": "2013"
+        }
+      ],
+      "skills": [
+        "Salesforce",
+        "MS CRM - 5/5 t",
+        "DropContact.io - 4/5",
+        "Microsoft Office (Excel, Word, PowerPoint) - 4/5",
+        "Anglais: B2 t",
+        "Fran\u00e7ais",
+        "Allemand"
+      ],
+      "experience": [
+        {
+          "position": "Responsable commerciale senior",
+          "company": "Boiron",
+          "duration": "Actuet",
+          "key_responsibilities": [
+            "N\u00e9gocier les contrats",
+            "Utiliser les techniques de vente pour dynamiser les prix"
+          ]
+        },
+        {
+          "position": "Commerciale terrain",
+          "company": "Isodent, Nice",
+          "duration": "Septembre 2013 - D\u00e9cembre 2015",
+          "key_responsibilities": [
+            "G\u00e9rer un portefeuille de 23 clients",
+            "G\u00e9n\u00e9rer de nouveaux leads par d\u00e9marchage (+4% sur la cible)"
+          ]
+        }
+      ]
+    },
+    "mistral": {
+      "name": "Carine DUMONT",
+      "email": "@ ative dumontosmail.co",
+      "phone": null,
+      "education": [
+        {
+          "degree": "Licence professionnelle commerce et distribution",
+          "field": "",
+          "institution": "Institut d'administration des entreprises, Lyon",
+          "years": "2013"
+        }
+      ],
+      "skills": [
+        "N\u00e9gocier les contrats et les + Utilise les techniques m 1 prix permettant de dynamiser les vente",
+        "Animer et contrater le ventes",
+        "Connaitre la chaine",
+        "Contribuer \u00e0 la satisfaction _logistique de l'industrie",
+        "Outils informatiques : de la client\u00e8le pharmaceutique + Salesforce et MS CRM - 5/5 t * DropContact.io - 4/5 = Microsoft Office (Excel, Word, PowerPoint) - 4/5",
+        "Langues \u00e9trang\u00e8res : Allemand : B2 t"
+      ],
+      "experience": [
+        {
+          "position": "Responsable commerciale",
+          "company": "Dermagyne Laboratoire, Nice",
+          "duration": "Janvier 2016 - Actuel",
+          "key_responsibilities": [
+            "D\u00e9velopper le portefeuille commercial (828)",
+            "Superviser une \u00e9quipe de 8 commerciaux",
+            "R\u00e9pr\u00e9senter entreprise sur environ 8 satons par an",
+            "G\u00e9rer les grands comptes de 19 clients",
+            "D\u00e9finir tes listes de prix avec les responsables commerciaux des autres r\u00e9gions"
+          ]
+        },
+        {
+          "position": "Commerciale terrain",
+          "company": "Isodent, Nice",
+          "duration": "Septembre 2013 - D\u00e9cembre 2015",
+          "key_responsibilities": [
+            "* G\u00e9rer un portefeuille de 23 clients",
+            "G\u00e9n\u00e9rer de nouveaux leads par d\u00e9marchage (+4% sur la cible)"
+          ]
+        }
+      ]
+    },
+    "qwen2.5": {
+      "name": "Carine DUMONT",
+      "email": "comPeTENces@active dumontosmail.co",
+      "phone": "+33.678 14569",
+      "education": [
+        {
+          "degree": "Licence professionnelle commerce et distribution",
+          "field": "",
+          "institution": "Institut dadministration des entreprises, Lyon",
+          "years": ""
+        }
+      ],
+      "experience": [
+        {
+          "position": "Responsable commerciale senior ouverte par Boiron",
+          "company": "",
+          "duration": "Janvier 2016 - Actuel",
+          "key_responsibilities": [
+            "N\u00e9gocier les contrats et les prix permettant de dynamiser les ventes",
+            "Animer et coordonner le travail d'une \u00e9quipe de 8 commerciaux",
+            "Contribuer \u00e0 la satisfaction du travail d'une \u00e9quipe",
+            "G\u00e9rer les grands comptes de 19 clients"
+          ]
+        },
+        {
+          "position": "Responsable commerciale",
+          "company": "Dermagyne Laboratoire, Nice",
+          "duration": "Septembre 2013 - D\u00e9cembre 2015",
+          "key_responsibilities": [
+            "D\u00e9velopper le portefeuille commercial (828)",
+            "Superviser une \u00e9quipe de 8 commerciaux",
+            "Repr\u00e9senter l'entreprise sur environ 8 satons par an",
+            "G\u00e9rer les grands comptes de 19 clients",
+            "Dafinir les listes de prix avec les responsables commerciaux des autres r\u00e9gions"
+          ]
+        },
+        {
+          "position": "Commerciale terrain",
+          "company": "Isodent, Nice",
+          "duration": "",
+          "key_responsibilities": [
+            "G\u00e9rer un portefeuille de 23 clients",
+            "G\u00e9n\u00e9rer de nouveaux leads par d\u00e9marchage (+4% sur la cible)",
+            "Prendre part \u00e0 4-6 rendez-vous par semaine",
+            "Maintenir des relations excellentes avec tous les clients (taux de satisfaction de 100%)"
+          ]
+        }
+      ],
+      "skills": [
+        "N\u00e9gociation",
+        "G\u00e9n\u00e9ration de leads",
+        "Supervision d'\u00e9quipe",
+        "D\u00e9veloppement du portefeuille commercial",
+        "Repr\u00e9sentation d'entreprise",
+        "Gestion des grands comptes",
+        "Liste de prix",
+        "Techniques de vente",
+        "Salesforce et MS CRM",
+        "DropContact.io",
+        "Microsoft Office (Excel, Word, PowerPoint)",
+        "Anglais : B2",
+        "Allemand : Interm\u00e9diaire sup\u00e9rieur"
+      ]
+    }
+  }
+}

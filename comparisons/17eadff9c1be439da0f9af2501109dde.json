@@ -1,0 +1,166 @@
+{
+  "file_name": "Resume-2.pdf",
+  "cv_type": "text-based",
+  "results": {
+    "llama3.2": {
+      "name": "Lotfi Jebali",
+      "email": "lotfijbeli.jbeli@gmail.com",
+      "phone": "+216 93 605 378",
+      "education": [
+        {
+          "degree": "Bachelor\u2019s degree",
+          "field": "Major in Computer Science",
+          "institution": "Higher Institute of Computer Science, Tunis, Tunisia",
+          "years": "Present"
+        }
+      ],
+      "experience": [
+        {
+          "position": "Full Stack Web Developer",
+          "company": "",
+          "duration": "Mar 2023 \u2013 Present",
+          "key_responsibilities": [
+            "Built an interactive and responsive platform for an e-commerce website using ReactJS and Sass.",
+            "Developed efficient backend functionalities including user authentication, product management, order processing, etc. using Express JS.",
+            "Integrated live chat functionality using Socket.io to enable real-time communication in order to enhance the user experience.",
+            "Created secure API endpoint for online payment using Stripe by implementing a user-friendly checkout process guiding customers through the payment steps.",
+            "Implemented a comprehensive admin dashboard providing a centralized interface for managing various aspects of the e-commerce platform including analytics and reporting features."
+          ]
+        },
+        {
+          "position": "Frontend Developer",
+          "company": "",
+          "duration": "Nov 2022 \u2013 Jan 2023",
+          "key_responsibilities": [
+            "Developed a browser extension that enables users to record YouTube livestreams with ease using ReactJS.",
+            "Integrated with the YouTube API to detect and capture livestream content."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "language": "JavaScript",
+          "framework": "ReactJS",
+          "database": "MySQL"
+        },
+        {
+          "language": "Python",
+          "framework": "",
+          "database": ""
+        },
+        {
+          "language": "SQL",
+          "framework": "",
+          "database": ""
+        },
+        {
+          "language": "HTML5",
+          "framework": "",
+          "database": ""
+        },
+        {
+          "language": "CSS3",
+          "framework": "",
+          "database": ""
+        },
+        {
+          "language": "PHP",
+          "framework": "",
+          "database": ""
+        }
+      ]
+    },
+    "mistral": {
+      "name": "Lotfi Jebali",
+      "email": "lotfijbeli.jbeli@gmail.com",
+      "phone": "+216 93 605 378",
+      "education": [
+        {
+          "degree": "Bachelor\u2019s degree",
+          "field": "Computer Science",
+          "institution": "Higher Institute of Computer Science, Tunis, Tunisia",
+          "years": "Present"
+        }
+      ],
+      "skills": [
+        "JavaScript",
+        "Python",
+        "SQL",
+        "HTML5",
+        "CSS3",
+        "PHP",
+        "ReactJS",
+        "ExpressJS",
+        "Bootstrap",
+        "Tailwind",
+        "MaterialUI"
+      ],
+      "experience": [
+        {
+          "position": "Full Stack Web Developer",
+          "company": "Freelance, E-Commerce Platform",
+          "duration": "Mar 2023 \u2013 Present",
+          "key_responsibilities": [
+            "Built an interactive and responsive platform for an e-commerce website using ReactJS and Sass.",
+            "Developed efficient backend functionalities including user authentication, product management, order processing, etc. using Express JS.",
+            "Integrated live chat functionality using Socket.io to enable real-time communication in order to enhance the user experience.",
+            "Created secure API endpoint for online payment using Stripe by implementing a user-friendly checkout process guiding customers through the payment steps.",
+            "Implemented a comprehensive admin dashboard providing a centralized interface for managing various aspects of the e-commerce platform including analytics and reporting features."
+          ]
+        },
+        {
+          "position": "Frontend Developer",
+          "company": "Freelance, Browser Extension",
+          "duration": "Nov 2022 \u2013 Jan 2023",
+          "key_responsibilities": [
+            "Developed a browser extension that enables users to record YouTube livestreams with ease using ReactJS.",
+            "Integrated with the YouTube API to detect and capture livestream content."
+          ]
+        }
+      ]
+    },
+    "qwen2.5": {
+      "name": "Lotfi Jebali",
+      "email": "lotfijbeli.jbeli@gmail.com",
+      "phone": "+216 93 605 378",
+      "education": [
+        {
+          "degree": "Bachelor\u2019s degree",
+          "field": "Computer Science",
+          "institution": "Higher Institute of Computer Science, Tunis, Tunisia",
+          "years": "Present"
+        }
+      ],
+      "experience": [
+        {
+          "position": "Full Stack Web Developer",
+          "company": "Freelance, E-Commerce Platform",
+          "duration": "Mar 2023 \u2013 Present",
+          "key_responsibilities": [
+            "Built an interactive and responsive platform for an e-commerce website using ReactJS and Sass.",
+            "Developed efficient backend functionalities including user authentication, product management, order processing, etc. using Express JS.",
+            "Integrated live chat functionality using Socket.io to enable real-time communication in order to enhance the user experience.",
+            "Created secure API endpoint for online payment using Stripe by implementing a user-friendly checkout process guiding customers through the payment steps.",
+            "Implemented a comprehensive admin dashboard providing a centralized interface for managing various aspects of the e-commerce platform including analytics and reporting features."
+          ]
+        },
+        {
+          "position": "Frontend Developer",
+          "company": "Freelance, Browser Extension",
+          "duration": "Nov 2022 \u2013 Jan 2023",
+          "key_responsibilities": [
+            "Developed a browser extension that enables users to record YouTube livestreams with ease using ReactJS.",
+            "Integrated with the YouTube API to detect and capture livestream content."
+          ]
+        }
+      ],
+      "skills": [
+        "English: fluent (870/990 in TOEIC)",
+        "French: proficient",
+        "Arabic: Native",
+        "Programming Languages: JavaScript, Python, SQL, HTML5, CSS3, PHP",
+        "Web Development Frameworks: ReactJS, ExpressJS, Bootstrap, Tailwind, MaterialUI"
+      ]
+    }
+  }
+}
