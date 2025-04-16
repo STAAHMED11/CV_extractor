@@ -1,5 +1,34 @@
 import requests
 import json
+import json
+import re
+
+def extract_json(response):
+    try:
+        # Try to find the JSON part in the response using a regex
+        json_match = re.search(r"\{.*\}", response, re.DOTALL)
+        if json_match:
+            json_str = json_match.group(0)
+
+            # Optional: Clean unusual characters if needed
+            json_str = json_str.replace('\u2013', '-')  # replace en-dash
+            json_str = json_str.replace('\ufb02', 'fl') # replace ligature
+            # Add more replacements as needed
+
+            # Try to parse
+            data = json.loads(json_str)
+            return data
+        else:
+            # fallback attempt to parse entire response
+            return json.loads(response)
+
+    except json.JSONDecodeError as e:
+        # Final fallback: return raw but acknowledge it's not valid JSON
+        return {
+            "error": "Failed to cleanly parse as JSON, but partial structure was detected.",
+            "exception": str(e),
+            "raw_response": response
+        }
 
 class OllamaClient:
     def __init__(self, base_url="http://localhost:11434"):
@@ -74,7 +103,7 @@ class OllamaClient:
         
         try:
             response = self.generate(model, prompt, system_prompt)
-            
+            extract_json(response)
             # Try to parse the response as JSON
             try:
                 # Find JSON content if it's embedded in explanatory text

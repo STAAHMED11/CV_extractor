@@ -1,0 +1,56 @@
+{
+    "education": [
+      {
+        "degree": "I T Engineer Ing Student",
+        "field": "Computer Science",
+        "institution": "Higher School Of Communications Tunis - Sup\u0027Com",
+        "years": "Sep 2021 - Present"
+      },
+      {
+        "degree": "Bacalaureat Diplomat - Bac Math",
+        "field": "Mathematics",
+        "institution": "Preparatory Institute For Engineering Studies of Tunis - Ipeit",
+        "years": "Sep 2019 - Aug 2021"
+      }
+    ],
+    "email": "arafet.benkilani@supcom.tn",
+    "experience": [
+      {
+        "company": "NstGroup",
+        "duration": "5 weeks - 2022",
+        "key_responsibilities": [
+          "Developed a small application TimeSheet for tracking tasks done by employees in a company using expressjs \u0026 postgresql"
+        ],
+        "position": "Summer Intern"
+      }
+    ],
+    "name": "Arafet Kilani",
+    "phone": "+21620714894",
+    "skills": [
+      "Javascript",
+      "Go",
+      "Python",
+      "Rest",
+      "Graphql",
+      "gRPC",
+      "Go",
+      "Microservices",
+      "Docker",
+      "Kubernetes",
+      "Gitlab",
+      "Terraform",
+      "ELK stack",
+      "Git",
+      "Nexus",
+      "Linux",
+      "Networking",
+      "IP Adressing \u0026 Subnetting",
+      "Aws",
+      "Postgresql",
+      "MongoDB",
+      "DynamoDB",
+      "Go-chi router",
+      "Sql Migrations",
+      "Error Handling"
+    ]
+  }

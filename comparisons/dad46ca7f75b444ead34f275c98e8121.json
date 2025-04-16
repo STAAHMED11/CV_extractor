@@ -1,0 +1,157 @@
+{
+  "file_name": "My resume-5.pdf",
+  "cv_type": "text-based",
+  "results": {
+    "llama3.2": {
+      "name": "AHMED KOUKI",
+      "email": "koukiahmed23@gmail.com",
+      "phone": "+216 25 542 649",
+      "education": [
+        {
+          "degree": "License degree",
+          "field": "software engineering and information systems",
+          "institution": "Central University",
+          "years": "2020 - 2023"
+        },
+        {
+          "degree": "Baccalaureate",
+          "field": "computer science",
+          "institution": "High School Menzah 6",
+          "years": "2020"
+        }
+      ],
+      "skills": [
+        "HTML / CSS / JAVASCRIPT",
+        "ANGULAR",
+        "JAVA",
+        "NODE JS / EXPRESS JS",
+        "SQL / MYSQL",
+        "TYPESCRIPT",
+        "GIT / GITHUB",
+        "POSTMAN",
+        "BOOTSTRAP",
+        "TESTING / JEST"
+      ],
+      "experience": [
+        {
+          "position": "Co-founder and CNO",
+          "company": "Takwira",
+          "duration": "2021",
+          "key_responsibilities": []
+        },
+        {
+          "position": "Intern",
+          "company": "STAR ASSURANCES",
+          "duration": "2022",
+          "key_responsibilities": [
+            "Creation of a web app for filtering users and distributing a message to their phone numbers ( Angular, Node js / Express js, Mysql )."
+          ]
+        }
+      ]
+    },
+    "mistral": {
+      "name": "AHMED KOUKI",
+      "email": "koukiahmed23@gmail.com",
+      "phone": "+216 25 542 649",
+      "education": [
+        {
+          "degree": "License degree",
+          "field": "software engineering, and information systems",
+          "institution": "Central University",
+          "years": "2020 - 2023"
+        }
+      ],
+      "skills": [
+        "HTML / CSS / JAVASCRIPT",
+        "ANGULAR",
+        "JAVA",
+        "NODE JS / EXPRESS JS",
+        "SQL / MYSQL",
+        "TYPESCRIPT",
+        "GIT / GITHUB",
+        "POSTMAN",
+        "BOOTSTRAP",
+        "TESTING / JEST",
+        "Data structures and algorithms",
+        "Problem Solving",
+        "Critical Thinking",
+        "Communication",
+        "Modeling / Design UML",
+        "Agile / scrum"
+      ],
+      "experience": [
+        {
+          "position": "Co-founder and CNO",
+          "company": "Takwira",
+          "duration": "2021",
+          "key_responsibilities": [
+            "Creation of a mobile app that helps players join and organize football games."
+          ]
+        },
+        {
+          "position": "Web Developer",
+          "company": "STAR ASSURANCES",
+          "duration": "Internship 2022",
+          "key_responsibilities": [
+            "Creation of a web app for filtering users and distributing a message to their phone numbers ( Angular, Node js / Express js, Mysql )"
+          ]
+        }
+      ]
+    },
+    "qwen2.5": {
+      "name": "AHMED KOUKI",
+      "email": "koukiahmed23@gmail.com",
+      "phone": "+216 25 542 649",
+      "education": [
+        {
+          "degree": "License degree",
+          "field": "software engineering, and information systems",
+          "institution": "Central University",
+          "years": "2020 - 2023"
+        },
+        {
+          "degree": "Baccalaureate",
+          "field": "computer science",
+          "institution": "High School Menzah 6",
+          "years": "2020"
+        }
+      ],
+      "experience": [
+        {
+          "position": "Co-founder and CNO",
+          "company": "Takwira",
+          "duration": "2021",
+          "key_responsibilities": [
+            "Creation of a mobile app that helps players join and organize football games."
+          ]
+        },
+        {
+          "position": "Web Developer",
+          "company": "STAR ASSURANCES",
+          "duration": "2022",
+          "key_responsibilities": [
+            "Creation of a web app for filtering users and distributing a message to their phone numbers ( Angular, Node js / Express js, Mysql )."
+          ]
+        }
+      ],
+      "skills": [
+        "HTML / CSS / JAVASCRIPT",
+        "ANGULAR",
+        "JAVA",
+        "NODE JS / EXPRESS JS",
+        "SQL / MYSQL",
+        "TYPESCRIPT",
+        "GIT / GITHUB",
+        "POSTMAN",
+        "BOOTSTRAP",
+        "TESTING / JEST",
+        "Data structures and algorithms",
+        "Problem Solving",
+        "Critical Thinking",
+        "Communication",
+        "Modeling / Design UML",
+        "Agile / scrum"
+      ]
+    }
+  }
+}

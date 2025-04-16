@@ -1,0 +1,185 @@
+{
+  "file_name": "My resume-1.pdf",
+  "cv_type": "text-based",
+  "results": {
+    "llama3.2": {
+      "name": "Arafet Benkilani",
+      "email": "arafet.benkilani@supcom.tn",
+      "phone": "+21620714894",
+      "education": [
+        {
+          "degree": "",
+          "field": "Engineering Studies",
+          "institution": "Higher School Of Communications Tunis - Sup'Com",
+          "years": "SEP 2021 - PRESENT"
+        },
+        {
+          "degree": "",
+          "field": "Engineering Studies",
+          "institution": "Preparatory Institute For Engineering Studies of Tunis - Ipeit",
+          "years": "SEP 2019 - AUGUST 2021"
+        }
+      ],
+      "skills": [
+        "Go Net/http",
+        "nginx",
+        "Expressjs",
+        "Docker",
+        "Kubernetes",
+        "Gitlab",
+        "Terraform",
+        "ELK stack",
+        "Git",
+        "Nexus",
+        "Linux",
+        "IP Adressing & Subnetting",
+        "Cloud Provider - Aws",
+        "Postgresql",
+        "MongoDB",
+        "DynamoDB"
+      ],
+      "experience": [
+        {
+          "position": "",
+          "company": "Higher School Of Communications Tunis - Sup'Com",
+          "duration": "SEP 2021 - PRESENT",
+          "key_responsibilities": []
+        },
+        {
+          "position": "Summer Intern",
+          "company": "NstGroup",
+          "duration": "5 weeks - 2022",
+          "key_responsibilities": [
+            "Developed a small application TimeSheet for tracking tasks done by employees in a company using expressjs & postgresql"
+          ]
+        }
+      ]
+    },
+    "mistral": {
+      "name": "Arafet Kilani",
+      "email": "arafet.benkilani@supcom.tn",
+      "phone": "+21620714894",
+      "education": [
+        {
+          "degree": "I T Engineer Ing Student",
+          "field": "Computer Science",
+          "institution": "Higher School Of Communications Tunis - Sup'Com",
+          "years": "Sep 2021 - Present"
+        },
+        {
+          "degree": "Bacalaureat Diplomat - Bac Math",
+          "field": "Mathematics",
+          "institution": "Preparatory Institute For Engineering Studies of Tunis - Ipeit",
+          "years": "Sep 2019 - Aug 2021"
+        }
+      ],
+      "skills": [
+        "Javascript",
+        "Go",
+        "Python",
+        "Rest",
+        "Graphql",
+        "gRPC",
+        "Go",
+        "Microservices",
+        "Docker",
+        "Kubernetes",
+        "Gitlab",
+        "Terraform",
+        "ELK stack",
+        "Git",
+        "Nexus",
+        "Linux",
+        "Networking",
+        "IP Adressing & Subnetting",
+        "Aws",
+        "Postgresql",
+        "MongoDB",
+        "DynamoDB",
+        "Go-chi router",
+        "Sql Migrations",
+        "Error Handling"
+      ],
+      "experience": [
+        {
+          "position": "Summer Intern",
+          "company": "NstGroup",
+          "duration": "5 weeks - 2022",
+          "key_responsibilities": [
+            "Developed a small application TimeSheet for tracking tasks done by employees in a company using expressjs & postgresql"
+          ]
+        }
+      ]
+    },
+    "qwen2.5": {
+      "name": "Arafet Kilani",
+      "email": "arafet.benkilani@supcom.tn",
+      "phone": "+21620714894",
+      "education": [
+        {
+          "degree": "IT Engineering Student",
+          "field": "",
+          "institution": "Higher School Of Communications Tunis - Sup'Com",
+          "years": "SEP 2021 - PRESENT"
+        },
+        {
+          "degree": "Preparatory Institute For Engineering Studies of Tunis - Ipeit",
+          "field": "",
+          "institution": "Preparatory Institute For Engineering Studies of Tunis - Ipeit",
+          "years": "SEP 2019 - AUGUST 2021"
+        },
+        {
+          "degree": "Bacalaureat Diplomat - Bac Math",
+          "field": "",
+          "institution": "",
+          "years": "Year of graduation : 2019"
+        }
+      ],
+      "experience": [
+        {
+          "position": "Summer Internship: NstGroup",
+          "company": "",
+          "duration": "5 weeks - 2022",
+          "key_responsibilities": [
+            "Developed a small application TimeSheet for tracking tasks done by employees in a company using expressjs & postgresql"
+          ]
+        }
+      ],
+      "skills": [
+        "Javascript",
+        "Go",
+        "Python",
+        "P2M: Web technologies benchmarking",
+        "Rest",
+        "Graphql",
+        "gRPC",
+        "Microservices",
+        "AWS Cloud Practitioner",
+        "LPIC 101 - Linux Professional Institute",
+        "English (Proficient)",
+        "TOEIC (965/990)",
+        "Arabic (Native)",
+        "AWS Application Architecture",
+        "EKS",
+        "Route53",
+        "ALB",
+        "CloudFront",
+        "ASG",
+        "RDS",
+        "S3",
+        "IAM Roles",
+        "WAF",
+        "ElasticCache",
+        "Ec2",
+        "Go-chi router",
+        "Postgresql",
+        "docker-compose",
+        "go-json",
+        "Sql Migrations",
+        "Error Handling",
+        "Git",
+        "Auth"
+      ]
+    }
+  }
+}
