@@ -83,38 +83,45 @@
             </div>
         </div>
     </div>
-    
-    <!-- Field-level Comparison -->
-    <div class="card mb-4">
-        <div class="card-header">
-            <h5 class="mb-0">Field-level Performance</h5>
-        </div>
-        <div class="card-body">
-            <table class="table table-bordered model-comparison-table">
-                <thead>
+   <!-- Field-level Comparison -->
+<div class="card mb-4">
+    <div class="card-header">
+        <h5 class="mb-0">Field-level Performance</h5>
+    </div>
+    <div class="card-body">
+        <table class="table table-bordered model-comparison-table">
+            <thead>
+                <tr>
+                    <th>Field</th>
+                    {% for model in metrics.models %}
+                        <th>{{ model }}</th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                {% for field in ['name', 'email', 'phone', 'education', 'skills', 'experience'] %}
+                    {% set max_field_f1 = namespace(value=0) %}
+                    {% for model in metrics.models %}
+                        {% set f1 = metrics.summary[model].field_metrics[field].f1_score %}
+                        {% if f1 > max_field_f1.value %}
+                            {% set max_field_f1.value = f1 %}
+                        {% endif %}
+                    {% endfor %}
+                    
                     <tr>
-                        <th>Field</th>
+                        <td><strong>{{ field|capitalize }}</strong></td>
                         {% for model in metrics.models %}
-                            <th>{{ model }}</th>
+                            {% set f1_score = metrics.summary[model].field_metrics[field].f1_score %}
+                            <td class="{% if f1_score == max_field_f1.value %}best-score{% endif %}">
+                                {{ "%.2f"|format(f1_score * 100) }}%
+                            </td>
                         {% endfor %}
                     </tr>
-                </thead>
-                <tbody>
-                    {% for field in ['name', 'email', 'phone', 'education', 'skills', 'experience'] %}
-                        <tr>
-                            <td><strong>{{ field|capitalize }}</strong></td>
-                            {% for model in metrics.models %}
-                                {% set f1_score = metrics.summary[model].field_metrics[field].f1_score %}
-                                <td class="{% if f1_score == metrics.summary|map(attribute=('field_metrics', field, 'f1_score'))|max %}best-score{% endif %}">
-                                    {{ "%.2f"|format(f1_score * 100) }}%
-                                </td>
-                            {% endfor %}
-                        </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
-        </div>
+                {% endfor %}
+            </tbody>
+        </table>
     </div>
+</div>
     
     <!-- Precision vs Recall -->
     <div class="card mb-4">

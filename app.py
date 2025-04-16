@@ -22,7 +22,7 @@ ocr_processor = OCRProcessor()
 ollama_client = OllamaClient()
 
 ALLOWED_EXTENSIONS = {'pdf','png','jpg','JPEG','jpeg'}
-MODELS = ['llama3.2', 'gemma3:1b', 'phi3']
+MODELS = ['llama3.2', 'mistral', 'phi3']
 
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
@@ -187,3 +187,5 @@ def evaluate():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+    

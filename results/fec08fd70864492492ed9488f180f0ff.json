@@ -1,9 +1,0 @@
-{
-  "file_name": "393969.pdf",
-  "cv_type": "text-based",
-  "model_used": "mistral",
-  "extracted_data": {
-    "error": "Error during extraction: Error communicating with Ollama: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
-    "raw_response": ""
-  }
-}

@@ -1,0 +1,209 @@
+{
+  "file_name": "393969.pdf",
+  "cv_type": "text-based",
+  "results": {
+    "llama3.2": {
+      "name": "Aya Mehrzi",
+      "email": "mhraya4@gmail.com,mehrzieya@gmail.com",
+      "phone": "+(216)52254558",
+      "education": [
+        {
+          "degree": "dipl\u00f4m\u00e9es",
+          "field": "\u00e9conomie et finance internationale",
+          "institution": "facult\u00e9 de sciences \u00e9conomique et gestion de Tunis",
+          "years": "2013-2014"
+        },
+        {
+          "degree": "",
+          "field": "\u00e9conomie et finance internationale",
+          "institution": "FSEGT",
+          "years": "2012-2013"
+        },
+        {
+          "degree": "",
+          "field": "sciences et \u00e9conomie et finance internationale",
+          "institution": "FSEGT",
+          "years": "2011-2012"
+        },
+        {
+          "degree": "obtention du dipl\u00f4me national du baccalaur\u00e9at",
+          "field": "sciences exp\u00e9rimentales",
+          "institution": "",
+          "years": "2010-2011"
+        }
+      ],
+      "skills": [
+        {
+          "skill_name": ""
+        },
+        {
+          "skill_name": ""
+        },
+        {
+          "skill_name": "Microsoft Word, Excel, Powerpoint, Access"
+        },
+        {
+          "skill_name": "Logiciel Aquarelle pour la gestion bancaire"
+        },
+        {
+          "skill_name": "Logiciel comptable SAGE"
+        }
+      ],
+      "experience": [
+        {
+          "position": "",
+          "company": "",
+          "duration": "",
+          "key_responsibilities": []
+        },
+        {
+          "position": "",
+          "company": "UBI",
+          "duration": "juin-juillet 2016",
+          "key_responsibilities": []
+        },
+        {
+          "position": "",
+          "company": "bureau d\u2019expert comptable",
+          "duration": "septembre-octobre 2016",
+          "key_responsibilities": []
+        }
+      ]
+    },
+    "mistral": {
+      "name": "Aya Mehrzi",
+      "email": [
+        "mhraya4@gmail.com",
+        "mehrzieya@gmail.com"
+      ],
+      "phone": "+(216)52254558",
+      "education": [
+        {
+          "degree": "dipl\u00f4m\u00e9e en \u00e9conomie et finance internationale",
+          "field": "Economics and Finance",
+          "institution": "Facult\u00e9 de sciences \u00e9conomique et gestion de Tunis",
+          "years": "2013 - 2014"
+        },
+        {
+          "degree": "2e ann\u00e9e en \u00e9conomie et finance internationale",
+          "field": "Economics and Finance",
+          "institution": "Facult\u00e9 de sciences \u00e9conomique et gestion de Tunis",
+          "years": "2012 - 2013"
+        },
+        {
+          "degree": "1\u00e8re ann\u00e9e d\u2019\u00e9tude en sciences et \u00e9conomie et finance internationale",
+          "field": "Economics and Finance",
+          "institution": "Facult\u00e9 de sciences \u00e9conomique et gestion de Tunis",
+          "years": "2011 - 2012"
+        },
+        {
+          "degree": "obtentions du dipl\u00f4me national du baccalaur\u00e9at avec la mention assez bien en sciences exp\u00e9rimentales",
+          "field": "General Sciences",
+          "institution": null,
+          "years": "2010 - 2011"
+        }
+      ],
+      "skills": [
+        "Langue fran\u00e7aise et l\u2019Anglais",
+        "Microsoft Word, Excel, Powerpoint, Access",
+        "Logiciel Aquarelle pour la gestion bancaire",
+        "Logiciel comptable SAGE"
+      ],
+      "experience": [
+        {
+          "position": null,
+          "company": "Bureau de l\u2019emploi et de travail ind\u00e9pendant",
+          "duration": "Ao\u00fbt 2012",
+          "key_responsibilities": []
+        },
+        {
+          "position": null,
+          "company": "Si\u00e8ge de la banque UIB",
+          "duration": "Juin-juillet 2016",
+          "key_responsibilities": []
+        },
+        {
+          "position": null,
+          "company": "Bureau d\u2019expert comptable",
+          "duration": "Septembre \u2013octobre 2016",
+          "key_responsibilities": []
+        }
+      ]
+    },
+    "phi3": {
+      "name": "Aya Mehrzi",
+      "email": [
+        "mhraya4@gmail.com",
+        "mehrzieya@gmail.com"
+      ],
+      "phone": "(216)52254558",
+      "education": [
+        {
+          "degree": "dipl\u00f4m\u00e9e en \u00e9conomie et finance internationale",
+          "field": "",
+          "institution": "Facult\u00e9 de sciences \u00e9conomique et gestion de Tunis (FASEGT)",
+          "years": "2013 - 2014"
+        },
+        {
+          "degree": "2\u00e8me ann\u00e9e",
+          "field": "",
+          "institution": "Facult\u00e9 de sciences \u00e9conomique et gestion de Tunis (FASEGT)",
+          "years": "2012 - 2013"
+        },
+        {
+          "degree": "1\u00e8re ann\u00e9e",
+          "field": "",
+          "institution": "Facult\u00e9 de sciences \u00e9conomique et gestion de Tunis (FASEGT)",
+          "years": "2011 - 2term\u00e9nie"
+        },
+        {
+          "degree": "dipl\u00f4me national du baccalaur\u00e9at",
+          "field": "",
+          "institution": null,
+          "years": "2010 - 2011"
+        }
+      ],
+      "experience": [
+        {
+          "position": "stage",
+          "company": "bureau de l\u2019emploi et de travail ind\u00e9pendant",
+          "duration": "ao\u00fbt 2012",
+          "key_responsibilities": []
+        },
+        {
+          "position": "stage",
+          "company": "UIB (Union d'industries bancaires)",
+          "duration": "juin - juillet 2016",
+          "key_responsibilities": []
+        },
+        {
+          "position": "stage",
+          "company": "bureau d\u2019expert comptable",
+          "duration": "septembre \u2013 octobre 2016",
+          "key_responsibilities": []
+        }
+      ],
+      "skills": [
+        "parfait maitre de la langue fran\u00e7aise et anglaise (lu, \u00e9crit et parl\u00e9)",
+        "comp\u00e9tences bureautique: Microsoft Word, Excel, Powerpoint, Access",
+        "logiciel Aquarelle pour la gestion bancaire.",
+        {
+          "language": "Arabe",
+          "proficiency": "maternelle (lu, \u00e9crit et parl\u00e9)"
+        },
+        {
+          "language": "Fran\u00e7ais",
+          "proficiency": "courant (lu, \u00e9crit et parl\u00e9)"
+        },
+        {
+          "language": "Anglais",
+          "proficiency": "courant (lu, \u00e9crit et parl\u00e9)"
+        },
+        {
+          "language": "Allemand",
+          "proficiency": "connaissance de lyc\u00e9e"
+        }
+      ]
+    }
+  }
+}

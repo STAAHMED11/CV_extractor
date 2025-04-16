@@ -158,7 +158,7 @@ def calculate_metrics():
             "metrics": {}
         }
     
-    models = ["llama3.2", "gemma3:1b", "phi3"]
+    models = ["llama3.2", "mistral", "phi3"]
     all_metrics = {model: {} for model in models}
     
     # List all ground truth files

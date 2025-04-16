@@ -60,7 +60,7 @@ class OllamaClient:
     },
   
   ],
-  "skills": []}
+  "skills": [skill1,skill2 .....]}
         Return ONLY valid JSON with these fields and no additional explanation or text.
         """
         
