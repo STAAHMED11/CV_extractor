@@ -1,0 +1,57 @@
+{
+  "file_name": "Chiheb Saidi Resume_page-0001.pdf",
+  "cv_type": "image-based (OCR processed)",
+  "model_used": "llama3.2",
+  "extracted_data": {
+    "name": "Chi Heboos Saidi",
+    "email": "chiheb-eddine-saidi-540273133@gmail.com",
+    "phone": "+92.630 257",
+    "education": [
+      {
+        "degree": "",
+        "field": "Computer Science",
+        "institution": "National School of National Computer Science Engineering",
+        "years": ""
+      },
+      {
+        "degree": "",
+        "field": "",
+        "institution": "Higher School of National Entrance Exam for Engineering Studies",
+        "years": "Science andTechnology MP Examination: Rank 108/1171"
+      },
+      {
+        "degree": "Diploma",
+        "field": "University Undergraduate studies: Maths-Physics",
+        "institution": "Hammam Sousse",
+        "years": "2017-2020"
+      }
+    ],
+    "skills": [
+      "Python",
+      "C/C++",
+      "UML",
+      "MERN Stack",
+      "BI",
+      "Arduino",
+      "Scala",
+      "Unix",
+      "Cybersecrity",
+      "Leadership",
+      "Adaptability"
+    ],
+    "experience": [
+      {
+        "position": "Back-end Engineer Summer Intern",
+        "company": "Cognira",
+        "duration": "July-2022 | September-2022",
+        "key_responsibilities": []
+      },
+      {
+        "position": "Customer Care Service",
+        "company": "",
+        "duration": "Freelance | June-2016 | September-2021",
+        "key_responsibilities": []
+      }
+    ]
+  }
+}

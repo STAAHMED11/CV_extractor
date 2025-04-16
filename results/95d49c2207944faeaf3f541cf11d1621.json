@@ -1,4 +1,11 @@
 {
+  "file_name": "Resume-2.pdf",
+  "cv_type": "text-based",
+  "model_used": "llama3.2",
+  "extracted_data": {
+    "name": "Lotfi Jebali",
+    "email": "lotfijbeli.jbeli@gmail.com",
+    "phone": "+216 93 605 378",
     "education": [
       {
         "degree": "Bachelor\u2019s degree",
@@ -7,9 +14,9 @@
         "years": "Present"
       }
     ],
-    "email": "lotfijbeli.jbeli@gmail.com",
     "experience": [
       {
+        "position": "Full Stack Web Developer",
         "company": "",
         "duration": "Mar 2023 - Present",
         "key_responsibilities": [
@@ -18,21 +25,18 @@
           "Integrated live chat functionality using Socket.io to enable real-time communication in order to enhance the user experience.",
           "Created secure API endpoint for online payment using Stripe by implementing a user-friendly checkout process guiding customers through the payment steps.",
           "Implemented a comprehensive admin dashboard providing a centralized interface for managing various aspects of the e-commerce platform including analytics and reporting features."
-        ],
-        "position": "Full Stack Web Developer"
+        ]
       },
       {
+        "position": "Frontend Developer",
         "company": "",
         "duration": "Nov 2022 - Jan 2023",
         "key_responsibilities": [
           "Developed a browser extension that enables users to record YouTube livestreams with ease using ReactJS.",
           "Integrated with the YouTube API to detect and capture livestream content."
-        ],
-        "position": "Frontend Developer"
+        ]
       }
     ],
-    "name": "Lotfi Jebali",
-    "phone": "+216 93 605 378",
     "skills": [
       "JavaScript",
       "Python",
@@ -47,3 +51,4 @@
       "MaterialUI"
     ]
   }
+}

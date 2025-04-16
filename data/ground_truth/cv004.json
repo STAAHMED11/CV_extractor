@@ -1,0 +1,66 @@
+{
+    "name": "Ahmed Kouki",
+    "email": "koukiahmed23@gmail.com",
+    "phone": "+216 25 542 649",
+    "education": [
+      {
+        "degree": "License degree",
+        "field": "software engineering, and information systems",
+        "institution": "Central University",
+        "years": "2020-2023"
+      },
+      {
+        "degree": "Baccalaureate",
+        "field": "computer science",
+        "institution": "High School Menzah 6",
+        "years": "2020"
+      }
+    ],
+    "experience": [
+      {
+        "position": "Co-founder and CNO",
+        "company": "Takwira",
+        "duration": "2021",
+        "key_responsibilities": [
+          "Creation of a mobile app that helps players join and organize football games"
+        ]
+      },
+      {
+        "position": "Web Developer Intern",
+        "company": "STAR ASSURANCES",
+        "duration": "2022",
+        "key_responsibilities": [
+          "Creation of a web app for filtering users and distributing a message to their phone numbers (Angular, Node js / Express js, Mysql)"
+        ]
+      }
+    ],
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Angular",
+      "Java",
+      "Node.js",
+      "Express.js",
+      "SQL",
+      "MySQL",
+      "TypeScript",
+      "Git",
+      "GitHub",
+      "Postman",
+      "Bootstrap",
+      "Testing",
+      "Jest",
+      "Data structures and algorithms",
+      "Problem Solving",
+      "Critical Thinking",
+      "Communication",
+      "UML Modeling",
+      "Agile",
+      "Scrum",
+      "English",
+      "French",
+      "Python",
+      "Golang"
+    ]
+   }

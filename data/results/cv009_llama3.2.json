@@ -1,0 +1,54 @@
+{
+    "education": [
+      {
+        "degree": "Baccalaur\u00e9at section Technique",
+        "field": "Web",
+        "institution": "lyc\u00e9e Ibni Abi Dhief Manouba",
+        "years": ""
+      },
+      {
+        "degree": "",
+        "field": "",
+        "institution": "Ecole Nationale des Sciences Informatiques (ENSI)",
+        "years": ""
+      }
+    ],
+    "email": "adam.chelliy@ensi-uma.tn",
+    "experience": [
+      {
+        "company": "RoyalClub",
+        "duration": "2023 F\u00e9vrier-\u003eMai",
+        "key_responsibilities": [
+          "Conception et d\u00e9veloppement d\u0027une Site de cours de Management.",
+          "d\u00e9veloppement d\u0027un jeu s\u00e9rieux :PianoGame",
+          "Site de Salle de sport de Management"
+        ],
+        "position": ""
+      },
+      {
+        "company": "",
+        "duration": "2022 Janvier-\u003e mars",
+        "key_responsibilities": [
+          "Conception et d\u00e9veloppement d\u0027une Site de cours de Management."
+        ],
+        "position": ""
+      },
+      {
+        "company": "",
+        "duration": "2022 October",
+        "key_responsibilities": [
+          "d\u00e9veloppement  d\u0027un jeu s\u00e9rieux :PianoGame"
+        ],
+        "position": ""
+      }
+    ],
+    "name": "Chelli Adem",
+    "phone": "23502179",
+    "skills": [
+      "Mod\u00e9lisation : UML",
+      "Frontend : Angular, Bootstrap",
+      "Base de donn\u00e9: sql/plsql , mysql",
+      "Backend : Springboot",
+      "languages de programation : Java,C++, C,Python, Php, Js"
+    ]
+  }

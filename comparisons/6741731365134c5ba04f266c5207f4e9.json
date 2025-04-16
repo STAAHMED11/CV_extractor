@@ -1,0 +1,159 @@
+{
+  "file_name": "Emna Sellami - Resume.pdf",
+  "cv_type": "text-based",
+  "results": {
+    "llama3.2": {
+      "name": "Emna Sellami",
+      "email": "emna.sellami@ensi-uma.tn",
+      "phone": "522129",
+      "education": [
+        {
+          "degree": "Baccalaureate in Mathmatics",
+          "field": "Computer Science engineering",
+          "institution": "ENSI - Mannouba",
+          "years": "September 2021 - Present"
+        },
+        {
+          "degree": "Preparatory Studies in Mathmatics and Physics",
+          "field": "",
+          "institution": "Abou Kacem Chebbi high school - Sfax",
+          "years": "June 2019"
+        },
+        {
+          "degree": "Preparatory Studies in Mathmatics and Physics",
+          "field": "",
+          "institution": "Preparatory School of Engineering - Sfax",
+          "years": "September 2019 - July 2021"
+        }
+      ],
+      "skills": [
+        "Programming languages: Python, JAVA, JavaScript, C++, Dart",
+        "DataBases: SQL, MongoDB",
+        "Web development",
+        "Mobile development",
+        "HTML, CSS, JavaScript, React",
+        "Flutter, Android"
+      ],
+      "experience": [
+        {
+          "position": "Summer Intership",
+          "company": "Procan | engineering",
+          "duration": "June 2022 - July 2022",
+          "key_responsibilities": [
+            "Developing a platform designed for lawyers to help them manage their clients and cases."
+          ]
+        }
+      ]
+    },
+    "mistral": {
+      "name": "Emna Sellami",
+      "email": "emna.sellami@ensi-uma.tn",
+      "phone": "28 522 129",
+      "education": [
+        {
+          "degree": "Computer Science Engineering Student",
+          "field": "Computer Science",
+          "institution": "ENSI - Mannouba",
+          "years": "Present"
+        },
+        {
+          "degree": "Baccalaureate in Mathmatics",
+          "field": "Mathematics",
+          "institution": "Abou Kacem Chebbi high school - Sfax",
+          "years": "June 2019"
+        },
+        {
+          "degree": "Preparatory Studies in Mathmatics and Physics",
+          "field": "Mathematics and Physics",
+          "institution": "Preparatory School of Engineering - Sfax",
+          "years": "September 2019 - July 2021"
+        }
+      ],
+      "skills": [
+        "Python",
+        "JAVA",
+        "JavaScript",
+        "C++",
+        "Dart",
+        "SQL",
+        "MongoDB",
+        "HTML",
+        "CSS",
+        "React",
+        "Flutter",
+        "Android",
+        "Arabic",
+        "English",
+        "French",
+        "German"
+      ],
+      "experience": [
+        {
+          "position": "Summer Intern",
+          "company": "Procan | engineering",
+          "duration": "June 2022 - July 2022",
+          "key_responsibilities": [
+            "Developing a platform designed for lawyers to help them manage their clients and cases.",
+            "Key words: ReactJs, NodeJs, MongoDB"
+          ]
+        }
+      ]
+    },
+    "qwen2.5": {
+      "name": "Emna Sellami",
+      "email": "emna.sellami@ensi-uma.tn",
+      "phone": "28 522 129",
+      "education": [
+        {
+          "degree": "Computer Science engineering student",
+          "field": "Computer Science",
+          "institution": "ENSI - Mannouba",
+          "years": "September 2021 - Present"
+        },
+        {
+          "degree": "Baccalaureate in Mathematics",
+          "field": "Mathematics",
+          "institution": "Abou Kacem Chebbi high school - Sfax",
+          "years": "June 2019"
+        },
+        {
+          "degree": "Preparatory Studies in Mathematics and Physics",
+          "field": "Mathematics and Physics",
+          "institution": "Preparatory School of Engineering - Sfax",
+          "years": "September 2019 - July 2021"
+        }
+      ],
+      "skills": [
+        "Python",
+        "JAVA",
+        "JavaScript",
+        "C++",
+        "Dart",
+        "SQL",
+        "MongoDB",
+        "Web development",
+        "Mobile development",
+        "HTML",
+        "CSS",
+        "React",
+        "Flutter",
+        "Android",
+        "Deep Learning",
+        "Computer Vision",
+        "TensorFlow",
+        "Flask",
+        "Keras"
+      ],
+      "experience": [
+        {
+          "position": "Summer internship",
+          "company": "Procan | engineering",
+          "duration": "June 2022 - July 2022",
+          "key_responsibilities": [
+            "Developing a platform designed for lawyers to help them manage their clients and cases."
+          ]
+        }
+      ]
+    }
+  }
+}

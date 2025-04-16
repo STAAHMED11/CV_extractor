@@ -1,0 +1,46 @@
+{
+    "education": [
+      {
+        "degree": "Computer science engineering student",
+        "field": "Computer Science Engineering",
+        "institution": "ENSI-National School Of Computer Science",
+        "years": "2021 - 2024"
+      },
+      {
+        "degree": "Preparatory cycle for engineering studie - MP",
+        "field": "",
+        "institution": "Faculty of sciences of Sfax",
+        "years": "2019 - 2021"
+      },
+      {
+        "degree": "Baccalaureate Math",
+        "field": "",
+        "institution": "Hedi Chaker high School, Sfax",
+        "years": "2019"
+      }
+    ],
+    "email": "mahmoud.khemakhem@ensi-uma.tn",
+    "experience": [
+      {
+        "company": "IEEE IAS ENSI CHAPTER",
+        "duration": "",
+        "key_responsibilities": [],
+        "position": "Community Manager"
+      },
+      {
+        "company": "Co\u0027Art ensi",
+        "duration": "",
+        "key_responsibilities": [],
+        "position": "Community Manager"
+      }
+    ],
+    "name": "Mahmoud Khemakhem",
+    "phone": "54 157 100",
+    "skills": [
+      "Programming Languages (C,C++,C#,Java,Python,)",
+      "Software development tools (Visual Studio Code,Eclipse)",
+      "Web development Languages (HTML,CSS,React,NodeJS,JavaScript)",
+      "Data Base (MongoDB,SQL)",
+      "Version Control and Collaboration (Git , GitHub)"
+    ]
+  }

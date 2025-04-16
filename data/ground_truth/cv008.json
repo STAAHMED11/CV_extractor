@@ -1,0 +1,59 @@
+{
+    "name": "Mohammed Khayri Allala",
+    "email": "mohamedkhayri.allala@ensiuma.tn",
+    "phone": "54192964",
+    "education": [
+      {
+        "degree": "Computer Science",
+        "field": "Computer Science",
+        "institution": "National School of Computer Science (ENSI), Manouba",
+        "years": "2021 - Present"
+      },
+      {
+        "degree": "Engineering Studies Preparatory",
+        "field": "Engineering",
+        "institution": "Monastir Preparatory Engineering Institute (IPEIM), Monastir",
+        "years": "2019 - 2021"
+      },
+      {
+        "degree": "Baccalaureate",
+        "field": "Mathematics",
+        "institution": "Soukrine Teboulba High School, Monastir",
+        "years": "2019"
+      }
+    ],
+    "experience": [
+      {
+        "position": "Projects & Trainings Manager",
+        "company": "OSSEC Manouba",
+        "duration": "2022 - Present",
+        "key_responsibilities": []
+      },
+      {
+        "position": "Beta Microsoft Student Ambassador",
+        "company": "MSA Online",
+        "duration": "2021 - Present",
+        "key_responsibilities": []
+      },
+      {
+        "position": "Active Member",
+        "company": "ENSI Association of Robotics, Manouba",
+        "duration": "2021 - Present",
+        "key_responsibilities": []
+      }
+    ],
+    "skills": [
+      "Web Development",
+      "Machine Learning",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "C",
+      "C++",
+      "Java",
+      "MERN Stack",
+      "Python",
+      "Flask",
+      "SQL"
+    ]
+  }

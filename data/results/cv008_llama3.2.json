@@ -1,0 +1,43 @@
+{
+    "education": [
+      {
+        "degree": "Bacalaureate in Mathematics",
+        "field": "",
+        "institution": "Monastir Preparatory Engineering Institute (IPEIM) Monastir",
+        "years": "09/2015-07/2019"
+      },
+      {
+        "degree": "Engineering studies preparatory",
+        "field": "",
+        "institution": "National School of Computer Science(ENSI) Manouba",
+        "years": "09/2021"
+      }
+    ],
+    "email": "mohamedkhayri.allala@ensi-uma.tn",
+    "experience": [
+      {
+        "company": "",
+        "duration": "",
+        "key_responsibilities": [],
+        "position": ""
+      }
+    ],
+    "name": "Mohamed Khayri Allala",
+    "phone": "54 192 964",
+    "skills": [
+      "Web development",
+      "Machine Learning",
+      "HTML ",
+      "CSS ",
+      "JavaScript",
+      "C",
+      "C++",
+      "Java",
+      "MERN Stack",
+      "Python",
+      "Flask",
+      "SQL",
+      "Football",
+      "Reading Books"
+    ]
+  }

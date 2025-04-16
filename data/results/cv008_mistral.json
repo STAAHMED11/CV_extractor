@@ -1,0 +1,62 @@
+{
+    "education": [
+      {
+        "degree": "Bacalaureate in Mathematics",
+        "field": "Mathematics",
+        "institution": "Soukrine Teboulba high school Monastir",
+        "years": "09/2015 - 07/2019"
+      },
+      {
+        "degree": "Engineering studies preparatory",
+        "field": "Computer science",
+        "institution": "National School of Computer Science(ENSI) Manouba",
+        "years": "09/2021 - Present"
+      }
+    ],
+    "email": "mohamedkhayri.allala@ensi-uma.tn",
+    "experience": [
+      {
+        "company": "OSSEC Manouba",
+        "duration": "09/2022 - Present",
+        "key_responsibilities": [],
+        "position": "Projects \u0026 trainings manager"
+      },
+      {
+        "company": "MSA Online",
+        "duration": "11/2021 - Present",
+        "key_responsibilities": [],
+        "position": "Beta Microsoft student ambassador"
+      },
+      {
+        "company": "ENSI association of robotics Manouba",
+        "duration": "09/2021 - 08/2022",
+        "key_responsibilities": [],
+        "position": "Active member"
+      },
+      {
+        "duration": "Nov 2021-Feb 2022",
+        "project": "Monopoly game ( Nov 2021-Feb 2022 )",
+        "technology": "C++, GUI"
+      },
+      {
+        "duration": "Jun 2022- Aug 2022",
+        "project": "Freelance platform (TuniJob) ( Jun 2022- Aug 2022)",
+        "technology": "MERN stack"
+      },
+      {
+        "duration": "Dec 2022 - Mai 2023",
+        "project": "School dropout risk prediction platform ( Dec 2022 - Mai 2023 )",
+        "technology": "Angular, Machine Learning, Microservices"
+      }
+    ],
+    "name": "Mohamed Khayri Allala",
+    "phone": "54 192 964",
+    "skills": [
+      "Web development",
+      "Machine Learning",
+      "HTML , CSS , JavaScript",
+      "C , C++ , Java",
+      "MERN Stack",
+      "Python, Flask , SQL"
+    ]
+  }

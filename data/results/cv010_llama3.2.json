@@ -1,0 +1,43 @@
+{
+    "education": [
+      {
+        "degree": "Baccalaureate in Mathmatics",
+        "field": "Computer Science engineering",
+        "institution": "ENSI - Mannouba",
+        "years": "September 2021 - Present"
+      },
+      {
+        "degree": "Preparatory Studies in Mathmatics and Physics",
+        "field": "",
+        "institution": "Abou Kacem Chebbi high school - Sfax",
+        "years": "June 2019"
+      },
+      {
+        "degree": "Preparatory Studies in Mathmatics and Physics",
+        "field": "",
+        "institution": "Preparatory School of Engineering - Sfax",
+        "years": "September 2019 - July 2021"
+      }
+    ],
+    "email": "emna.sellami@ensi-uma.tn",
+    "experience": [
+      {
+        "company": "Procan | engineering",
+        "duration": "June 2022 - July 2022",
+        "key_responsibilities": [
+          "Developing a platform designed for lawyers to help them manage their clients and cases."
+        ],
+        "position": "Summer Intership"
+      }
+    ],
+    "name": "Emna Sellami",
+    "phone": "522129",
+    "skills": [
+      "Programming languages: Python, JAVA, JavaScript, C++, Dart",
+      "DataBases: SQL, MongoDB",
+      "Web development",
+      "Mobile development",
+      "HTML, CSS, JavaScript, React",
+      "Flutter, Android"
+    ]
+  }

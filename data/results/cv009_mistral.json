@@ -1,0 +1,51 @@
+{
+    "education": [
+      {
+        "degree": "El\u00e8ve ing\u00e9nieur en informatique",
+        "field": "Informatics Engineering",
+        "institution": "\u00c9cole nationale des sciences de l\u0027informatique (ENSI)",
+        "years": "Currently in the second year"
+      },
+      {
+        "degree": "Baccalaur\u00e9at section Technique",
+        "field": "Technical Diploma",
+        "institution": "Lyc\u00e9e Ibni Abi Dhief Manouba",
+        "years": "Not specified"
+      }
+    ],
+    "email": "adam.chelliy@ensi-uma.tn",
+    "experience": [
+      {
+        "company": "Not specified",
+        "duration": "Current stage",
+        "key_responsibilities": [
+          "Conception et d\u00e9veloppement d\u0027une Site de Cours de Management.",
+          "Developpement  d\u0027un jeu s\u00e9rieux :PianoGame",
+          "Site de Salle de sport de Management",
+          "RoyalClub"
+        ],
+        "position": "Developpeur full-stack"
+      },
+      {
+        "company": "ROBOTIQUE ENSI, MICROSOFT ENSI",
+        "duration": "2022",
+        "key_responsibilities": [
+          "membre actif",
+          "Organisation (RoboCup 4.0)",
+          "LinkedIn profile link"
+        ],
+        "position": "Member"
+      }
+    ],
+    "name": "Chelli Adem",
+    "phone": "23502179",
+    "skills": [
+      "Mod\u00e9lisation : UML",
+      "Frontend : Angular , Bootstrap",
+      "Base de donn\u00e9e: sql/plsql , mysql",
+      "Backend : Springboot",
+      "languages de programation : Java, C++, C, Python , Php , Js",
+      "Outils et Environnement technique : HTML, CSS, JavaScript, Angular, Spring Boot, MySQL, JSON-server, SCRUM",
+      "Machine Learning :NumPy, MatplotLib, Pandas,Scikit-Learn"
+    ]
+  }

@@ -1,0 +1,186 @@
+{
+  "file_name": "CV-3.pdf",
+  "cv_type": "text-based",
+  "results": {
+    "llama3.2": {
+      "name": "Mohamed Khayri Allala",
+      "email": "mohamedkhayri.allala@ensi-uma.tn",
+      "phone": "54 192 964",
+      "education": [
+        {
+          "institution": "Monastir Preparatory Engineering Institute (IPEIM) Monastir",
+          "degree": "Bacalaureate in Mathematics",
+          "field": "",
+          "years": "09/2015-07/2019"
+        },
+        {
+          "institution": "National School of Computer Science(ENSI) Manouba",
+          "degree": "Engineering studies preparatory",
+          "field": "",
+          "years": "09/2021"
+        }
+      ],
+      "skills": [
+        "Web development",
+        "Machine Learning",
+        "HTML ",
+        "CSS ",
+        "JavaScript",
+        "C",
+        "C++",
+        "Java",
+        "MERN Stack",
+        "Python",
+        "Flask",
+        "SQL",
+        "Football",
+        "Reading Books"
+      ],
+      "experience": [
+        {
+          "position": "",
+          "company": "",
+          "duration": "",
+          "key_responsibilities": []
+        }
+      ]
+    },
+    "mistral": {
+      "name": "Mohamed Khayri Allala",
+      "email": "mohamedkhayri.allala@ensi-uma.tn",
+      "phone": "54 192 964",
+      "education": [
+        {
+          "degree": "Bacalaureate in Mathematics",
+          "field": "Mathematics",
+          "institution": "Soukrine Teboulba high school Monastir",
+          "years": "09/2015 - 07/2019"
+        },
+        {
+          "degree": "Engineering studies preparatory",
+          "field": "Computer science",
+          "institution": "National School of Computer Science(ENSI) Manouba",
+          "years": "09/2021 - Present"
+        }
+      ],
+      "skills": [
+        "Web development",
+        "Machine Learning",
+        "HTML , CSS , JavaScript",
+        "C , C++ , Java",
+        "MERN Stack",
+        "Python, Flask , SQL"
+      ],
+      "experience": [
+        {
+          "position": "Projects & trainings manager",
+          "company": "OSSEC Manouba",
+          "duration": "09/2022 - Present",
+          "key_responsibilities": []
+        },
+        {
+          "position": "Beta Microsoft student ambassador",
+          "company": "MSA Online",
+          "duration": "11/2021 - Present",
+          "key_responsibilities": []
+        },
+        {
+          "position": "Active member",
+          "company": "ENSI association of robotics Manouba",
+          "duration": "09/2021 - 08/2022",
+          "key_responsibilities": []
+        },
+        {
+          "project": "Monopoly game ( Nov 2021-Feb 2022 )",
+          "technology": "C++, GUI",
+          "duration": "Nov 2021-Feb 2022"
+        },
+        {
+          "project": "Freelance platform (TuniJob) ( Jun 2022- Aug 2022)",
+          "technology": "MERN stack",
+          "duration": "Jun 2022- Aug 2022"
+        },
+        {
+          "project": "School dropout risk prediction platform ( Dec 2022 - Mai 2023 )",
+          "technology": "Angular, Machine Learning, Microservices",
+          "duration": "Dec 2022 - Mai 2023"
+        }
+      ]
+    },
+    "qwen2.5": {
+      "name": "Mohamed Khayri Allala",
+      "email": "mohamedkhayri.allala@ensi-uma.tn",
+      "phone": "+216 54 192 964",
+      "education": [
+        {
+          "degree": "Computer science student",
+          "field": "Computer Science",
+          "institution": "National School of Computer Science (ENSI)",
+          "years": "09/2021 - Present"
+        },
+        {
+          "degree": "Engineering studies preparatory",
+          "field": "Preparatory Engineering Studies",
+          "institution": "National School of Computer Science (ENSI) Manouba",
+          "years": "09/2021 - Present"
+        },
+        {
+          "degree": "Bacalaureate in Mathematics",
+          "field": "Mathematics",
+          "institution": "Monastir Preparatory Engineering Institute (IPEIM)",
+          "years": "09/2019 - 06/2021"
+        },
+        {
+          "degree": "High school graduate",
+          "field": "Secondary Education",
+          "institution": "Soukrine Teboulba high school Monastir",
+          "years": "09/2015 - 07/2019"
+        }
+      ],
+      "skills": [
+        "Web development",
+        "Machine Learning",
+        "HTML, CSS, JavaScript",
+        "C, C++, Java",
+        "MERN Stack",
+        "Python, Flask, SQL",
+        "Project Management",
+        "Data Processing",
+        "Statistical Analysis",
+        "Predictive Modeling"
+      ],
+      "experience": [
+        {
+          "position": "Monopoly game developer",
+          "company": "N/A",
+          "duration": "Nov 2021 - Feb 2022",
+          "key_responsibilities": [
+            "Developed a social game using the Qt framework",
+            "Implemented various game mechanics",
+            "Designed user interfaces",
+            "Tested the game's performance"
+          ]
+        },
+        {
+          "position": "Freelance developer for Tunijob platform",
+          "company": "TuniJob",
+          "duration": "Jun 2022 - Aug 2022",
+          "key_responsibilities": [
+            "Built a Tunisian job platform using the MERN stack",
+            "Connected job seekers with providers"
+          ]
+        },
+        {
+          "position": "Machine learning project developer for dropout risk prediction",
+          "company": "N/A",
+          "duration": "Dec 2022 - May 2023",
+          "key_responsibilities": [
+            "Developed a machine learning model",
+            "Used Angular, Flask, and microservices",
+            "Predicted the risk of university students dropping out"
+          ]
+        }
+      ]
+    }
+  }
+}

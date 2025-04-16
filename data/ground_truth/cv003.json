@@ -1,0 +1,52 @@
+{
+    "name": "Lotfi Jebali",
+    "email": "lotfijbeli.jbeli@gmail.com",
+    "phone": "+216 93 605 378",
+    "education": [
+      {
+        "degree": "Bachelor's degree",
+        "field": "Computer Science",
+        "institution": "Higher Institute of Computer Science, Tunis, Tunisia",
+        "years": "Present"
+      }
+    ],
+    "experience": [
+      {
+        "position": "Full Stack Web Developer",
+        "company": "Freelance, E-Commerce Platform",
+        "duration": "Mar 2023 – Present",
+        "key_responsibilities": [
+          "Built an interactive and responsive platform for an e-commerce website using ReactJS and Sass",
+          "Developed efficient backend functionalities including user authentication, product management, order processing using Express JS",
+          "Integrated live chat functionality using Socket.io to enable real-time communication",
+          "Created secure API endpoint for online payment using Stripe",
+          "Implemented a comprehensive admin dashboard for managing the e-commerce platform"
+        ]
+      },
+      {
+        "position": "Frontend Developer",
+        "company": "Freelance, Browser Extension",
+        "duration": "Nov 2022 – Jan 2023",
+        "key_responsibilities": [
+          "Developed a browser extension for recording YouTube livestreams using ReactJS",
+          "Integrated with the YouTube API to detect and capture livestream content"
+        ]
+      }
+    ],
+    "skills": [
+      "JavaScript",
+      "Python",
+      "SQL",
+      "HTML5",
+      "CSS3",
+      "PHP",
+      "ReactJS",
+      "ExpressJS",
+      "Bootstrap",
+      "Tailwind",
+      "MaterialUI",
+      "English",
+      "French",
+      "Arabic"
+    ]
+   }

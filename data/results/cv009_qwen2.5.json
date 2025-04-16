@@ -1,0 +1,50 @@
+{
+    "education": [
+      {
+        "degree": "\u00e9l\u00e8ve ing\u00e9nieur en informatique",
+        "field": "",
+        "institution": "lyc\u00e9e Ibni Abi Dhief Manouba",
+        "years": []
+      },
+      {
+        "degree": "Actuellement \u00e9l\u00e8ve ing\u00e9nieur en deuxi\u00e8me ann\u00e9e",
+        "field": "",
+        "institution": "Ecole National des Sciences Informatiques (ENSI)",
+        "years": []
+      }
+    ],
+    "email": "adam.chelliy@ensi-uma.tn",
+    "experience": [
+      {
+        "company": "",
+        "duration": "2023 _F\u00e9vrier-\u003eMai",
+        "key_responsibilities": [
+          "d\u00e9veloppement  d\u0027un jeu s\u00e9rieux :PianoGame",
+          "Site de Salle de sport de Management RoyalClub"
+        ],
+        "position": "Conception et d\u00e9veloppement d\u0027une Site de Cours de Management."
+      },
+      {
+        "company": "",
+        "duration": "2022_ Janvier-\u003e mars, 2022 October",
+        "key_responsibilities": [
+          "Outils et Environnement technique : Angular, Spring Boot, MySQL",
+          "Notre site permet aux enseignants d\u0027ajouter des cours et tests qui seront consulter par les \u00e9tudiants"
+        ],
+        "position": "D\u00e9veloppeur full-stack Web"
+      }
+    ],
+    "name": "Chelli Adem",
+    "phone": "23502179",
+    "skills": [
+      "Mod\u00e9lisation: UML",
+      "Frontend: Angular, Bootstrap",
+      "Base de donn\u00e9es: sql/plsql, mysql",
+      "Backend: Springboot",
+      "languages de programmation: Java, C++, C, Python, Php, Js",
+      "Outils et Environnement technique: HTML, CSS, JavaScript, JSON-server, Angular, Spring Boot, MySQL",
+      "Machine Learning: NumPy, Matplotlib, Pandas, Scikit-Learn",
+      "Syst\u00e9me d\u0027exploitation: Windows, UNIX/LINUX",
+      "AGILE METHODOLOGIES: SCRUM"
+    ]
+  }

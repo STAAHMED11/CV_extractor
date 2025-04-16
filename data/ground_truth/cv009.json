@@ -1,0 +1,47 @@
+{
+    "name": "Chelli Adem",
+    "email": "adam.chelly@ensi-uma.tn",
+    "phone": "23502179",
+    "education": [
+      {
+        "degree": "Élève ingénieur en informatique",
+        "field": "Informatique",
+        "institution": "Ecole National des Sciences Informatiques (ENSI)",
+        "years": ""
+      },
+      {
+        "degree": "Institut préparatoire",
+        "field": "",
+        "institution": "Institut Préparatoire Aux Etudes d'Ingénieur Manar",
+        "years": ""
+      },
+      {
+        "degree": "Baccalauréat section Technique",
+        "field": "",
+        "institution": "lycée Ibni Abi Dhief Manouba",
+        "years": ""
+      }
+    ],
+    "experience": [],
+    "skills": [
+      "Java",
+      "C++",
+      "C",
+      "Python",
+      "PHP",
+      "JavaScript",
+      "Spring Boot",
+      "Angular",
+      "Bootstrap",
+      "SQL/PLSQL",
+      "MySQL",
+      "UML",
+      "NumPy",
+      "Matplotlib",
+      "Pandas",
+      "Scikit-Learn",
+      "Windows",
+      "UNIX/Linux",
+      "Scrum"
+    ]
+  }

@@ -103,19 +103,10 @@ class OllamaClient:
         
         try:
             response = self.generate(model, prompt, system_prompt)
-            extract_json(response)
+            
             # Try to parse the response as JSON
             try:
-                # Find JSON content if it's embedded in explanatory text
-                json_start = response.find('{')
-                json_end = response.rfind('}') + 1
-                
-                if json_start >= 0 and json_end > json_start:
-                    json_content = response[json_start:json_end]
-                    extracted_data = json.loads(json_content)
-                else:
-                    # If no JSON-like structure is found, use the whole response
-                    extracted_data = json.loads(response)
+                extracted_data=extract_json(response)
                 
                 return extracted_data
             except json.JSONDecodeError:

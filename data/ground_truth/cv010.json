@@ -1,0 +1,74 @@
+{
+    "name": "Emna Sellami",
+    "email": "emna.sellami@ensi-uma.tn",
+    "phone": "28 522 129",
+    "education": [
+      {
+        "degree": "Computer Science engineering",
+        "field": "Computer Science",
+        "institution": "ENSI - Mannouba",
+        "years": "September 2021 - Present"
+      },
+      {
+        "degree": "Preparatory Studies",
+        "field": "Mathematics and Physics",
+        "institution": "Preparatory School of Engineering - Sfax",
+        "years": "September 2019 - July 2021"
+      },
+      {
+        "degree": "Baccalaureate",
+        "field": "Mathematics",
+        "institution": "Abou Kacem Chebbi high school - Sfax",
+        "years": "June 2019"
+      }
+    ],
+    "experience": [
+      {
+        "position": "Summer intern",
+        "company": "Procan | engineering",
+        "duration": "June 2022 - July 2022",
+        "key_responsibilities": [
+          "Developing a platform designed for lawyers to help them manage their clients and cases"
+        ]
+      },
+      {
+        "position": "Marketing Mission Leader",
+        "company": "Enactus Ensi",
+        "duration": "August 2022",
+        "key_responsibilities": []
+      },
+      {
+        "position": "Member",
+        "company": "IEEE Ensi Student Branch",
+        "duration": "October 2021",
+        "key_responsibilities": []
+      }
+    ],
+    "skills": [
+      "Python",
+      "JAVA",
+      "JavaScript",
+      "C++",
+      "Dart",
+      "SQL",
+      "MongoDB",
+      "HTML",
+      "CSS",
+      "React",
+      "Flutter",
+      "Android",
+      "ReactJs",
+      "NodeJs",
+      "Express.js",
+      "Deep Learning",
+      "Computer Vision",
+      "TensorFlow",
+      "Flask",
+      "Keras",
+      "PHP",
+      "Arabic",
+      "English",
+      "French",
+      "German"
+    ]
+   }

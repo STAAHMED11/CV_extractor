@@ -1,0 +1,97 @@
+{
+    "name": "Jabeur Mbarki",
+    "email": "jaber.mbarki@essai.ucar.tn",
+    "phone": "(+216) 54951995",
+    "education": [
+      {
+        "degree": "Engineering degree",
+        "field": "Data Science",
+        "institution": "ESSAI",
+        "years": "September 2020 – Present"
+      },
+      {
+        "degree": "Preparatory Studies for engineering Degree",
+        "field": "",
+        "institution": "ESST-HS",
+        "years": "September 2018 – July 2020"
+      },
+      {
+        "degree": "High School Diploma",
+        "field": "Mathematics",
+        "institution": "Ali Zouaoui high school",
+        "years": "September 2017 – June 2018"
+      }
+    ],
+    "experience": [
+      {
+        "position": "Data Scientist Intern",
+        "company": "Tunisie Télécom",
+        "duration": "July 2022– September 2022",
+        "key_responsibilities": [
+          "Clients segmentation using Clustering (K-Means algorithm)",
+          "Application of data cleaning techniques, data visualization using Power BI, many dimensions reduction algorithms and clustering with K-Means"
+        ]
+      },
+      {
+        "position": "Data Analyst Intern",
+        "company": "ENVAST",
+        "duration": "July 2021– August 2021",
+        "key_responsibilities": [
+          "Analysis of the start-up's sales and clients feedbacks data to improve the marketing strategies",
+          "Create dynamic dashboards with google sheets and Power BI"
+        ]
+      },
+      {
+        "position": "Computer Vision Intern (Remote)",
+        "company": "Poselytics",
+        "duration": "April 2022– June 2022",
+        "key_responsibilities": [
+          "Create a Pose Landmark Model to count hand movement up and down"
+        ]
+      }
+    ],
+    "skills": [
+      "C",
+      "Python",
+      "PHP",
+      "JAVA",
+      "R",
+      "SQL",
+      "Machine Learning",
+      "Data mining",
+      "AI",
+      "Deep learning",
+      "Big DATA",
+      "OpenCV",
+      "Tensorflow",
+      "Keras",
+      "Time series",
+      "Oracle",
+      "MySQL",
+      "Dash",
+      "Power BI",
+      "VS code",
+      "Linux",
+      "Git",
+      "Web scrapping",
+      "Statistics",
+      "Finance",
+      "SAS",
+      "Rshiny",
+      "CRISP-DM",
+      "Team work",
+      "Statistical tests",
+      "Project management",
+      "Arabic",
+      "French",
+      "English",
+      "K-Means",
+      "PCA",
+      "T-SNE",
+      "MS Excel",
+      "Google sheets",
+      "MediaPipe",
+      "ARIMA",
+      "ARCH/GARCH"
+    ]
+   }

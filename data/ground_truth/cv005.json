@@ -1,0 +1,70 @@
+{
+    "name": "Ben Kilani Arafet",
+    "email": "arafet.benkilani@supcom.tn",
+    "phone": "+21620714894",
+    "education": [
+      {
+        "degree": "IT Engineering Student",
+        "field": "Engineering",
+        "institution": "Higher School Of Communications Tunis - Sup'Com",
+        "years": "SEP 2021 - PRESENT"
+      },
+      {
+        "degree": "Preparatory Studies",
+        "field": "Engineering",
+        "institution": "Preparatory Institute For Engineering Studies of Tunis - Ipeit",
+        "years": "SEP 2019 - AUGUST 2021"
+      },
+      {
+        "degree": "Bacalaureat Diplomat",
+        "field": "Math",
+        "institution": "",
+        "years": "2019"
+      }
+    ],
+    "experience": [
+      {
+        "position": "Summer Intern",
+        "company": "NstGroup",
+        "duration": "5 weeks - 2022",
+        "key_responsibilities": [
+          "Developed a small application TimeSheet for tracking tasks done by employees in a company using expressjs & postgresql"
+        ]
+      },
+      {
+        "position": "Media Manager",
+        "company": "Leading Supcom",
+        "duration": "SEP 2022 - PRESENT",
+        "key_responsibilities": [
+          "Organize workshops for soft skills training"
+        ]
+      }
+    ],
+    "skills": [
+      "Javascript",
+      "Go",
+      "Python",
+      "Go Net/http",
+      "nginx",
+      "Expressjs",
+      "Docker",
+      "Kubernetes",
+      "Gitlab",
+      "Terraform",
+      "ELK stack",
+      "Git",
+      "Nexus",
+      "Linux",
+      "IP Adressing & Subnetting",
+      "AWS",
+      "Postgresql",
+      "MongoDB",
+      "DynamoDB",
+      "Rest",
+      "Graphql",
+      "gRPC",
+      "Microservices",
+      "English",
+      "Arabic"
+    ]
+   }

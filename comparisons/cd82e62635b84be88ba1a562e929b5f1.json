@@ -1,0 +1,161 @@
+{
+  "file_name": "CV-2.pdf",
+  "cv_type": "text-based",
+  "results": {
+    "llama3.2": {
+      "name": "Chelli Adem",
+      "email": "adam.chelliy@ensi-uma.tn",
+      "phone": "23502179",
+      "education": [
+        {
+          "degree": "Baccalaur\u00e9at section Technique",
+          "field": "Web",
+          "institution": "lyc\u00e9e Ibni Abi Dhief Manouba",
+          "years": ""
+        },
+        {
+          "degree": "",
+          "field": "",
+          "institution": "Ecole Nationale des Sciences Informatiques (ENSI)",
+          "years": ""
+        }
+      ],
+      "skills": [
+        "Mod\u00e9lisation : UML",
+        "Frontend : Angular, Bootstrap",
+        "Base de donn\u00e9: sql/plsql , mysql",
+        "Backend : Springboot",
+        "languages de programation : Java,C++, C,Python, Php, Js"
+      ],
+      "experience": [
+        {
+          "position": "",
+          "company": "RoyalClub",
+          "duration": "2023 F\u00e9vrier->Mai",
+          "key_responsibilities": [
+            "Conception et d\u00e9veloppement d'une Site de cours de Management.",
+            "d\u00e9veloppement d'un jeu s\u00e9rieux :PianoGame",
+            "Site de Salle de sport de Management"
+          ]
+        },
+        {
+          "position": "",
+          "company": "",
+          "duration": "2022 Janvier-> mars",
+          "key_responsibilities": [
+            "Conception et d\u00e9veloppement d'une Site de cours de Management."
+          ]
+        },
+        {
+          "position": "",
+          "company": "",
+          "duration": "2022 October",
+          "key_responsibilities": [
+            "d\u00e9veloppement  d'un jeu s\u00e9rieux :PianoGame"
+          ]
+        }
+      ]
+    },
+    "mistral": {
+      "name": "Chelli Adem",
+      "email": "adam.chelliy@ensi-uma.tn",
+      "phone": "23502179",
+      "education": [
+        {
+          "degree": "El\u00e8ve ing\u00e9nieur en informatique",
+          "field": "Informatics Engineering",
+          "institution": "\u00c9cole nationale des sciences de l'informatique (ENSI)",
+          "years": "Currently in the second year"
+        },
+        {
+          "degree": "Baccalaur\u00e9at section Technique",
+          "field": "Technical Diploma",
+          "institution": "Lyc\u00e9e Ibni Abi Dhief Manouba",
+          "years": "Not specified"
+        }
+      ],
+      "experience": [
+        {
+          "position": "Developpeur full-stack",
+          "company": "Not specified",
+          "duration": "Current stage",
+          "key_responsibilities": [
+            "Conception et d\u00e9veloppement d'une Site de Cours de Management.",
+            "Developpement  d'un jeu s\u00e9rieux :PianoGame",
+            "Site de Salle de sport de Management",
+            "RoyalClub"
+          ]
+        },
+        {
+          "position": "Member",
+          "company": "ROBOTIQUE ENSI, MICROSOFT ENSI",
+          "duration": "2022",
+          "key_responsibilities": [
+            "membre actif",
+            "Organisation (RoboCup 4.0)",
+            "LinkedIn profile link"
+          ]
+        }
+      ],
+      "skills": [
+        "Mod\u00e9lisation : UML",
+        "Frontend : Angular , Bootstrap",
+        "Base de donn\u00e9e: sql/plsql , mysql",
+        "Backend : Springboot",
+        "languages de programation : Java, C++, C, Python , Php , Js",
+        "Outils et Environnement technique : HTML, CSS, JavaScript, Angular, Spring Boot, MySQL, JSON-server, SCRUM",
+        "Machine Learning :NumPy, MatplotLib, Pandas,Scikit-Learn"
+      ]
+    },
+    "qwen2.5": {
+      "name": "Chelli Adem",
+      "email": "adam.chelliy@ensi-uma.tn",
+      "phone": "23502179",
+      "education": [
+        {
+          "degree": "\u00e9l\u00e8ve ing\u00e9nieur en informatique",
+          "field": "",
+          "institution": "lyc\u00e9e Ibni Abi Dhief Manouba",
+          "years": []
+        },
+        {
+          "degree": "Actuellement \u00e9l\u00e8ve ing\u00e9nieur en deuxi\u00e8me ann\u00e9e",
+          "field": "",
+          "institution": "Ecole National des Sciences Informatiques (ENSI)",
+          "years": []
+        }
+      ],
+      "experience": [
+        {
+          "position": "Conception et d\u00e9veloppement d'une Site de Cours de Management.",
+          "company": "",
+          "duration": "2023 _F\u00e9vrier->Mai",
+          "key_responsibilities": [
+            "d\u00e9veloppement  d'un jeu s\u00e9rieux :PianoGame",
+            "Site de Salle de sport de Management RoyalClub"
+          ]
+        },
+        {
+          "position": "D\u00e9veloppeur full-stack Web",
+          "company": "",
+          "duration": "2022_ Janvier-> mars, 2022 October",
+          "key_responsibilities": [
+            "Outils et Environnement technique : Angular, Spring Boot, MySQL",
+            "Notre site permet aux enseignants d'ajouter des cours et tests qui seront consulter par les \u00e9tudiants"
+          ]
+        }
+      ],
+      "skills": [
+        "Mod\u00e9lisation: UML",
+        "Frontend: Angular, Bootstrap",
+        "Base de donn\u00e9es: sql/plsql, mysql",
+        "Backend: Springboot",
+        "languages de programmation: Java, C++, C, Python, Php, Js",
+        "Outils et Environnement technique: HTML, CSS, JavaScript, JSON-server, Angular, Spring Boot, MySQL",
+        "Machine Learning: NumPy, Matplotlib, Pandas, Scikit-Learn",
+        "Syst\u00e9me d'exploitation: Windows, UNIX/LINUX",
+        "AGILE METHODOLOGIES: SCRUM"
+      ]
+    }
+  }
+}
