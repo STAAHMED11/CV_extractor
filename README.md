@@ -100,3 +100,10 @@ ollama pull qwen2.5
 python app.py 
 ## Access the Web Interface
 navigate to http://localhost:5000 (or the specified port) in your browser after running the application.
+
+# Evaluation 
+![Dashboard Preview](table1.png)
+
+![Dashboard Preview](table2.png)
+
+![Dashboard Preview](table3.png)
