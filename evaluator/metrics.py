@@ -46,7 +46,6 @@ def field_similarity(extracted_value, ground_truth_value):
         return total_sim / count if count > 0 else 0.0
     
     elif isinstance(extracted_value, dict) and isinstance(ground_truth_value, dict):
-        # For dictionaries (like nested structures), calculate average field similarity
         if not extracted_value or not ground_truth_value:
             return 0.0
         
