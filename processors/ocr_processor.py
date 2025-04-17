@@ -6,7 +6,6 @@ import os
 
 class OCRProcessor:
     def __init__(self):
-        # Configure pytesseract path if needed (point directly to the executable)
         pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
     def process_scanned_pdf(self, pdf_path):
