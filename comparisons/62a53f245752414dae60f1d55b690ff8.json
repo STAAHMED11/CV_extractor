@@ -1,0 +1,98 @@
+{
+  "file_name": "CV_bilel.pdf",
+  "cv_type": "text-based",
+  "results": {
+    "llama3.2": {
+      "name": "Bilel Eljaamii",
+      "email": "bileleljaamii@gmail.com",
+      "phone": "(+216)27.28.14.80",
+      "education": [
+        {
+          "degree": null,
+          "field": null,
+          "institution": null,
+          "years": null
+        }
+      ],
+      "skills": [
+        "Dynamisme, rigueur dans le travail",
+        "capacit\u00e9 d\u2019anticipation",
+        "sociable",
+        "PROJET CONCEPTION & DEVELOPPEMENT ",
+        "Programmation Multithreads",
+        "Traitement d\u2019images",
+        "Langage JAVA",
+        "Biblioth\u00e8que OpenCV",
+        "OpenStack",
+        "DEVELOPPEMENT D\u2019UNE APPLICATION ANDROID",
+        "Contr\u00f4le \u00e0 distance d\u2019un v\u00e9hicule",
+        "Contr\u00f4le via Bluetooth",
+        "DEVELOPPEMENT D\u2019UN MINI COMPILATEUR",
+        "D\u00e9veloppement d\u2019un analyseur lexical et syntaxique",
+        "Langage C",
+        "REALISATION DU JEU DEMINEUR",
+        "Langage C, Biblioth\u00e8que SDL"
+      ],
+      "experience": [
+        {
+          "position": null,
+          "company": null,
+          "duration": null,
+          "key_responsibilities": []
+        }
+      ]
+    },
+    "mistral": {
+      "error": "Failed to cleanly parse as JSON, but partial structure was detected.",
+      "exception": "Invalid \\escape: line 35 column 8 (char 876)",
+      "raw_response": " {\n  \"name\": \"Bilel Eljaamii\",\n  \"email\": \"bileleljaamii@gmail.com\",\n  \"phone\": \"+21627.28.14.80\",\n  \"education\": [\n    {\n      \"degree\": \"CYCLE D\u2019INGENIEUR EN INFORMATIQUE\",\n      \"field\": \"INFORMATIQUE\",\n      \"institution\": \"Ecole Nationale des Sciences Informatiques (E.N.S.I)\",\n      \"years\": \"Depuis-2012\"\n    },\n    {\n      \"degree\": \"CYCLE PREPARATOIRE TECHNIQUE\",\n      \"field\": \"INGENIERIE EN IMAGERIE\",\n      \"institution\": \"Institut Pr\u00e9paratoire Aux Etudes d\u2019Ing\u00e9nieur d\u2019El Manar (I.P.E.I.M)\",\n      \"years\": \"2010 \u2013 2012\"\n    },\n    {\n      \"degree\": \"BACCALAUREAT SECTION SCIENCE TECHNIQUE\",\n      \"field\": \"\",\n      \"institution\": \"Lyc\u00e9e secondaire Fouchana/Ben_Arous\",\n      \"years\": \"JUIN 2010\"\n    }\n  ],\n  \"skills\": [\n    \"POO\",\n    \"C++\",\n    \"Java (swing)\",\n    \"Java (Android)\",\n    \"HTML5\",\n    \"CSS3\",\n    \"PHP5\",\n    \"Conception BD\",\n    \"SQL\",\n    \"PL\\SQL\",\n    \"ORACLE\",\n    \"MySQL\",\n    \"SQLite\",\n    \"RISC\",\n    \"CISC\",\n    \"CBash\",\n    \"Maple7\",\n    \"Matlab 2012\",\n    \"OpenCv\",\n    \"Eclipse\",\n    \"Notepad++\",\n    \"CodeBlocks\",\n    \"Visual Studio\",\n    \"Aptana Studio\",\n    \"SQL+\",\n    \"QtSpim\",\n    \"Rapid PHP 2010\",\n    \"Dream Waver\",\n    \"StarUML\",\n    \"AutoCAD 2007\",\n    \"SolidWorks 2007\",\n    \"Latex\",\n    \"Libre Office\",\n    \"Microsoft Office\",\n    \"Sony Vegas v11\",\n    \"Camtasia studio v7\",\n    \"Nero WaveEditor v4\",\n    \"Photoshop Cs6\",\n    \"Photofilter\",\n    \"ARABE\",\n    \"FRAN\u00c7AIS\",\n    \"ANGLAIS\",\n    \"ITALIEN\"\n  ],\n  \"experience\": [\n    {\n      \"position\": \"CONCEPTION ET DEVELOPPEMENT D\u2019UN SERVICE CLOUD\",\n      \"company\": \"\",\n      \"duration\": \"\",\n      \"key_responsibilities\": [\"Programmation Multithreads\", \"Traitement d\u2019images\", \"Langage JAVA\", \"Biblioth\u00e8que OpenCV\", \"OpenStack\"]\n    },\n    {\n      \"position\": \"DEVELOPPEMENT D\u2019UNE APPLICATION ANDROID\",\n      \"company\": \"\",\n      \"duration\": \"STAGE D\u2019ETE\",\n      \"key_responsibilities\": [\"Contr\u00f4le \u00e0 distance d\u2019un v\u00e9hicule\", \"Contr\u00f4le via Bluetooth\"]\n    },\n    {\n      \"position\": \"DEVELOPPEMENT D\u2019UN MINI COMPILATEUR\",\n      \"company\": \"\",\n      \"duration\": \"\",\n      \"key_responsibilities\": [\"D\u00e9veloppement d\u2019un analyseur lexical et syntaxique\", \"Langage C\"]\n    },\n    {\n      \"position\": \"REALISATION DU JEU DEMINEUR\",\n      \"company\": \"\",\n      \"duration\": \"\",\n      \"key_responsibilities\": [\"Langage C\", \"Biblioth\u00e8que SDL\"]\n    }\n  ]\n}"
+    },
+    "qwen2.5": {
+      "name": "Bilel Eljaamii",
+      "email": "bileleljaamii@gmail.com",
+      "phone": "(+216)27.28.14.80",
+      "education": [
+        {
+          "degree": "INGENIEUR EN INFORMATIQUE",
+          "field": "INGENIERIE EN IMAGERIE",
+          "institution": "\u00c9cole Nationale des Sciences Informatiques (E.N.S.I)",
+          "years": "2010 - 2012"
+        },
+        {
+          "degree": "CYCLE PREPARATOIRE TECHNIQUE",
+          "field": "-",
+          "institution": "Institut Pr\u00e9paratoire Aux \u00c9tudes d\u2019Ing\u00e9nieur d\u2019El Manar (I.P.E.I.M)",
+          "years": "2010"
+        },
+        {
+          "degree": "BACCALAUREAT SECTION SCIENCE TECHNIQUE",
+          "field": "-",
+          "institution": "Lyc\u00e9e secondaire Fouchana/Ben_Arous",
+          "years": "JUIN 2010 (MENTION BIEN)"
+        }
+      ],
+      "skills": [
+        "PROGRAMMATION POO Conception UML, C++, JAVA (swing), JAVA (Android)",
+        "WEB HTML5, CSS3, PHP5",
+        "BASE DE DONNEES Conception BD, SQL, PL\\SQL, ORACLE, MySQL, SQLite",
+        "ASSEMBLEUR RISC, CISC",
+        "SHELL CBash",
+        "SCIENTIFIQUE Maple7, Matlab 2012",
+        "COMPUTER VISION OpenCv",
+        "ENVIRONNEMENTS Eclipse, Notepad++, CodeBlocks, Visual Studio, Aptana Studio, SQL+, QtSpim, Rapid PHP 2010, Dream Waver, StarUML",
+        "D.A.O AutoCAD 2007, SolidWorks 2007",
+        "BUREAUTIQUE LateX, Libre Office, Microsoft Office",
+        "MULTIMEDIA Sony Vegas v11, Camtasia studio v7, Nero WaveEditor v4",
+        "DESIGN Photoshop Cs6, Photofilter"
+      ],
+      "experience": [
+        {
+          "position": "-",
+          "company": "Dkhila, Ksar Jedid, Beni Khedache, 4151 Medenine",
+          "duration": "-",
+          "key_responsibilities": []
+        }
+      ]
+    }
+  }
+}

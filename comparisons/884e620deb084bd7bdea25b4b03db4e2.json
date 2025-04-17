@@ -1,0 +1,151 @@
+{
+  "file_name": "Chiheb Saidi Resume.pdf",
+  "cv_type": "text-based",
+  "results": {
+    "llama3.2": {
+      "name": "Chiheb Eddine Sa\u00efdi",
+      "email": "chiheb-eddine-sa\u00efdi-540273133@gmail.com",
+      "phone": "92 630 257",
+      "education": [
+        {
+          "institution": "National School of Computer Science",
+          "field": "Computer Science",
+          "degree": "Engineering Student",
+          "years": "2020-2023"
+        },
+        {
+          "institution": "Higher School of Science and Technology of Hammam Sousse",
+          "field": "Science and Technology",
+          "degree": "Higher School",
+          "years": "2017-2020"
+        },
+        {
+          "institution": "Rue de Russie Highschool",
+          "field": "Highschool",
+          "degree": "Graduated high school",
+          "years": "2013-2017"
+        }
+      ],
+      "skills": [
+        "Python",
+        "C/C++",
+        "UML",
+        "MERN Stack",
+        "BI",
+        "Arduino",
+        "Scala",
+        "Unix",
+        "Cybersecurity",
+        "Leadership",
+        "Adaptability",
+        "Professionalism"
+      ],
+      "experience": [
+        {
+          "position": "Back-end Engineer Summer Intern",
+          "company": "Cognira",
+          "duration": "July-2022",
+          "key_responsibilities": []
+        },
+        {
+          "position": "Customer Care Service Freelance",
+          "company": "",
+          "duration": "June-2016 to September-2021",
+          "key_responsibilities": []
+        }
+      ]
+    },
+    "mistral": {
+      "name": "CHIHEB EDDINE SA\u00cfDI",
+      "email": "Chiheb005@gmail.com",
+      "phone": "92 630 257",
+      "education": [
+        {
+          "degree": "National Computer Science Engineering Degree",
+          "field": "Computer Science",
+          "institution": "National School of Computer Science",
+          "years": "2020-2023"
+        },
+        {
+          "degree": "Higher School of Science and Technology of Hammam Sousse",
+          "field": "",
+          "institution": "Higher School of Science and Technology of Hammam Sousse",
+          "years": "2017-2020"
+        },
+        {
+          "degree": "Rue de Russie Highschool",
+          "field": "",
+          "institution": "Rue de Russie Highschool",
+          "years": "2013-2017"
+        }
+      ],
+      "skills": [
+        "Python",
+        "C/C++",
+        "UML",
+        "MERN Stack",
+        "BI",
+        "Arduino",
+        "Scala",
+        "Unix",
+        "Cybersecurity",
+        "Leadership",
+        "Adaptability",
+        "Professionalism"
+      ],
+      "experience": [
+        {
+          "position": "Back-end Engineer Summer Intern",
+          "company": "COGNIRA",
+          "duration": "July-2022 to September-2022"
+        },
+        {
+          "position": "Freelance Customer Care Service",
+          "company": "",
+          "duration": "June-2016 to September-2021 during the summers"
+        }
+      ]
+    },
+    "qwen2.5": {
+      "name": "CHIHEB EDDINE SA\u00cfDI",
+      "email": "Chiheb005@gmail.com",
+      "phone": "92 630 257",
+      "education": [
+        {
+          "degree": "National Computer Science Engineering Degree",
+          "field": "Computer Science Engineering",
+          "institution": "National School of Computer Science, Higher School of Science and Technology of Hammam Sousse, Rue de Russie Highschool",
+          "years": "2020-2023, 2017-2020, 2013-2017"
+        }
+      ],
+      "skills": [
+        "Python",
+        "C/C++",
+        "UML",
+        "MERN Stack",
+        "BI",
+        "Arduino",
+        "Scala",
+        "Unix",
+        "Cybersecurity",
+        "Leadership",
+        "Adaptability",
+        "Professionalism"
+      ],
+      "experience": [
+        {
+          "position": "Back-end Engineer Summer Intern",
+          "company": "Cognira",
+          "duration": "July-2022 - September-2022",
+          "key_responsibilities": []
+        },
+        {
+          "position": "Freelance Customer Care Service",
+          "company": "Various Tunisian company for back-office operation",
+          "duration": "June-2016 - September-2021",
+          "key_responsibilities": []
+        }
+      ]
+    }
+  }
+}

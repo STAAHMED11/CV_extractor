@@ -66,45 +66,58 @@ def field_similarity(extracted_value, ground_truth_value):
         return SequenceMatcher(None, 
                              normalize_text(str(extracted_value)), 
                              normalize_text(str(ground_truth_value))).ratio()
+import difflib
+
+import difflib
+
+def tokenize(text):
+    """Ensure text is a string, then tokenize into lowercase words."""
+    if isinstance(text, list):
+        text = ' '.join(map(str, text))
+    elif not isinstance(text, str):
+        text = str(text)
+    return set(text.strip().lower().split())
 
 def calculate_field_metrics(extracted_data, ground_truth, field_name):
     """
-    Calculate precision, recall, and F1 score for a specific field.
+    Calculate precision, recall, F1 score, and similarity for a specific field using token-based evaluation.
     """
-    if field_name not in ground_truth:
+    if field_name not in ground_truth or field_name not in extracted_data:
         return {
             "precision": 0.0,
             "recall": 0.0,
             "f1_score": 0.0,
             "similarity": 0.0
         }
-    
-    # If field is missing in extracted data
-    if field_name not in extracted_data:
-        return {
-            "precision": 0.0,
-            "recall": 0.0,
-            "f1_score": 0.0,
-            "similarity": 0.0
-        }
-    
-    # Calculate similarity between extracted and ground truth
-    similarity = field_similarity(extracted_data[field_name], ground_truth[field_name])
-    
-    # For simplicity, using similarity as both precision and recall
-    # In a real scenario, you might have more complex calculations
-    precision = similarity
-    recall = similarity
-    
-    # Calculate F1 score
-    f1_score = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0.0
-    
+
+    predicted = extracted_data[field_name]
+    actual = ground_truth[field_name]
+
+    # Tokenize both
+    pred_tokens = tokenize(predicted)
+    actual_tokens = tokenize(actual)
+
+    # Compute precision, recall
+    true_positives = len(pred_tokens & actual_tokens)
+    false_positives = len(pred_tokens - actual_tokens)
+    false_negatives = len(actual_tokens - pred_tokens)
+
+    precision = true_positives / (true_positives + false_positives) if (true_positives + false_positives) else 0.0
+    recall = true_positives / (true_positives + false_negatives) if (true_positives + false_negatives) else 0.0
+    f1_score = 2 * precision * recall / (precision + recall) if (precision + recall) else 0.0
+
+    # Similarity
+    pred_str = ' '.join(pred_tokens)
+    actual_str = ' '.join(actual_tokens)
+    similarity = difflib.SequenceMatcher(None, pred_str, actual_str).ratio()
+
     return {
         "precision": precision,
         "recall": recall,
         "f1_score": f1_score,
         "similarity": similarity
     }
+
 
 def calculate_cv_metrics(extracted_data, ground_truth):
     """

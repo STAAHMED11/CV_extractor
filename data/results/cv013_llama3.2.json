@@ -1,0 +1,42 @@
+{
+    "education": [
+      {
+        "degree": "TELECOMMUNICATIONS ENGINEERING",
+        "field": "",
+        "institution": "TELECOMMUNICATIONS ENGINEERING, National School of Engineers of Tunis-ENIT",
+        "years": "2021 - present"
+      },
+      {
+        "degree": "Preparatory Institute for Engineering Studies of Tunis-IPEIT",
+        "field": "",
+        "institution": "MATHEMATICS \u0026 PHYSICS PRE-ENGINEERING SCHOOL STUDIES-IPEIT, ",
+        "years": "2019 - 2021"
+      }
+    ],
+    "email": "oumayma.sghairi@etudiant-enit.utm.tn",
+    "experience": [
+      {
+        "company": "SFM Technologies",
+        "duration": "06/2022 - 07/2022",
+        "key_responsibilities": [
+          "Developed an algorithm that detects motion outside working hours through surveillance camera system.",
+          "Communicated captured motion pictures through FTP server and Whatsapp."
+        ],
+        "position": "Computer Vision Engineering Internship"
+      }
+    ],
+    "name": "Oumayma Sghayri",
+    "phone": "+216 28 198 139",
+    "skills": [
+      "Programming",
+      "Python, SQL, C, C++, Matlab",
+      "Frameworks",
+      "ASP.NET, Flask, Qt",
+      "Database",
+      "Oracle, mySQL, MongoDB",
+      "Embedded boards",
+      "Arduino, Raspberry Pi",
+      "Operating System",
+      "Windows, Ubuntu, Raspbian"
+    ]
+  }

@@ -1,0 +1,144 @@
+{
+  "file_name": "CV-4.pdf",
+  "cv_type": "text-based",
+  "results": {
+    "llama3.2": {
+      "name": "Mahmoud Khemakhem",
+      "email": "mahmoud.khemakhem@ensi-uma.tn",
+      "phone": "54 157 100",
+      "education": [
+        {
+          "degree": "Computer Science Engineering",
+          "field": "",
+          "institution": "ENSI-National School Of Computer Science",
+          "years": "2021 - 2024"
+        },
+        {
+          "degree": "",
+          "field": "Preparatory cycle for engineering study - MP",
+          "institution": "Faculty of sciences of Sfax",
+          "years": "2019 - 2021"
+        },
+        {
+          "degree": "Baccalaureate Math",
+          "field": "",
+          "institution": "Hedi Chaker high School, Sfax",
+          "years": "2019"
+        }
+      ],
+      "experience": [
+        {
+          "position": "",
+          "company": "IEEE IAS ENSI CHAPTER",
+          "duration": "",
+          "key_responsibilities": []
+        },
+        {
+          "position": "",
+          "company": "Co'Art ensi",
+          "duration": "",
+          "key_responsibilities": []
+        }
+      ],
+      "skills": [
+        "Programming Languages (C,C++,C#,Java,Python)",
+        "Software development tools (Visual Studio Code,Eclipse)",
+        "Web development Languages (HTML,CSS,React,NodeJS,JavaScript)",
+        "Data Base (MongoDB,SQL)",
+        "Version Control and Collaboration (Git , GitHub)"
+      ]
+    },
+    "mistral": {
+      "name": "Mahmoud Khemakhem",
+      "email": "mahmoud.khemakhem@ensi-uma.tn",
+      "phone": "54 157 100",
+      "education": [
+        {
+          "degree": "Student",
+          "field": "Computer Science Engineering",
+          "institution": "ENSI-National School Of Computer Science",
+          "years": "2021 - 2024"
+        },
+        {
+          "degree": "",
+          "field": "Preparatory cycle for engineering studie",
+          "institution": "Faculty of sciences of Sfax",
+          "years": "2019 - 2021"
+        },
+        {
+          "degree": "Baccalaureate Math",
+          "field": "",
+          "institution": "Hedi Chaker high School, Sfax",
+          "years": "2019"
+        }
+      ],
+      "skills": [
+        "Programming Languages (C, C++, C#, Java, Python)",
+        "Software development tools (Visual Studio Code, Eclipse)",
+        "Web development Languages (HTML, CSS, React, NodeJS, JavaScript)",
+        "Data Base (MongoDB, SQL)",
+        "Version Control and Collaboration (Git , GitHub)"
+      ],
+      "experience": [
+        {
+          "position": "Community Manager",
+          "company": "IEEE IAS ENSI CHAPTER",
+          "duration": "",
+          "key_responsibilities": []
+        },
+        {
+          "position": "Community Manager",
+          "company": "Co'Art ensi",
+          "duration": "",
+          "key_responsibilities": []
+        }
+      ]
+    },
+    "qwen2.5": {
+      "name": "Mahmoud Khemakhem",
+      "email": "mahmoud.khemakhem@ensi-uma.tn",
+      "phone": "54 157 100",
+      "education": [
+        {
+          "degree": "Computer science engineering student",
+          "field": "Computer Science Engineering",
+          "institution": "ENSI-National School Of Computer Science",
+          "years": "2021 - 2024"
+        },
+        {
+          "degree": "Preparatory cycle for engineering studie - MP",
+          "field": "",
+          "institution": "Faculty of sciences of Sfax",
+          "years": "2019 - 2021"
+        },
+        {
+          "degree": "Baccalaureate Math",
+          "field": "",
+          "institution": "Hedi Chaker high School, Sfax",
+          "years": "2019"
+        }
+      ],
+      "experience": [
+        {
+          "position": "Community Manager",
+          "company": "IEEE IAS ENSI CHAPTER",
+          "duration": "",
+          "key_responsibilities": []
+        },
+        {
+          "position": "Community Manager",
+          "company": "Co'Art ensi",
+          "duration": "",
+          "key_responsibilities": []
+        }
+      ],
+      "skills": [
+        "Programming Languages (C,C++,C#,Java,Python)",
+        "Software development tools (Visual Studio Code,Eclipse)",
+        "Web development Languages (HTML,CSS,React,NodeJS,JavaScript)",
+        "Data Base (MongoDB,SQL)",
+        "Version Control and Collaboration (Git , GitHub)"
+      ]
+    }
+  }
+}

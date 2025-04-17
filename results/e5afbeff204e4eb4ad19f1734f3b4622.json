@@ -1,0 +1,43 @@
+{
+  "file_name": "Chiheb Saidi Resume_page-0001.pdf",
+  "cv_type": "image-based (OCR processed)",
+  "model_used": "llama3.2",
+  "extracted_data": {
+    "name": "John Doe",
+    "email": "johndoe@email.com",
+    "phone": "+1234567890",
+    "education": [
+      {
+        "degree": "Bachelor of Science",
+        "field": "Computer Science",
+        "institution": "University of California, Los Angeles",
+        "years": "2015-2019"
+      }
+    ],
+    "experience": [
+      {
+        "position": "Software Engineer",
+        "company": "ABC Corporation",
+        "duration": "2020-Present",
+        "key_responsibilities": [
+          "Developing software applications",
+          "Collaborating with teams"
+        ]
+      },
+      {
+        "position": "Junior Developer",
+        "company": "XYZ Inc.",
+        "duration": "2019-2020",
+        "key_responsibilities": [
+          "Writing code for web applications",
+          "Testing and debugging software"
+        ]
+      }
+    ],
+    "skills": [
+      "Python",
+      "Java",
+      "JavaScript"
+    ]
+  }
+}

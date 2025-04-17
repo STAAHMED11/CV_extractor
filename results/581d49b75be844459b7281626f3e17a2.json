@@ -1,0 +1,44 @@
+{
+  "file_name": "CV Ichrak Hamdi-1_page-0001.pdf",
+  "cv_type": "image-based (OCR processed)",
+  "model_used": "llama3.2",
+  "extracted_data": {
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "phone": "+1234567890",
+    "education": [
+      {
+        "degree": "Bachelor of Science in Computer Science",
+        "field": "Computer Science",
+        "institution": "Harvard University",
+        "years": "2018-2022"
+      }
+    ],
+    "experience": [
+      {
+        "position": "Software Engineer",
+        "company": "ABC Corporation",
+        "duration": "Jan 2020 - Dec 2022",
+        "key_responsibilities": [
+          "Developing software applications",
+          "Collaborating with cross-functional teams"
+        ]
+      },
+      {
+        "position": "Junior Developer",
+        "company": "XYZ Startups",
+        "duration": "Jun 2018 - Dec 2019",
+        "key_responsibilities": [
+          "Designing and developing front-end applications",
+          "Participating in code reviews"
+        ]
+      }
+    ],
+    "skills": [
+      "Python",
+      "JavaScript",
+      "HTML/CSS",
+      "SQL"
+    ]
+  }
+}

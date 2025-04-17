@@ -1,0 +1,58 @@
+{
+  "file_name": "Chiheb Saidi Resume.pdf",
+  "cv_type": "text-based",
+  "model_used": "llama3.2",
+  "extracted_data": {
+    "name": "Chiheb Eddine Sa\u00efdi",
+    "email": "chiheb005@gmail.com",
+    "phone": "92 630 257",
+    "education": [
+      {
+        "institution": "National School of Computer Science",
+        "field": "Computer Science",
+        "degree": "Engineering Student",
+        "years": "2020-2023"
+      },
+      {
+        "institution": "Higher School of Science and Technology of Hammam Sousse",
+        "field": "",
+        "degree": "",
+        "years": "2017-2020"
+      },
+      {
+        "institution": "Rue de Russie Highschool",
+        "field": "",
+        "degree": "",
+        "years": "2013-2017"
+      }
+    ],
+    "skills": [
+      "Python",
+      "C/C++",
+      "UML",
+      "MERN Stack",
+      "BI",
+      "Arduino",
+      "Scala",
+      "Unix",
+      "Cybersecurity",
+      "Leadership",
+      "Adaptability",
+      "Professionalism"
+    ],
+    "experience": [
+      {
+        "position": "Back-end Engineer Summer Intern",
+        "company": "Cognira",
+        "duration": "July-2022",
+        "key_responsibilities": []
+      },
+      {
+        "position": "",
+        "company": "Tunisian company for a back-office operation",
+        "duration": "September 2021",
+        "key_responsibilities": []
+      }
+    ]
+  }
+}

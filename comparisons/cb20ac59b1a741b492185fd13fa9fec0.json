@@ -1,0 +1,157 @@
+{
+  "file_name": "1683040346378.pdf",
+  "cv_type": "text-based",
+  "results": {
+    "llama3.2": {
+      "name": "Oumayma Sghayri",
+      "email": "oumayma.sghairi@etudiant-enit.utm.tn",
+      "phone": "+216 28 198 139",
+      "education": [
+        {
+          "institution": "TELECOMMUNICATIONS ENGINEERING, National School of Engineers of Tunis-ENIT",
+          "degree": "TELECOMMUNICATIONS ENGINEERING",
+          "field": "",
+          "years": "2021 - present"
+        },
+        {
+          "institution": "MATHEMATICS & PHYSICS PRE-ENGINEERING SCHOOL STUDIES-IPEIT, ",
+          "degree": "Preparatory Institute for Engineering Studies of Tunis-IPEIT",
+          "field": "",
+          "years": "2019 - 2021"
+        }
+      ],
+      "experience": [
+        {
+          "position": "Computer Vision Engineering Internship",
+          "company": "SFM Technologies",
+          "duration": "06/2022 - 07/2022",
+          "key_responsibilities": [
+            "Developed an algorithm that detects motion outside working hours through surveillance camera system.",
+            "Communicated captured motion pictures through FTP server and Whatsapp."
+          ]
+        }
+      ],
+      "skills": [
+        "Programming",
+        "Python, SQL, C, C++, Matlab",
+        "Frameworks",
+        "ASP.NET, Flask, Qt",
+        "Database",
+        "Oracle, mySQL, MongoDB",
+        "Embedded boards",
+        "Arduino, Raspberry Pi",
+        "Operating System",
+        "Windows, Ubuntu, Raspbian"
+      ]
+    },
+    "mistral": {
+      "name": "Oumayma Sghayri",
+      "email": "oumayma.sghairi@etudiant-enit.utm.tn",
+      "phone": "+216 28 198 139",
+      "education": [
+        {
+          "degree": "TELECOMMUNICATIONS ENGINEERING",
+          "field": "Engineering",
+          "institution": "National School of Engineers of Tunis-ENIT",
+          "years": "2021 - present"
+        },
+        {
+          "degree": "MATHEMATICS & PHYSICS PRE-ENGINEERING SCHOOL STUDIES",
+          "field": "Engineering Studies",
+          "institution": "Preparatory Institute for Engineering Studies of Tunis-IPEIT",
+          "years": "2019 - 2021"
+        }
+      ],
+      "skills": [
+        "Programming",
+        "Python",
+        "SQL",
+        "C",
+        "C++",
+        "Matlab",
+        "ASP.NET",
+        "Flask",
+        "Qt",
+        "Oracle",
+        "mySQL",
+        "MongoDB",
+        "Arduino",
+        "Raspberry Pi",
+        "Windows",
+        "Ubuntu",
+        "Raspbian"
+      ],
+      "experience": [
+        {
+          "position": "Computer Vision Engineering Internship, SFM Technologies",
+          "company": "",
+          "duration": "06/2022 - 07/2022",
+          "key_responsibilities": [
+            "Developed an algorithm that detects motion outside working hours through surveillance camera system.",
+            "Communicated captured motion pictures through FTP server and Whatsapp.",
+            "Implemented an alarm notification system that alerted the company.",
+            "Notified designated personnel through a website notification"
+          ]
+        }
+      ]
+    },
+    "qwen2.5": {
+      "name": "Oumayma Sghayri",
+      "email": "oumayma.sghairi@etudiant-enit.utm.tn",
+      "phone": "+216 28 198 139",
+      "education": [
+        {
+          "degree": "TELECOMMUNICATIONS ENGINEERING",
+          "field": "Telecommunications Engineering",
+          "institution": "National School of Engineers of Tunis-ENIT",
+          "years": "2021 - present"
+        },
+        {
+          "degree": "MATHEMATICS & PHYSICS PRE-ENGINEERING SCHOOL STUDIES",
+          "field": "Mathematics & Physics Pre-engineering school studies",
+          "institution": "Preparatory Institute for Engineering Studies of Tunis-IPEIT",
+          "years": "2019 - 2021"
+        }
+      ],
+      "experience": [
+        {
+          "position": "Computer Vision Engineering Internship",
+          "company": "SFM Technologies",
+          "duration": "06/2022 - 07/2022",
+          "key_responsibilities": [
+            "Developed an algorithm that detects motion outside working hours through surveillance camera system.",
+            "Communicated captured motion pictures through FTP server and Whatsapp.",
+            "Implemented an alarm notification system that alerted the company.",
+            "Notified designated personnel through a website notification."
+          ]
+        }
+      ],
+      "skills": [
+        "Programming",
+        "Python",
+        "SQL",
+        "C",
+        "C++",
+        "Matlab",
+        "Frameworks",
+        "ASP.NET",
+        "Flask",
+        "Qt",
+        "Database",
+        "Oracle",
+        "mySQL",
+        "MongoDB",
+        "Embedded boards",
+        "Arduino",
+        "Raspberry Pi",
+        "Operating System",
+        "Windows",
+        "Ubuntu",
+        "Raspbian",
+        "Organizations",
+        "IEEE ENIT Student Branch, Chairwoman 2022 - present",
+        "Interact Club Tunis Inner City, Active Member 2018 - 2019"
+      ]
+    }
+  }
+}
