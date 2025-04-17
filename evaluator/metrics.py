@@ -75,7 +75,7 @@ def tokenize(text):
     if isinstance(text, list):
         text = ' '.join(map(str, text))
     elif not isinstance(text, str):
-        text = str(text)
+        text = normalize_text(text)
     return set(text.strip().lower().split())
 
 def calculate_field_metrics(extracted_data, ground_truth, field_name):

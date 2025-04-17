@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://127.0.0.1:5000/evaluate -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Evaluation</title>
+    <link href="./Model Evaluation_files/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 960px;
+        }
+        .card {
+            box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+            margin-bottom: 1.5rem;
+        }
+        .navbar {
+            margin-bottom: 2rem;
+            background-color: #343a40;
+        }
+        .navbar-brand {
+            font-weight: 700;
+        }
+        .header-container {
+            background-color: #343a40;
+            color: white;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+        }
+        .json-view {
+            background-color: #f8f9fa;
+            padding: 1rem;
+            border-radius: 0.25rem;
+            font-family: monospace;
+            white-space: pre-wrap;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .model-badge {
+            font-size: 0.9rem;
+            margin-right: 0.5rem;
+        }
+        .flash-messages {
+            margin-bottom: 1.5rem;
+        }
+    </style>
+    
+<style>
+    .chart-container {
+        height: 350px;
+        margin-bottom: 25px;
+    }
+    .model-comparison-table th, 
+    .model-comparison-table td {
+        text-align: center;
+    }
+    .model-comparison-table th:first-child, 
+    .model-comparison-table td:first-child {
+        text-align: left;
+    }
+    .score-cell {
+        font-weight: bold;
+    }
+    .best-score {
+        background-color: #d4edda;
+    }
+    .radar-container {
+        height: 450px;
+    }
+    .metrics-table-container {
+        margin: 0 auto;
+        max-width: 800px;
+    }
+    .performance-metrics-card {
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        margin-bottom: 30px;
+    }
+    .chart-card {
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+</style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="http://127.0.0.1:5000/">CV Extractor</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:5000/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:5000/compare">Compare Models</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:5000/evaluate">Evaluation</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Flash messages -->
+        
+            
+        
+
+        
+<div class="header-container text-center mb-4">
+    <h1>Model Evaluation</h1>
+    <p class="lead">Comparing extraction performance across different LLMs</p>
+</div>
+
+
+    <!-- Overall Performance Metrics Table -->
+    <div class="card performance-metrics-card mb-5">
+        <div class="card-header bg-primary text-white">
+            <h5 class="mb-0">Overall Model Performance</h5>
+        </div>
+        <div class="card-body">
+            <div class="metrics-table-container">
+                <table class="table table-bordered table-hover model-comparison-table">
+                    <thead class="thead-light">
+                        <tr>
+                            <th style="width: 25%">Model</th>
+                            <th style="width: 25%">F1 Score</th>
+                            <th style="width: 25%">Precision</th>
+                            <th style="width: 25%">Recall</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                            
+                            <tr>
+                                <td><strong>llama3.2</strong></td>
+                                <td class="score-cell ">
+                                    68.37%
+                                </td>
+                                <td>71.25%</td>
+                                <td>67.49%</td>
+                            </tr>
+                        
+                            
+                            <tr>
+                                <td><strong>mistral</strong></td>
+                                <td class="score-cell ">
+                                    70.48%
+                                </td>
+                                <td>71.50%</td>
+                                <td>72.01%</td>
+                            </tr>
+                        
+                            
+                            <tr>
+                                <td><strong>qwen2.5</strong></td>
+                                <td class="score-cell best-score">
+                                    72.01%
+                                </td>
+                                <td>72.36%</td>
+                                <td>73.96%</td>
+                            </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Visualizations Row -->
+    <div class="row mb-4">
+        <!-- Performance Bar Chart -->
+        <div class="col-md-6">
+            <div class="card chart-card h-100">
+                <div class="card-header bg-light">
+                    <h5 class="mb-0">Model Performance Comparison</h5>
+                </div>
+                <div class="card-body">
+                    <div class="chart-container" id="performance-bar-chart"><canvas width="422" height="350" style="display: block; box-sizing: border-box; height: 350px; width: 422px;"></canvas></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Precision vs Recall Scatter -->
+        <div class="col-md-6">
+            <div class="card chart-card h-100">
+                <div class="card-header bg-light">
+                    <h5 class="mb-0">Precision vs. Recall Analysis</h5>
+                </div>
+                <div class="card-body">
+                    <div class="chart-container" id="precision-recall-chart"><canvas width="422" height="350" style="display: block; box-sizing: border-box; height: 350px; width: 422px;"></canvas></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Field-level Performance -->
+    <div class="row mb-4">
+        <!-- Field-level Comparison Table -->
+        <div class="col-md-7">
+            <div class="card chart-card h-100">
+                <div class="card-header bg-light">
+                    <h5 class="mb-0">Field-level Performance (F1 Scores)</h5>
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered model-comparison-table">
+                        <thead class="thead-light">
+                            <tr>
+                                <th>Field</th>
+                                
+                                    <th>llama3.2</th>
+                                
+                                    <th>mistral</th>
+                                
+                                    <th>qwen2.5</th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                                
+                                
+                                    
+                                    
+                                        
+                                    
+                                
+                                    
+                                    
+                                        
+                                    
+                                
+                                    
+                                    
+                                
+                                
+                                <tr>
+                                    <td><strong>Name</strong></td>
+                                    
+                                        
+                                        <td class="">
+                                            92.82%
+                                        </td>
+                                    
+                                        
+                                        <td class="best-score">
+                                            95.90%
+                                        </td>
+                                    
+                                        
+                                        <td class="best-score">
+                                            95.90%
+                                        </td>
+                                    
+                                </tr>
+                            
+                                
+                                
+                                    
+                                    
+                                        
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                
+                                <tr>
+                                    <td><strong>Email</strong></td>
+                                    
+                                        
+                                        <td class="best-score">
+                                            76.92%
+                                        </td>
+                                    
+                                        
+                                        <td class="best-score">
+                                            76.92%
+                                        </td>
+                                    
+                                        
+                                        <td class="best-score">
+                                            76.92%
+                                        </td>
+                                    
+                                </tr>
+                            
+                                
+                                
+                                    
+                                    
+                                        
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                        
+                                    
+                                
+                                
+                                <tr>
+                                    <td><strong>Phone</strong></td>
+                                    
+                                        
+                                        <td class="">
+                                            57.69%
+                                        </td>
+                                    
+                                        
+                                        <td class="">
+                                            57.69%
+                                        </td>
+                                    
+                                        
+                                        <td class="best-score">
+                                            69.23%
+                                        </td>
+                                    
+                                </tr>
+                            
+                                
+                                
+                                    
+                                    
+                                        
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                        
+                                    
+                                
+                                
+                                <tr>
+                                    <td><strong>Education</strong></td>
+                                    
+                                        
+                                        <td class="">
+                                            77.88%
+                                        </td>
+                                    
+                                        
+                                        <td class="">
+                                            74.90%
+                                        </td>
+                                    
+                                        
+                                        <td class="best-score">
+                                            81.17%
+                                        </td>
+                                    
+                                </tr>
+                            
+                                
+                                
+                                    
+                                    
+                                        
+                                    
+                                
+                                    
+                                    
+                                        
+                                    
+                                
+                                    
+                                    
+                                
+                                
+                                <tr>
+                                    <td><strong>Skills</strong></td>
+                                    
+                                        
+                                        <td class="">
+                                            54.44%
+                                        </td>
+                                    
+                                        
+                                        <td class="best-score">
+                                            60.40%
+                                        </td>
+                                    
+                                        
+                                        <td class="">
+                                            50.77%
+                                        </td>
+                                    
+                                </tr>
+                            
+                                
+                                
+                                    
+                                    
+                                        
+                                    
+                                
+                                    
+                                    
+                                        
+                                    
+                                
+                                    
+                                    
+                                        
+                                    
+                                
+                                
+                                <tr>
+                                    <td><strong>Experience</strong></td>
+                                    
+                                        
+                                        <td class="">
+                                            50.43%
+                                        </td>
+                                    
+                                        
+                                        <td class="">
+                                            57.09%
+                                        </td>
+                                    
+                                        
+                                        <td class="best-score">
+                                            58.04%
+                                        </td>
+                                    
+                                </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Field Radar Chart -->
+        <div class="col-md-5">
+            <div class="card chart-card h-100">
+                <div class="card-header bg-light">
+                    <h5 class="mb-0">Field-level Visualization</h5>
+                </div>
+                <div class="card-body">
+                    <div class="radar-container" id="field-radar-chart"><canvas width="342" height="450" style="display: block; box-sizing: border-box; height: 450px; width: 342px;"></canvas></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+    <script src="./Model Evaluation_files/bootstrap.bundle.min.js.téléchargement"></script>
+    
+<script src="./Model Evaluation_files/chart.js.téléchargement"></script>
+<script>
+    window.addEventListener('load', function() {
+        // Verify Chart.js is loaded
+        if (typeof Chart === 'undefined') {
+            console.error('Chart.js not loaded properly');
+            return;
+        }
+
+        
+            // Define simple fixed colors
+            const modelColors = [
+                { bg: 'rgba(75, 192, 192, 0.2)', border: 'rgba(75, 192, 192, 1)' },
+                { bg: 'rgba(54, 162, 235, 0.2)', border: 'rgba(54, 162, 235, 1)' },
+                { bg: 'rgba(255, 99, 132, 0.2)', border: 'rgba(255, 99, 132, 1)' },
+                { bg: 'rgba(255, 206, 86, 0.2)', border: 'rgba(255, 206, 86, 1)' },
+                { bg: 'rgba(153, 102, 255, 0.2)', border: 'rgba(153, 102, 255, 1)' }
+            ];
+
+            // Performance Bar Chart
+            try {
+                const perfChartElement = document.getElementById('performance-bar-chart');
+                if (perfChartElement) {
+                    // Ensure canvas element exists
+                    let canvas;
+                    if (perfChartElement.tagName === 'CANVAS') {
+                        canvas = perfChartElement;
+                    } else {
+                        // If the element is a container, create and append a canvas
+                        canvas = document.createElement('canvas');
+                        perfChartElement.innerHTML = ''; // Clear any existing content
+                        perfChartElement.appendChild(canvas);
+                    }
+                    
+                    const ctx = canvas.getContext('2d');
+                    if (ctx) {
+                        new Chart(ctx, {
+                            type: 'bar',
+                            data: {
+                                labels: ['llama3.2','mistral','qwen2.5'],
+                                datasets: [
+                                    {
+                                        label: 'F1 Score',
+                                        data: [0.6836502467956068,0.7048461634070432,0.720058214064444],
+                                        backgroundColor: 'rgba(75, 192, 192, 0.7)',
+                                        borderColor: 'rgba(75, 192, 192, 1)',
+                                        borderWidth: 1
+                                    },
+                                    {
+                                        label: 'Precision',
+                                        data: [0.7125373352352686,0.7149719906629938,0.7235969761653387],
+                                        backgroundColor: 'rgba(54, 162, 235, 0.7)',
+                                        borderColor: 'rgba(54, 162, 235, 1)',
+                                        borderWidth: 1
+                                    },
+                                    {
+                                        label: 'Recall',
+                                        data: [0.6749207787477807,0.7201143975381276,0.7396020205989852],
+                                        backgroundColor: 'rgba(255, 99, 132, 0.7)',
+                                        borderColor: 'rgba(255, 99, 132, 1)',
+                                        borderWidth: 1
+                                    }
+                                ]
+                            },
+                            options: {
+                                responsive: true,
+                                maintainAspectRatio: false,
+                                scales: {
+                                    y: {
+                                        beginAtZero: true,
+                                        max: 1,
+                                        ticks: {
+                                            callback: function(value) {
+                                                return value * 100 + '%';
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        });
+                    } else {
+                        console.error('Could not get 2D context from canvas');
+                    }
+                } else {
+                    console.error('Performance chart container not found');
+                }
+            } catch (e) {
+                console.error('Error rendering performance chart:', e);
+            }
+
+            // Precision vs Recall chart
+            try {
+                const prChartElement = document.getElementById('precision-recall-chart');
+                if (prChartElement) {
+                    // Ensure canvas element exists
+                    let canvas;
+                    if (prChartElement.tagName === 'CANVAS') {
+                        canvas = prChartElement;
+                    } else {
+                        // If the element is a container, create and append a canvas
+                        canvas = document.createElement('canvas');
+                        prChartElement.innerHTML = ''; // Clear any existing content
+                        prChartElement.appendChild(canvas);
+                    }
+                    
+                    const ctx = canvas.getContext('2d');
+                    if (ctx) {
+                        new Chart(ctx, {
+                            type: 'scatter',
+                            data: {
+                                datasets: [
+                                    
+                                    {
+                                        label: 'llama3.2',
+                                        data: [{
+                                            x: 0.7125373352352686,
+                                            y: 0.6749207787477807
+                                        }],
+                                        backgroundColor: modelColors[0].border,
+                                        borderColor: modelColors[0].border,
+                                        borderWidth: 2,
+                                        pointRadius: 10,
+                                        pointHoverRadius: 12
+                                    },
+                                    
+                                    {
+                                        label: 'mistral',
+                                        data: [{
+                                            x: 0.7149719906629938,
+                                            y: 0.7201143975381276
+                                        }],
+                                        backgroundColor: modelColors[1].border,
+                                        borderColor: modelColors[1].border,
+                                        borderWidth: 2,
+                                        pointRadius: 10,
+                                        pointHoverRadius: 12
+                                    },
+                                    
+                                    {
+                                        label: 'qwen2.5',
+                                        data: [{
+                                            x: 0.7235969761653387,
+                                            y: 0.7396020205989852
+                                        }],
+                                        backgroundColor: modelColors[2].border,
+                                        borderColor: modelColors[2].border,
+                                        borderWidth: 2,
+                                        pointRadius: 10,
+                                        pointHoverRadius: 12
+                                    }
+                                    
+                                ]
+                            },
+                            options: {
+                                responsive: true,
+                                maintainAspectRatio: false,
+                                scales: {
+                                    x: {
+                                        title: {
+                                            display: true,
+                                            text: 'Precision'
+                                        },
+                                        min: 0,
+                                        max: 1,
+                                        ticks: {
+                                            callback: function(value) {
+                                                return value * 100 + '%';
+                                            }
+                                        }
+                                    },
+                                    y: {
+                                        title: {
+                                            display: true,
+                                            text: 'Recall'
+                                        },
+                                        min: 0,
+                                        max: 1,
+                                        ticks: {
+                                            callback: function(value) {
+                                                return value * 100 + '%';
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        });
+                    }
+                }
+            } catch (e) {
+                console.error('Error rendering PR chart:', e);
+            }
+
+            // Radar chart
+            try {
+                const radarChartElement = document.getElementById('field-radar-chart');
+                if (radarChartElement) {
+                    // Ensure canvas element exists
+                    let canvas;
+                    if (radarChartElement.tagName === 'CANVAS') {
+                        canvas = radarChartElement;
+                    } else {
+                        // If the element is a container, create and append a canvas
+                        canvas = document.createElement('canvas');
+                        radarChartElement.innerHTML = ''; // Clear any existing content
+                        radarChartElement.appendChild(canvas);
+                    }
+                    
+                    const ctx = canvas.getContext('2d');
+                    if (ctx) {
+                        new Chart(ctx, {
+                            type: 'radar',
+                            data: {
+                                labels: ['Name', 'Email', 'Phone', 'Education', 'Skills', 'Experience'],
+                                datasets: [
+                                    
+                                    {
+                                        label: 'llama3.2',
+                                        data: [
+                                            0.9282051282051282,
+                                            0.7692307692307693,
+                                            0.5769230769230769,
+                                            0.778766502653341,
+                                            0.544441761449706,
+                                            0.504334242311619
+                                        ],
+                                        fill: true,
+                                        backgroundColor: modelColors[0].bg,
+                                        borderColor: modelColors[0].border,
+                                        pointBackgroundColor: modelColors[0].border,
+                                        pointBorderColor: '#fff',
+                                        pointHoverBackgroundColor: '#fff',
+                                        pointHoverBorderColor: modelColors[0].border
+                                    },
+                                    
+                                    {
+                                        label: 'mistral',
+                                        data: [
+                                            0.958974358974359,
+                                            0.7692307692307693,
+                                            0.5769230769230769,
+                                            0.7489536313179117,
+                                            0.6040460852454019,
+                                            0.5709490587507404
+                                        ],
+                                        fill: true,
+                                        backgroundColor: modelColors[1].bg,
+                                        borderColor: modelColors[1].border,
+                                        pointBackgroundColor: modelColors[1].border,
+                                        pointBorderColor: '#fff',
+                                        pointHoverBackgroundColor: '#fff',
+                                        pointHoverBorderColor: modelColors[1].border
+                                    },
+                                    
+                                    {
+                                        label: 'qwen2.5',
+                                        data: [
+                                            0.958974358974359,
+                                            0.7692307692307693,
+                                            0.6923076923076923,
+                                            0.8117051055731473,
+                                            0.5076907737832443,
+                                            0.5804405845174514
+                                        ],
+                                        fill: true,
+                                        backgroundColor: modelColors[2].bg,
+                                        borderColor: modelColors[2].border,
+                                        pointBackgroundColor: modelColors[2].border,
+                                        pointBorderColor: '#fff',
+                                        pointHoverBackgroundColor: '#fff',
+                                        pointHoverBorderColor: modelColors[2].border
+                                    }
+                                    
+                                ]
+                            },
+                            options: {
+                                responsive: true,
+                                maintainAspectRatio: false,
+                                scales: {
+                                    r: {
+                                        angleLines: {
+                                            display: true
+                                        },
+                                        suggestedMin: 0,
+                                        suggestedMax: 1,
+                                        ticks: {
+                                            callback: function(value) {
+                                                return value * 100 + '%';
+                                            },
+                                            stepSize: 0.2
+                                        }
+                                    }
+                                }
+                            }
+                        });
+                    }
+                }
+            } catch (e) {
+                console.error('Error rendering radar chart:', e);
+            }
+        
+    });
+</script>
+
+
+</body></html>
