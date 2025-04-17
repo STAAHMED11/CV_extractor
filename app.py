@@ -9,9 +9,7 @@ from evaluator.metrics import calculate_metrics
 import json
 
 app = Flask(__name__)
-app.secret_key = "cv-extractor-secret-key"
 app.config['UPLOAD_FOLDER'] = 'uploads'
-app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB max upload
 
 # Ensure upload directory exists
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
@@ -21,7 +19,7 @@ pdf_processor = PDFProcessor()
 ocr_processor = OCRProcessor()
 ollama_client = OllamaClient()
 
-ALLOWED_EXTENSIONS = {'pdf','png','jpg','JPEG','jpeg'}
+ALLOWED_EXTENSIONS = {'pdf'}
 MODELS = ['llama3.2', 'mistral', 'qwen2.5']
 
 def allowed_file(filename):
