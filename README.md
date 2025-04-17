@@ -1,4 +1,5 @@
 # CV Extractor with Open-Source LLMs
+Demo Link :https://www.youtube.com/watch?v=I7RZ_8iWOPw
 This project implements an intelligent resume parsing system that extracts structured information from CVs using open-source large language models (LLMs) via Ollama. The solution handles both text-based and scanned PDFs through dedicated processors, with OCR capability for image-based documents.
 The system integrates three models (llama3.2, mistral, and qwen2.5) to extract key information like contact details, education, experience, and skills. A comprehensive evaluation framework compares extraction accuracy across models using precision, recall, and F1 metrics against labeled ground truth data.
 The implementation features a clean, modular architecture with separate components for data processing, model integration, and evaluation. A web interface allows users to upload CVs and view extracted information alongside performance metrics. The solution is well-documented with clear setup instructions for local deployment.
