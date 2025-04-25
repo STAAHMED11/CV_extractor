@@ -94,10 +94,14 @@ install ollama in your computer
 install the models from ollama
 
 ### for this project
-ollama pull llama3.2
-ollama pull mistral
-ollama pull qwen2.5
-
+* ollama pull llama3.2
+* ollama pull mistral
+* ollama pull qwen2.5
+## install Tesseract 
+* Windows : https://github.com/UB-Mannheim/tesseract/wiki
+* Linux :
+sudo apt update
+sudo apt install tesseract-ocr
 ## Run the Project:
 python app.py 
 ## Access the Web Interface
